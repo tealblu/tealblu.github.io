@@ -6,7 +6,7 @@ theme: "PaperMod"
 params:
   homeInfoParams:
     Title: Home
-    Content: Welcome to my site! This is a collection of my posts, notes, projects, and more. 
+    Content: Welcome to my site! This is a collection of my posts, notes, projects, and more. :)
 
   socialIcons: # optional
     - name: "github"
