@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DONE on tealblu</title>
+    <link>https://tealblu.github.io/tags/done/</link>
+    <description>Recent content in DONE on tealblu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tealblu.github.io/tags/done/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects/Home Assistant/Remove TV Display From Shaine&#39;s PC</title>
+      <link>https://tealblu.github.io/pages/projects/home-assistant/remove-tv-display-from-shaines-pc/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tealblu.github.io/pages/projects/home-assistant/remove-tv-display-from-shaines-pc/</guid>
+      <description>Ethos:
+Shaine&amp;rsquo;s PC can&amp;rsquo;t auto-detect when the TV changes input. When I cast to it, her PC doesn&amp;rsquo;t realize that the display has changed input. It will sometimes open windows on the disabled TV display, and Shaine can&amp;rsquo;t get to them.
+I would like to be able to also use the Office TV (e.g. cast spotify now playing screen)
+Part 1: Trigger on TV input swap
+Two-part automation : hdmi 1 -&amp;gt; cast , or cast -&amp;gt; hdmi 1</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PUBLISHED on tealblu</title>
+    <link>https://tealblu.github.io/tags/published/</link>
+    <description>Recent content in PUBLISHED on tealblu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tealblu.github.io/tags/published/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects/Code/Portfolio</title>
+      <link>https://tealblu.github.io/pages/projects/code/portfolio/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tealblu.github.io/pages/projects/code/portfolio/</guid>
+      <description>On this day Oct 13th, 2023 at 20:17, I shall revive this dead project and turn it into something amazing
+Ethos:
+One hub for everything
+No specific purpose
+Easy to navigate
+Pretty
+Exploration
+Self hosting seems too hard but I don&amp;rsquo;t want to pay for this
+Potentially use github pages I guess?
+I want to be able to use more than just javascript Cloud hosting?
+Seems like the easiest option</description>
+    </item>
+    
+  </channel>
+</rss>

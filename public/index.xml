@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>tealblu</title>
+    <link>https://tealblu.github.io/</link>
+    <description>Recent content on tealblu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tealblu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>https://tealblu.github.io/pages/projects/</link>
+      <pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://tealblu.github.io/pages/projects/</guid>
+      <description>Project list
+Projects/Home Assistant
+Projects/Home Assistant/Notify
+Projects/Home Assistant/Remove TV Display From Shaine&amp;rsquo;s PC
+Projects/Code</description>
+    </item>
+    
+    <item>
+      <title>Projects/Code/Portfolio</title>
+      <link>https://tealblu.github.io/pages/projects/code/portfolio/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tealblu.github.io/pages/projects/code/portfolio/</guid>
+      <description>On this day Oct 13th, 2023 at 20:17, I shall revive this dead project and turn it into something amazing
+Ethos:
+One hub for everything
+No specific purpose
+Easy to navigate
+Pretty
+Exploration
+Self hosting seems too hard but I don&amp;rsquo;t want to pay for this
+Potentially use github pages I guess?
+I want to be able to use more than just javascript Cloud hosting?
+Seems like the easiest option</description>
+    </item>
+    
+    <item>
+      <title>Projects/Code/USB Port Sleeper</title>
+      <link>https://tealblu.github.io/pages/projects/code/usb-port-sleeper/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tealblu.github.io/pages/projects/code/usb-port-sleeper/</guid>
+      <description>I want the light on shaine&amp;rsquo;s computer to go to sleep after a period of inactivity
+Alt. I could connect the light to home assistant??
+How to communicate with home assistant?? 11:12 quick capture: REST API | Home Assistant Developer Docs
++ API Ref: Command Action sdusb_off Turn Shaine&amp;rsquo;s USB Port off sdusb_on Turn Shaine&amp;rsquo;s USB Port on </description>
+    </item>
+    
+    <item>
+      <title>Projects/Home Assistant</title>
+      <link>https://tealblu.github.io/pages/projects/home-assistant/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tealblu.github.io/pages/projects/home-assistant/</guid>
+      <description>metadata
+date:: Oct 8th, 2023 tags:: #Projects This is the central topic for all Home Assistant, HASS, and home automation pages
+Sub-projects
+Projects/Home Assistant/Notify
+Projects/Home Assistant/OpenAI Integration
+Themes
+19:34 quick capture: iOS Dark Mode Theme - Share your Projects! / Themes - Home Assistant Community
+19:35 quick capture: Google Dark Theme &amp;ndash; JuanMTech - Share your Projects! / Themes - Home Assistant Community
+I think this is the one that I want </description>
+    </item>
+    
+    <item>
+      <title>Projects/Home Assistant/Notify</title>
+      <link>https://tealblu.github.io/pages/projects/home-assistant/notify/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tealblu.github.io/pages/projects/home-assistant/notify/</guid>
+      <description>Ethos
+Project Definition
+Goal: Implement smart home notification system
+Technical specs:
+The living room and the office MUST have a notification light in them
+Notification lights must be obvious but not disrupting
+Must be implemented in Home Assistant automations
+Development
+Automations
+Automations have 3 core components:
+Triggers
+Conditions
+Actions
+Automations can call scripts
+Light groups
+Group integration can group lights/switches and control them as one entity Scripts
+Scripts can automate activities and perform logic Structure</description>
+    </item>
+    
+    <item>
+      <title>Projects/Home Assistant/OpenAI Integration</title>
+      <link>https://tealblu.github.io/pages/projects/home-assistant/openai-integration/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tealblu.github.io/pages/projects/home-assistant/openai-integration/</guid>
+      <description>Ethos:
+Integrate OpenAI with Home Assistant for natural language interaction with smart home / devices Resources
+11:32 quick capture: OpenAssist - ChatGPT Can Now Control Entities! - Share your Projects! / Custom Integrations - Home Assistant Community
+11:38 quick capture: GitHub - Hassassistant/OpenAssist
+11:33 quick capture: Choosing index type and size
+Code
+OpenAI API Key: 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
+PineconeDB Key: a6d09ddf-c4b4-4d78-92f3-320e6793869c
+name: default
+environment: gcp-starter
+Home Assistant config additions:
+input_text: openassist_prompt: initial: &amp;#34;&amp;#34; max: 255 pinecone_index: initial: &amp;#34;&amp;#34; max: 255 openassist: openai_key: &amp;#34;sk-.</description>
+    </item>
+    
+    <item>
+      <title>Projects/Home Assistant/Remove TV Display From Shaine&#39;s PC</title>
+      <link>https://tealblu.github.io/pages/projects/home-assistant/remove-tv-display-from-shaines-pc/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tealblu.github.io/pages/projects/home-assistant/remove-tv-display-from-shaines-pc/</guid>
+      <description>Ethos:
+Shaine&amp;rsquo;s PC can&amp;rsquo;t auto-detect when the TV changes input. When I cast to it, her PC doesn&amp;rsquo;t realize that the display has changed input. It will sometimes open windows on the disabled TV display, and Shaine can&amp;rsquo;t get to them.
+I would like to be able to also use the Office TV (e.g. cast spotify now playing screen)
+Part 1: Trigger on TV input swap
+Two-part automation : hdmi 1 -&amp;gt; cast , or cast -&amp;gt; hdmi 1</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>
