@@ -1,8 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>tealblu</title><link>https://tealblu.github.io/</link><description>Recent content on tealblu</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tealblu.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Projects</title><link>https://tealblu.github.io/pages/projects/</link><pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate><guid>https://tealblu.github.io/pages/projects/</guid><description>Project list
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>tealblu</title><link>https://tealblu.github.io/</link><description>Recent content on tealblu</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 19 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tealblu.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Jan 19th, 2024</title><link>https://tealblu.github.io/pages/jan-19th-2024/</link><pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate><guid>https://tealblu.github.io/pages/jan-19th-2024/</guid><description>Daily Journal date:: Jan 19th, 2024 tags:: #journal
+Schedule To-do Scratchpad What am I doing?
+Making a website What do I want the website to be like?
+Showcase cool code projects
+Potential blog section?
+Links to github, linkedin, etc
+Okay, but&amp;hellip; we can&amp;rsquo;t do any of that without a creative vision. What should the style be like?
+RESTART! I want to convert logseq pages into a website!
+17:13 quick capture: sawhney17/logseq-schrodinger: A plugin to export pages in Logseq to Hugo.</description></item><item><title>Projects</title><link>https://tealblu.github.io/pages/projects/</link><pubDate>Fri, 19 Jan 2024 00:00:00 +0000</pubDate><guid>https://tealblu.github.io/pages/projects/</guid><description>Project list
 Projects/Home Assistant
 Projects/Home Assistant/Notify
 Projects/Home Assistant/Remove TV Display From Shaine&amp;rsquo;s PC
-Projects/Code</description></item><item><title>Projects/Code/Portfolio</title><link>https://tealblu.github.io/pages/projects/code/portfolio/</link><pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate><guid>https://tealblu.github.io/pages/projects/code/portfolio/</guid><description>On this day Oct 13th, 2023 at 20:17, I shall revive this dead project and turn it into something amazing
+Projects/Code</description></item><item><title>Dec 26th, 2023</title><link>https://tealblu.github.io/pages/dec-26th-2023/</link><pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate><guid>https://tealblu.github.io/pages/dec-26th-2023/</guid><description>Daily Journal date:: Dec 26th, 2023 tags:: #journal
+Schedule To-do Scratchpad 09:26 quick capture: GitHub - Nerwyn/android-tv-card: 📺 Android TV Remote Card (with touchpad, haptic, and keyboard support)
+09:31 quick capture: Vizio TV Integration - Configuration - Home Assistant Community
+Things I need to do
+Set up Vizio TV to use a reserved IP address logseq.order-list-type:: number</description></item><item><title>Projects/Code/Portfolio</title><link>https://tealblu.github.io/pages/projects/code/portfolio/</link><pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate><guid>https://tealblu.github.io/pages/projects/code/portfolio/</guid><description>On this day Oct 13th, 2023 at 20:17, I shall revive this dead project and turn it into something amazing
 Ethos:
 One hub for everything
 No specific purpose
