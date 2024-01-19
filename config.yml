@@ -1,12 +1,12 @@
-baseURL: https://githubuser.github.io
+baseURL: https://tealblu.github.io
 languageCode: en-us
-title: Linus Torvalds
+title: tealblu
 theme: "PaperMod"
 
 params:
   homeInfoParams:
-    Title: Sup bruh 😎
-    Content: This is something shows in your homepage.
+    Title: Home
+    Content: I'm not entirely sure what this is.
 
   socialIcons: # optional
     - name: "github"
