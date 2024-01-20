@@ -6,7 +6,7 @@ theme: "PaperMod"
 params:
   homeInfoParams:
     Title: Home
-    Content: Welcome to my site! This is a collection of my posts, notes, projects, and more. Use the 'Collections' page to browse by collection, use the 'Tags' page to browse by tag, use the 'Archive' page to browse in chronological order, and use the 'Search' page to search.
+    Content: Welcome to my site! This is a collection of my posts, notes, projects, and more. Use the navigation buttons in the top right to explore, or simply scroll down to see my posts in chronological order.
 
   socialIcons: # optional
     - name: "github"
