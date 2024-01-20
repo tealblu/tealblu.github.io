@@ -5,6 +5,16 @@
     <link>https://tealblu.github.io/categories/</link>
     <description>Recent content in Categories on tealblu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://tealblu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tealblu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>testcategory</title>
+      <link>https://tealblu.github.io/categories/testcategory/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://tealblu.github.io/categories/testcategory/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

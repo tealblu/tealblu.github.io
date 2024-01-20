@@ -6,7 +6,7 @@ theme: "PaperMod"
 params:
   homeInfoParams:
     Title: Home
-    Content: Welcome to my site! This is a collection of my posts, notes, projects, and more. :)
+    Content: Welcome to my site! This is a collection of my posts, notes, projects, and more. Use the 'Collections' page to browse by collection, use the 'Tags' page to browse by tag, use the 'Archive' page to browse in chronological order, and use the 'Search' page to search.
 
   socialIcons: # optional
     - name: "github"
@@ -14,13 +14,13 @@ params:
     # - name: "youtube"
     #   url: "https://www.youtube.com/channel/XXX"
     - name: "twitter"
-      url: "https://twitter.com/XXX"
+      url: "https://twitter.com/indiharts"
     # - name: "kofi"
     #   url: "https://buymeacoffee.com/XXX"
     # - name: "rss"
     #   url: "https://XXX.github.io/index.xml"
   ShowReadingTime: true
-  author: "Indigo Charles Hartsell"
+  author: "I.H."
   contact: "ckhartsell@gmail.com"
   feedlinks: true
   copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"

@@ -5,43 +5,6 @@
     <link>https://tealblu.github.io/tags/</link>
     <description>Recent content in Tags on tealblu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 28 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tealblu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>active</title>
-      <link>https://tealblu.github.io/tags/active/</link>
-      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://tealblu.github.io/tags/active/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>DONE</title>
-      <link>https://tealblu.github.io/tags/done/</link>
-      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://tealblu.github.io/tags/done/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://tealblu.github.io/tags/projects/</link>
-      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://tealblu.github.io/tags/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PUBLISHED</title>
-      <link>https://tealblu.github.io/tags/published/</link>
-      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://tealblu.github.io/tags/published/</guid>
-      <description></description>
-    </item>
-    
+    <language>en-us</language><atom:link href="https://tealblu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
