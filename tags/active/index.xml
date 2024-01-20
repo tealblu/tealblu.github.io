@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>active on tealblu</title><link>https://tealblu.github.io/tags/active/</link><description>Recent content in active on tealblu</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 28 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tealblu.github.io/tags/active/index.xml" rel="self" type="application/rss+xml"/><item><title>Projects/Home Assistant/Notify</title><link>https://tealblu.github.io/pages/projects/home-assistant/notify/</link><pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate><guid>https://tealblu.github.io/pages/projects/home-assistant/notify/</guid><description>Ethos
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>active on tealblu</title>
+    <link>https://tealblu.github.io/tags/active/</link>
+    <description>Recent content in active on tealblu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 28 Dec 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://tealblu.github.io/tags/active/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects/Home Assistant/Notify</title>
+      <link>https://tealblu.github.io/pages/projects/home-assistant/notify/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://tealblu.github.io/pages/projects/home-assistant/notify/</guid>
+      <description>Ethos
 Project Definition
 Goal: Implement smart home notification system
 Technical specs:
@@ -14,4 +29,8 @@ Actions
 Automations can call scripts
 Light groups
 Group integration can group lights/switches and control them as one entity Scripts
-Scripts can automate activities and perform logic Structure</description></item></channel></rss>
+Scripts can automate activities and perform logic Structure</description>
+    </item>
+    
+  </channel>
+</rss>
