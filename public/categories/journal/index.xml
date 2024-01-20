@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>journal on tealblu</title>
+    <link>https://tealblu.github.io/categories/journal/</link>
+    <description>Recent content in journal on tealblu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tealblu.github.io/categories/journal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jan 20th, 2024</title>
+      <link>https://tealblu.github.io/pages/jan-20th-2024/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://tealblu.github.io/pages/jan-20th-2024/</guid>
+      <description>This is my first page - it will likely be modified many times. Currently testing the date property as well as the category property.
+Things to note when working on this site:
+Logseq-schrodinger uses YAML for the Hugo front-matter. It will convert Logseq page-properties to Hugo front matter.
+Logseq keywords are lowercase converted to Hugo keywords, and category in Logseq is translated to categories for use with Hugo. Logseq links (like_this) are stripped of and .</description>
+    </item>
+    
+  </channel>
+</rss>
