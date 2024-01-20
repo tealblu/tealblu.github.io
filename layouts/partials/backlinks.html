@@ -18,6 +18,8 @@ $re .File.BaseFileName)) }} {{ $backlinks = $backlinks | append . }} {{ end }}
 </aside>
 {{ end }}
 
+<br />
+
 <aside class="related">
   {{ $related := .Site.RegularPages.Related . | complement $backlinks | first 3
   -}} {{ with $related -}}
