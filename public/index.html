@@ -188,6 +188,23 @@ gtag('js', new Date());
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2>Deployment
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>How to deploy to this site: From Logseq, use schrodinger to export all public pages.
+Unzip the new archive and move the new ‘pages’ folder into tealblu.github.io/content.
+Inside tealblu.github.io, open a terminal and run hugo
+Create a new commit and push to the remote graph.
+Wait a few minutes for Github Actions to run.
+Done!</p>
+  </section>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to Deployment" href="https://tealblu.github.io/pages/deployment/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2>Graph Structure
     </h2>
   </header>
@@ -209,13 +226,26 @@ This graph is my public “knowledge garden”, so I would like it to be as acce
     </h2>
   </header>
   <section class="entry-content">
-    <p>This is my first page - it will likely be modified many times. Currently testing the date property as well as the category property.
+    <p>This is my first page! I intend to use journals (pages titled with a date) as working spaces. All actual content should be on its own page.
 Things to note when working on this site:
 Logseq-schrodinger uses YAML for the Hugo front-matter. It will convert Logseq page-properties to Hugo front matter.
-Logseq keywords are lowercase converted to Hugo keywords, and category in Logseq is translated to categories for use with Hugo. Logseq links (like_this) are stripped of and ....</p>
+Logseq keywords are lowercase converted to Hugo keywords, and category in Logseq is translated to categories for use with Hugo....</p>
   </section>
   <footer class="entry-footer"></footer>
   <a class="entry-link" aria-label="post link to Jan 20th, 2024" href="https://tealblu.github.io/pages/jan-20th-2024/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Templates
+    </h2>
+  </header>
+  <section class="entry-content">
+    <p>metadata template:: metadata template-including-parent:: false
+date:: YYYY-MM-DD category:: keywords:: public:: true</p>
+  </section>
+  <footer class="entry-footer"></footer>
+  <a class="entry-link" aria-label="post link to Templates" href="https://tealblu.github.io/pages/templates/"></a>
 </article>
     </main>
     
