@@ -59,9 +59,9 @@ menu:
     - identifier: archive
       name: Archive
       url: /archives/
-      weight: 20
+      weight: 30
     - identifier: search
       name: Search
       url: /search/
-      weight: 20
+      weight: 40
 
