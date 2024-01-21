@@ -5,7 +5,7 @@ keywords: development, templates
 title: Templates
 tags:
 categories: meta
-lastMod: 2024-01-20
+lastMod: 2024-01-21
 ---
 metadata
 template:: metadata
@@ -15,5 +15,3 @@ template-including-parent:: false
 category::
 keywords::
 public:: true
-
-  + 

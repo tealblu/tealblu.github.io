@@ -5,7 +5,7 @@ keywords: development, structure, pkm, graph
 title: Graph Structure
 tags:
 categories: meta
-lastMod: 2024-01-20
+lastMod: 2024-01-21
 ---
 ### What am I doing?
 
@@ -37,3 +37,5 @@ lastMod: 2024-01-20
   + No orphan pages should *ever* be pushed to production.
 
   + All root pages should have a category.
+
+  + No child pages should have a category.

@@ -5,7 +5,7 @@ keywords: development, deployment, hugo
 title: Deployment
 tags:
 categories: meta
-lastMod: 2024-01-20
+lastMod: 2024-01-21
 ---
 ### How to deploy to this site:
 

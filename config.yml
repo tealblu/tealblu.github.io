@@ -1,12 +1,12 @@
 baseURL: https://tealblu.github.io
 languageCode: en-us
-title: tealblu
+title: tealblu's archive
 theme: "PaperMod"
 
 params:
   homeInfoParams:
-    Title: Home
-    Content: Welcome to my site! This is a collection of my posts, notes, projects, and more. Click 'Categories' to start, use the navigation buttons in the top right to explore, or simply scroll down to see my posts in chronological order.
+    Title: Archive Home
+    Content: Welcome to my archive! This is a collection of my projects, posts, thoughts, and more. Use the **Categories** page to browse by topic (e.g. projects, journals, etc), explore by using the navigation buttons at the top right, or simply scroll down to see my posts in random order.
 
   socialIcons: # optional
     - name: "github"
@@ -26,8 +26,7 @@ params:
   feedlinks: true
   copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
   mobileMenu: true
-  sidenav:
-    includeTopLevel: true
+  ShowShareButtons: false # toggle share buttons
 
  #Google Analytics 4 optional
   env: #production
@@ -49,7 +48,7 @@ outputs:
 
 menu:
   main:
-    - identifier: categories
+    - identifier: Categories
       name: Categories
       url: /categories/
       weight: 10
@@ -57,11 +56,12 @@ menu:
       name: Tags
       url: /tags/
       weight: 20
-    - identifier: search
-      name: Search
-      url: /search/
-      weight: 20
     - identifier: archive
       name: Archive
       url: /archives/
       weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
+
