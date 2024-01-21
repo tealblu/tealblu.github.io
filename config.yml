@@ -14,7 +14,7 @@ params:
     # - name: "youtube"
     #   url: "https://www.youtube.com/channel/XXX"
     - name: "twitter"
-      url: "https://twitter.com/indiharts"
+      url: "https://twitter.com/"
     # - name: "kofi"
     #   url: "https://buymeacoffee.com/XXX"
     # - name: "rss"
