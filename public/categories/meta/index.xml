@@ -42,7 +42,8 @@ This graph is my public &amp;ldquo;knowledge garden&amp;rdquo;, so I would like 
       
       <guid>https://tealblu.github.io/pages/templates/</guid>
       <description>metadata template:: metadata template-including-parent:: false
-date:: YYYY-MM-DD category:: keywords:: public:: true </description>
+date:: YYYY-MM-DD category:: keywords:: public:: true diary template:: diary template-including-parent:: false
+#Diaries &amp;lt;% today %&amp;gt; &amp;lt;% time %&amp;gt;: </description>
     </item>
     
   </channel>

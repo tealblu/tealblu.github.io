@@ -15,3 +15,9 @@ template-including-parent:: false
 category::
 keywords::
 public:: true
+
+diary
+template:: diary
+template-including-parent:: false
+
+  + #Diaries <% today %> <% time %>:
