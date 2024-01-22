@@ -9,4 +9,5 @@ Just a few simple rules can turn chaos into order. Rules should be short and sim
 Rules should be easy to understand.
 Why am I doing it? As stated above, so that it stays organized as it grows.
 This graph is my public &amp;ldquo;knowledge garden&amp;rdquo;, so I would like it to be as accessible to others as possible.</description></item><item><title>Templates</title><link>https://tealblu.github.io/pages/templates/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://tealblu.github.io/pages/templates/</guid><description>metadata template:: metadata template-including-parent:: false
-date:: YYYY-MM-DD category:: keywords:: public:: true</description></item></channel></rss>
+date:: YYYY-MM-DD category:: keywords:: public:: true diary template:: diary template-including-parent:: false
+#Diaries &amp;lt;% today %&amp;gt; &amp;lt;% time %&amp;gt;:</description></item></channel></rss>
