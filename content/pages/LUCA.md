@@ -4,7 +4,7 @@ keywords: code, LUCA, bosch, python
 title: LUCA
 tags:
 categories:
-lastMod: 2024-01-21
+lastMod: 2024-02-18
 ---
 Helped develop and maintain Bosch’s in-house computer vision system. Gradually took ownership of the project and became the sole developer and maintainer of the project.
 

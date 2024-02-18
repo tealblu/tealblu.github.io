@@ -3,3 +3,6 @@
 
 # ignore node_modules
 node_modules
+
+# ignore cosma
+cosma_test
