@@ -1,7 +1,7 @@
 ---
 date: 2024-01-21
 keywords: ai, topside, stratus vision, bosch
-title: My Projects/Code/Image Classification AI
+title: Image Classification AI
 tags:
 categories:
 lastMod: 2024-01-21

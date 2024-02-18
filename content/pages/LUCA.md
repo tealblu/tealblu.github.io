@@ -1,7 +1,7 @@
 ---
 date: 2024-01-21
 keywords: code, LUCA, bosch, python
-title: My Projects/Code/LUCA
+title: LUCA
 tags:
 categories:
 lastMod: 2024-01-21

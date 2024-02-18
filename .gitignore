@@ -1,2 +1,5 @@
 .hugo_build.lock
 .DS_Store
+
+# ignore node_modules
+node_modules
