@@ -1,3 +1,6 @@
 [submodule "tealblu.github.io-graph"]
 	path = tealblu.github.io-graph
 	url = https://github.com/tealblu/tealblu.github.io-graph
+[submodule "Amazon-Dimension-Finder"]
+	path = Amazon-Dimension-Finder
+	url = https://github.com/tealblu/Amazon-Dimension-Finder
