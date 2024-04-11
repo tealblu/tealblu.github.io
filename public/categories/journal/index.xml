@@ -6,15 +6,28 @@
     <description>Recent content in journal on tealblu&#39;s archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 21 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tealblu.github.io/categories/journal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tealblu.github.io/categories/journal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2024-01-21</title>
       <link>https://tealblu.github.io/pages/2024-01-21/</link>
-      <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>https://tealblu.github.io/pages/2024-01-21/</guid>
       <description>I want to write about my code projects. Where can I do that?
-My Projects/Code #Diaries 2024-01-21 20:55: The internet is such a cool thing. I spent today working on my website and home automation stuff, and now I&amp;rsquo;m hanging out with my best friends on Discord. We live thousands of miles away, yet we can chat as if we were sitting next to each other. Each day I wake up grateful that I was born in the 21st century.</description>
+Code Projects #Diaries 2024-01-21 20:55: The internet is such a cool thing. I spent today working on my website and home automation stuff, and now I&amp;rsquo;m hanging out with my best friends on Discord. We live thousands of miles away, yet we can chat as if we were sitting next to each other. Each day I wake up grateful that I was born in the 21st century.</description>
+    </item>
+    
+    <item>
+      <title>2024-02-18</title>
+      <link>https://tealblu.github.io/pages/2024-02-18/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://tealblu.github.io/pages/2024-02-18/</guid>
+      <description>I&amp;rsquo;ve done a few projects recently, and I want to add them to the site
+TODO Write about image recognition project
+TODO Write about inspection modularization
+Let&amp;rsquo;s pause and zoom out for a sec - I don&amp;rsquo;t like the structure of this graph. It doesn&amp;rsquo;t work well with the way I&amp;rsquo;ve structured my Hugo templates.
+Move to Graph Structure </description>
     </item>
     
     <item>
