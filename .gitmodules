@@ -2,5 +2,5 @@
 	path = tealblu.github.io-graph
 	url = https://github.com/tealblu/tealblu.github.io-graph
 [submodule "Amazon-Dimension-Finder"]
-	path = public/Amazon-Dimension-Finder
+	path = Amazon-Dimension-Finder
 	url = https://github.com/tealblu/Amazon-Dimension-Finder
