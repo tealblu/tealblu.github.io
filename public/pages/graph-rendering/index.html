@@ -14,10 +14,10 @@ Logseq codebase overview
 Article on logseq codebase structure
 Logseq built-in renderer
 Cosma | Installing Cosma (arthurperret.fr)
+Logseq Graph Analysis plugin
 Development themes/PaperModlayouts/partials/home_info.html is the template for my home page
-I need to figure out how to render a graph in this page
-JavaScript parser returns map containing all links">
-<meta name="author" content="I.H.">
+I need to figure out how to render a graph in this page">
+<meta name="author" content="indigo hartsell">
 <link rel="canonical" href="http://localhost:1313/pages/graph-rendering/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.49b1c3611e5e823e974d0b9b3e1101617fce26c004757161abb1a1e4af3ff85c.css" integrity="sha256-SbHDYR5egj6XTQubPhEBYX/OJsAEdXFhq7Gh5K8/&#43;Fw=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.2eadbb982468c11a433a3e291f01326f2ba43f065e256bf792dbd79640a92316.js" integrity="sha256-Lq27mCRowRpDOj4pHwEybyukPwZeJWv3ktvXlkCpIxY="
@@ -185,6 +185,9 @@ gtag('js', new Date());
 <li>
 <p><a href="https://cosma.arthurperret.fr/installing.html">Cosma | Installing Cosma (arthurperret.fr)</a></p>
 </li>
+<li>
+<p><a href="https://github.com/trashhalo/logseq-graph-analysis/blob/main/src/main.ts">Logseq Graph Analysis plugin</a></p>
+</li>
 </ul>
 <h3 id="development">Development<a hidden class="anchor" aria-hidden="true" href="#development">#</a></h3>
 <ul>
@@ -197,11 +200,13 @@ gtag('js', new Date());
 <li>
 <p>JavaScript parser returns map containing all links</p>
 </li>
+<li>
+<p>Map contents:</p>
+</li>
 </ul>
 </li>
 </ul>
-<p>Map contents:
-<img loading="lazy" src="/assets/image_1708282777080_0.png" alt="image.png"  />
+<p><img loading="lazy" src="/assets/image_1708282777080_0.png" alt="image.png"  />
 </p>
 <pre><code>+ JavaScript renderer renders everything
 </code></pre>
@@ -210,6 +215,7 @@ gtag('js', new Date());
   </div>
      
  
+   
  
    
  
@@ -231,6 +237,8 @@ gtag('js', new Date());
   <h4>Backlinks:</h4>
   <div class="backlinks">
     <ul>
+      
+      <li class="capitalize"><a href="/pages/2024-02-18/">2024-02-18</a></li>
       
       <li class="capitalize"><a href="/pages/code-projects/">Code Projects</a></li>
       

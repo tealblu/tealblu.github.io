@@ -9,9 +9,9 @@
 <meta name="keywords" content="Graph Structure" />
 <meta name="description" content="Templates can be used to provide structure to an otherwise unstructured graph. They are relatively self-explanatory - by using a slash command (/template), I can choose which template I want and then paste it anywhere in the file that I have open.
 For more information, check the official Logseq documentation. metadata template:: metadata template-including-parent:: false
-date:: YYYY-MM-DD category:: keywords:: public:: true diary template:: diary template-including-parent:: false
-#Diaries &lt;% today %&gt; &lt;% time %&gt;: ">
-<meta name="author" content="I.H.">
+date:: &lt;% today %&gt; category:: keywords:: public:: true diary template:: diary template-including-parent:: false
+#Diaries &lt;% today %&gt; &lt;% time %&gt;: journal template:: journal template-including-parent:: false">
+<meta name="author" content="indigo hartsell">
 <link rel="canonical" href="http://localhost:1313/pages/templates/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.49b1c3611e5e823e974d0b9b3e1101617fce26c004757161abb1a1e4af3ff85c.css" integrity="sha256-SbHDYR5egj6XTQubPhEBYX/OJsAEdXFhq7Gh5K8/&#43;Fw=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.2eadbb982468c11a433a3e291f01326f2ba43f065e256bf792dbd79640a92316.js" integrity="sha256-Lq27mCRowRpDOj4pHwEybyukPwZeJWv3ktvXlkCpIxY="
@@ -161,7 +161,7 @@ gtag('js', new Date());
 template:: metadata
 template-including-parent:: false</p>
 <ul>
-<li>date:: YYYY-MM-DD
+<li>date:: &lt;% today %&gt;
 category::
 keywords::
 public:: true</li>
@@ -172,10 +172,20 @@ template-including-parent:: false</p>
 <ul>
 <li>#Diaries &lt;% today %&gt; &lt;% time %&gt;:</li>
 </ul>
+<p>journal
+template:: journal
+template-including-parent:: false</p>
+<ul>
+<li>date:: &lt;% today %&gt;
+category:: journal
+keywords::
+public:: true</li>
+</ul>
 
 
   </div>
      
+   
  
  
  
@@ -198,6 +208,8 @@ template-including-parent:: false</p>
   <h4>Backlinks:</h4>
   <div class="backlinks">
     <ul>
+      
+      <li class="capitalize"><a href="/pages/2024-06-23/">2024-06-23</a></li>
       
       <li class="capitalize"><a href="/pages/2024-01-20/">2024-01-20</a></li>
       

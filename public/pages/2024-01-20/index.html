@@ -11,7 +11,7 @@
 Things to note when working on this site:
 Logseq-schrodinger uses YAML for the Hugo front-matter. It will convert Logseq page-properties to Hugo front matter.
 Logseq keywords are lowercase converted to Hugo keywords, and category in Logseq is translated to categories for use with Hugo.">
-<meta name="author" content="I.H.">
+<meta name="author" content="indigo hartsell">
 <link rel="canonical" href="http://localhost:1313/pages/2024-01-20/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.49b1c3611e5e823e974d0b9b3e1101617fce26c004757161abb1a1e4af3ff85c.css" integrity="sha256-SbHDYR5egj6XTQubPhEBYX/OJsAEdXFhq7Gh5K8/&#43;Fw=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.2eadbb982468c11a433a3e291f01326f2ba43f065e256bf792dbd79640a92316.js" integrity="sha256-Lq27mCRowRpDOj4pHwEybyukPwZeJWv3ktvXlkCpIxY="
@@ -160,7 +160,7 @@ gtag('js', new Date());
 <p>Logseq-schrodinger uses YAML for the Hugo <a href="https://gohugo.io/content-management/front-matter/">front-matter</a>. It will convert Logseq page-properties to Hugo front matter.</p>
 </li>
 <li>
-<p>Logseq <em>keywords</em> are lowercase converted to Hugo keywords, and <strong>category</strong> in Logseq is translated to <em>categories</em> for use with Hugo. Logseq <em>links</em> (<code>like_this</code>) are stripped of <code> and </code>.</p>
+<p>Logseq <em>keywords</em> are lowercase converted to Hugo keywords, and <strong>category</strong> in Logseq is translated to <em>categories</em> for use with Hugo. Logseq <em>links</em> (<code>[[like_this]]</code>) are stripped of <code>[[</code> and <code>]]</code>.</p>
 </li>
 <li>
 <p>All other <em>keywords</em> are just converted to Hugo <em>keywords</em>.</p>
@@ -192,6 +192,7 @@ gtag('js', new Date());
 
   </div>
      
+ 
  
  
  

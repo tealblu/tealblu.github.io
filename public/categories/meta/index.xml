@@ -26,13 +26,7 @@ Wait a few minutes for Github Actions to run.</description>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/graph-structure/</guid>
-      <description>Current graph state: Structure Specification: Architecture The graph should consist of multiple hub-and-spoke structures.
-The &amp;ldquo;hubs&amp;rdquo; in this system will be called root pages.
-The &amp;ldquo;spokes&amp;rdquo; in this system will be called child pages.
-Guidelines Any block larger than one paragraph (subjective) should be its own page.
-Any page longer than two full screens should be split up.
-Full sentences should be used when possible.
-No orphan pages should ever be pushed to production.</description>
+      <description></description>
     </item>
     
     <item>
@@ -43,8 +37,8 @@ No orphan pages should ever be pushed to production.</description>
       <guid>http://localhost:1313/pages/templates/</guid>
       <description>Templates can be used to provide structure to an otherwise unstructured graph. They are relatively self-explanatory - by using a slash command (/template), I can choose which template I want and then paste it anywhere in the file that I have open.
 For more information, check the official Logseq documentation. metadata template:: metadata template-including-parent:: false
-date:: YYYY-MM-DD category:: keywords:: public:: true diary template:: diary template-including-parent:: false
-#Diaries &amp;lt;% today %&amp;gt; &amp;lt;% time %&amp;gt;: </description>
+date:: &amp;lt;% today %&amp;gt; category:: keywords:: public:: true diary template:: diary template-including-parent:: false
+#Diaries &amp;lt;% today %&amp;gt; &amp;lt;% time %&amp;gt;: journal template:: journal template-including-parent:: false</description>
     </item>
     
   </channel>

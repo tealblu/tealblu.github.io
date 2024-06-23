@@ -17,12 +17,12 @@ params:
       url: "https://twitter.com/"
     # - name: "kofi"
     #   url: "https://buymeacoffee.com/XXX"
-    # - name: "rss"
-    #   url: "https://XXX.github.io/index.xml"
+    - name: "rss"
+      url: "https://tealblu.github.io/index.xml"
   ShowReadingTime: true
-  author: "I.H."
+  author: "indigo hartsell"
   contact:
-    email: "ckhartsell@gmail.com"
+    email: "indiharts@proton.me"
   feedlinks: true
   copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
   mobileMenu: true

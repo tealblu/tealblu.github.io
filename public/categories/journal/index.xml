@@ -6,15 +6,26 @@
     <description>Recent content in Journal on tealblu&#39;s archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/journal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/journal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2024-01-21</title>
       <link>http://localhost:1313/pages/2024-01-21/</link>
-      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/2024-01-21/</guid>
       <description>I want to write about my code projects. Where can I do that?
 Code Projects #Diaries 2024-01-21 20:55: The internet is such a cool thing. I spent today working on my website and home automation stuff, and now I&amp;rsquo;m hanging out with my best friends on Discord. We live thousands of miles away, yet we can chat as if we were sitting next to each other. Each day I wake up grateful that I was born in the 21st century.</description>
+    </item>
+    
+    <item>
+      <title>2024-06-23</title>
+      <link>http://localhost:1313/pages/2024-06-23/</link>
+      <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/2024-06-23/</guid>
+      <description>09:12 I need to refactor the code for this website and improve the content. There&amp;rsquo;s not really anything worth reading on it at the moment and I want to change that. I have lots of ideas, but every time I sit down to write at my computer I don&amp;rsquo;t feel motivated to make content. How can I fix that?
+DONE Fix Templates
+TODO Check if &amp;lt;% today %&amp;gt; macro works for hugo ssg DONE Redo 📄 README.</description>
     </item>
     
     <item>
@@ -24,10 +35,9 @@ Code Projects #Diaries 2024-01-21 20:55: The internet is such a cool thing. I sp
       
       <guid>http://localhost:1313/pages/2024-02-18/</guid>
       <description>I&amp;rsquo;ve done a few projects recently, and I want to add them to the site
-TODO Write about image recognition project
-TODO Write about inspection modularization
-Let&amp;rsquo;s pause and zoom out for a sec - I don&amp;rsquo;t like the structure of this graph. It doesn&amp;rsquo;t work well with the way I&amp;rsquo;ve structured my Hugo templates.
-Move to Graph Structure </description>
+TODO Write about image recognition project DONE Write script to convert Logseq frontmatter to YAML for Cosma parsing
+DONE Research using that logseq graph plugin to render my graph
+Graph Rendering </description>
     </item>
     
     <item>
