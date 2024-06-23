@@ -36,6 +36,8 @@ params:
     filename: sitemap.xml
     priority: 0.5
 
+  googlefonts: "//fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans"
+
 outputs:
   home:
     - HTML

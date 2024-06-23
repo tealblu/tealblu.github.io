@@ -38,3 +38,10 @@
 .dark.list {
     background: var(--theme);
 }
+
+p {
+    font-family: "Fira Sans";
+  }
+  code {
+    font-family: "Fira Mono";
+  }
