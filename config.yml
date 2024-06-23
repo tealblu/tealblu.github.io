@@ -1,12 +1,12 @@
 baseURL: https://tealblu.github.io
 languageCode: en-us
-title: tealblu's archive
+title: indi.bio
 theme: "PaperMod"
 
 params:
   homeInfoParams:
-    Title: Archive Home
-    Content: Welcome to my archive! This is a collection of my projects, posts, thoughts, and more. Use the **Categories** page to browse by topic (e.g. projects, journals, etc), explore by using the navigation buttons at the top right, or simply scroll down to see my posts in random order.
+    Title: indi.bio
+    Content: welcome to my biography :) i hope to use this space as both a place to showcase my projects as well as a place to share my thoughts. *categories* represent high-level topics, *tags* represent more specific topics, and *archive* shows a chronological list of all content on this site. also, *search* searches.
 
   socialIcons: # optional
     - name: "github"
@@ -48,20 +48,20 @@ outputs:
 
 menu:
   main:
-    - identifier: Categories
-      name: Categories
+    - identifier: categories
+      name: categories
       url: /categories/
       weight: 10
     - identifier: tags
-      name: Tags
+      name: tags
       url: /tags/
       weight: 20
     - identifier: archive
-      name: Archive
+      name: archive
       url: /archives/
       weight: 30
     - identifier: search
-      name: Search
+      name: search
       url: /search/
       weight: 40
 
