@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on tealblu&#39;s archive</title>
-    <link>https://tealblu.github.io/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on tealblu&#39;s archive</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tealblu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 18 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>journal</title>
-      <link>https://tealblu.github.io/categories/journal/</link>
+      <title>Journal</title>
+      <link>http://localhost:1313/categories/journal/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/categories/journal/</guid>
+      <guid>http://localhost:1313/categories/journal/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>diary</title>
-      <link>https://tealblu.github.io/categories/diary/</link>
+      <title>Diary</title>
+      <link>http://localhost:1313/categories/diary/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/categories/diary/</guid>
+      <guid>http://localhost:1313/categories/diary/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>projects</title>
-      <link>https://tealblu.github.io/categories/projects/</link>
+      <title>Projects</title>
+      <link>http://localhost:1313/categories/projects/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/categories/projects/</guid>
+      <guid>http://localhost:1313/categories/projects/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>meta</title>
-      <link>https://tealblu.github.io/categories/meta/</link>
+      <title>Meta</title>
+      <link>http://localhost:1313/categories/meta/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/categories/meta/</guid>
+      <guid>http://localhost:1313/categories/meta/</guid>
       <description></description>
     </item>
     
