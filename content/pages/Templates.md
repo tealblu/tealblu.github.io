@@ -16,7 +16,8 @@ metadata
 template:: metadata
 template-including-parent:: false
 
-  + date:: <% today %>
+
+  + date:: YYYY-MM-DD
 category::
 keywords::
 public:: true
@@ -25,13 +26,5 @@ diary
 template:: diary
 template-including-parent:: false
 
+
   + #Diaries <% today %> <% time %>:
-
-journal
-template:: journal
-template-including-parent:: false
-
-  + date:: <% today %>
-category:: journal
-keywords::
-public:: true
