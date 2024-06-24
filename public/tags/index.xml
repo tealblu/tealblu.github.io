@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on indi.bio</title>
-    <link>http://localhost:44393/tags/</link>
+    <link>https://tealblu.github.io/tags/</link>
     <description>Recent content in Tags on indi.bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:44393/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tealblu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Digital Garden</title>
-      <link>http://localhost:44393/tags/digital-garden/</link>
+      <link>https://tealblu.github.io/tags/digital-garden/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:44393/tags/digital-garden/</guid>
+      <guid>https://tealblu.github.io/tags/digital-garden/</guid>
       <description></description>
     </item>
     
