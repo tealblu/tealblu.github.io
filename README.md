@@ -16,17 +16,8 @@
 ## Description
 
 This is a [HUGO](https://gohugo.io/) website for my [Logseq](https://logseq.com/#/) notes graph, using [GitHub Pages](https://pages.github.com/) to host the website, [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger) to export the Logseq pages, and [utterances](https://utteranc.es/) to manage comments.
+
 ![how i feel using this setup](./src/thanos_logseq_hugo.svg)
-
-### Why HUGO?
-
-You can use [Markdown](https://www.markdownguide.org/) to write your posts/contents in HUGO.
-
-### Why GitHub Pages?
-
-You can host your website directly from your GitHub repo, and it cost you nothing.
-
----
 
 ## 🧱 Template Structure
 

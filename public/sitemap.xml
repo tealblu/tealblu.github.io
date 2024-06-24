@@ -2,79 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:43771/about/</loc>
+    <loc>http://localhost:44393/about/</loc>
     <lastmod>2024-06-23T20:12:45-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/</loc>
+    <loc>http://localhost:44393/</loc>
     <lastmod>2024-06-23T20:12:45-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/pages/2024-01-21/</loc>
+    <loc>http://localhost:44393/pages/2024-06-24/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44393/categories/blog/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44393/categories/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44393/pages/cultivating-knowledge-through-digital-gardens/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44393/tags/digital-garden/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44393/categories/journal/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44393/pages/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44393/tags/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44393/pages/2024-01-21/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/pages/2024-06-23/</loc>
+    <loc>http://localhost:44393/pages/2024-06-23/</loc>
+    <lastmod>2024-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44393/pages/2024-02-18/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/categories/</loc>
+    <loc>http://localhost:44393/pages/graph-rendering/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/categories/journal/</loc>
+    <loc>http://localhost:44393/pages/code-projects/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/pages/</loc>
+    <loc>http://localhost:44393/pages/diaries/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/pages/2024-02-18/</loc>
+    <loc>http://localhost:44393/categories/diary/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/pages/graph-rendering/</loc>
+    <loc>http://localhost:44393/pages/drivetime/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/pages/code-projects/</loc>
+    <loc>http://localhost:44393/pages/image-classification-ai/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/pages/diaries/</loc>
+    <loc>http://localhost:44393/pages/luca/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/categories/diary/</loc>
+    <loc>http://localhost:44393/pages/pdp-11-instruction-set-simulator/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/pages/drivetime/</loc>
+    <loc>http://localhost:44393/categories/projects/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/pages/image-classification-ai/</loc>
+    <loc>http://localhost:44393/pages/2024-01-20/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/pages/luca/</loc>
+    <loc>http://localhost:44393/pages/deployment/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/pages/pdp-11-instruction-set-simulator/</loc>
+    <loc>http://localhost:44393/pages/graph-structure/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/categories/projects/</loc>
+    <loc>http://localhost:44393/categories/meta/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/pages/2024-01-20/</loc>
+    <loc>http://localhost:44393/pages/projects-homepage/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/pages/deployment/</loc>
+    <loc>http://localhost:44393/pages/templates/</loc>
     <lastmod>2024-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:43771/pages/graph-structure/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <loc>http://localhost:44393/archives/</loc>
   </url><url>
-    <loc>http://localhost:43771/categories/meta/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:43771/pages/projects-homepage/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:43771/pages/templates/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:43771/archives/</loc>
-  </url><url>
-    <loc>http://localhost:43771/search/</loc>
-  </url><url>
-    <loc>http://localhost:43771/tags/</loc>
+    <loc>http://localhost:44393/search/</loc>
   </url>
 </urlset>

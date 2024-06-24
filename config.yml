@@ -13,10 +13,10 @@ params:
       url: "https://github.com/tealblu"
     # - name: "youtube"
     #   url: "https://www.youtube.com/channel/XXX"
-    - name: "twitter"
-      url: "https://twitter.com/"
-    # - name: "kofi"
-    #   url: "https://buymeacoffee.com/XXX"
+    - name: "mastodon"
+      url: "https://tech.lgbt/@indiharts"
+    - name: "matrix"
+      url: "https://matrix.to/#/@indiharts:matrix.org"
     - name: "rss"
       url: "https://tealblu.github.io/index.xml"
   ShowReadingTime: true
@@ -28,14 +28,6 @@ params:
   mobileMenu: true
   ShowShareButtons: true # toggle share buttons
   ShowBreadCrumbs: true
-
- #Google Analytics 4 optional
-  env: #production
-  GoogleAnalytics: "G-00000XXXXX" 
-  sitemap:
-    changefreq: daily
-    filename: sitemap.xml
-    priority: 0.5
 
   googlefonts: "//fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans"
 
