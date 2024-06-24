@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on indi.bio</title>
-    <link>http://localhost:34681/categories/</link>
+    <link>http://localhost:43771/categories/</link>
     <description>Recent content in Categories on indi.bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:34681/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:43771/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Journal</title>
-      <link>http://localhost:34681/categories/journal/</link>
+      <link>http://localhost:43771/categories/journal/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:34681/categories/journal/</guid>
+      <guid>http://localhost:43771/categories/journal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Diary</title>
-      <link>http://localhost:34681/categories/diary/</link>
+      <link>http://localhost:43771/categories/diary/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:34681/categories/diary/</guid>
+      <guid>http://localhost:43771/categories/diary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>http://localhost:34681/categories/projects/</link>
+      <link>http://localhost:43771/categories/projects/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:34681/categories/projects/</guid>
+      <guid>http://localhost:43771/categories/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meta</title>
-      <link>http://localhost:34681/categories/meta/</link>
+      <link>http://localhost:43771/categories/meta/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:34681/categories/meta/</guid>
+      <guid>http://localhost:43771/categories/meta/</guid>
       <description></description>
     </item>
     
