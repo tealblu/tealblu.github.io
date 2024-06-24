@@ -50,6 +50,10 @@ outputs:
 
 menu:
   main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 1
     - identifier: categories
       name: categories
       url: /categories/
