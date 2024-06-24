@@ -4,6 +4,7 @@ url: "/about/"
 summary: about
 category: meta
 date: 2024-06-23T20:12:45-04:00
+showToc: true
 ---
 
 Hey there! I'm a computer science grad from Clemson with experience in software development, computer vision, AI, and IT support. I'm a quick learner who enjoys taking on new challenges and responsibilities - in my current role at Bosch, I took responsibility for all computer vision systems on the production line within a month of starting my job. Since then, I've made continuous improvements to our vision and software systems, leading to a savings of over $500k annually. Outside of work, I've taken on leadership roles in academic, professional, social, and political organizations throughout my life. In my free time, I love listening to and learning to play new music, spending time with my friends, and working on  my car and bicycle. Let's connect!
