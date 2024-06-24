@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Meta on indi.bio</title>
-    <link>http://localhost:1313/categories/meta/</link>
+    <link>http://localhost:34681/categories/meta/</link>
     <description>Recent content in Meta on indi.bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/meta/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:34681/categories/meta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deployment</title>
-      <link>http://localhost:1313/pages/deployment/</link>
+      <link>http://localhost:34681/pages/deployment/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/deployment/</guid>
+      <guid>http://localhost:34681/pages/deployment/</guid>
       <description>How to deploy to this site: From Logseq, use schrodinger to export all public pages.
 Unzip the new archive and move the new &amp;lsquo;pages&amp;rsquo; folder into tealblu.github.io/content.
 May also need to copy the &amp;lsquo;assets&amp;rsquo; folder from the /logseq/ directory to the /content/ directory. Inside tealblu.github.io, open a terminal and run hugo
@@ -22,10 +22,10 @@ Wait a few minutes for Github Actions to run.</description>
     
     <item>
       <title>Graph Structure</title>
-      <link>http://localhost:1313/pages/graph-structure/</link>
+      <link>http://localhost:34681/pages/graph-structure/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/graph-structure/</guid>
+      <guid>http://localhost:34681/pages/graph-structure/</guid>
       <description>Current graph state: Structure Specification: Architecture The graph should consist of multiple hub-and-spoke structures.
 The &amp;ldquo;hubs&amp;rdquo; in this system will be called root pages.
 The &amp;ldquo;spokes&amp;rdquo; in this system will be called child pages.
@@ -37,10 +37,10 @@ No orphan pages should ever be pushed to production.</description>
     
     <item>
       <title>Templates</title>
-      <link>http://localhost:1313/pages/templates/</link>
+      <link>http://localhost:34681/pages/templates/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/templates/</guid>
+      <guid>http://localhost:34681/pages/templates/</guid>
       <description>Templates can be used to provide structure to an otherwise unstructured graph. They are relatively self-explanatory - by using a slash command (/template), I can choose which template I want and then paste it anywhere in the file that I have open.
 For more information, check the official Logseq documentation. metadata template:: metadata template-including-parent:: false
 date:: YYYY-MM-DD category:: keywords:: public:: true diary template:: diary template-including-parent:: false
