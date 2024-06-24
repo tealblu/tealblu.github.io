@@ -6,7 +6,7 @@ theme: "PaperMod"
 params:
   homeInfoParams:
     Title: indi.bio
-    Content: welcome to my biography :) i hope to use this space as both a place to showcase my projects as well as a place to share my thoughts. *categories* represent high-level topics, *tags* represent more specific topics, and *archive* shows a chronological list of all content on this site. also, *search* searches.
+    Content: "*a digital garden*"
 
   socialIcons: # optional
     - name: "github"
