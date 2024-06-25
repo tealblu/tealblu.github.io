@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Pages on indi.bio</title>
-    <link>https://tealblu.github.io/pages/</link>
+    <link>https://www.indi.bio/pages/</link>
     <description>Recent content in Pages on indi.bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://tealblu.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://www.indi.bio/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2024-06-24</title>
-      <link>https://tealblu.github.io/pages/2024-06-24/</link>
+      <link>https://www.indi.bio/pages/2024-06-24/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/2024-06-24/</guid>
+      <guid>https://www.indi.bio/pages/2024-06-24/</guid>
       <description>06:14 Write more about Cultivating Knowledge Through Digital Gardenss
 What is a knowledge garden?
 Zettelkassen
@@ -22,29 +22,29 @@ Zettelkassen
     
     <item>
       <title>Cultivating Knowledge Through Digital Gardens</title>
-      <link>https://tealblu.github.io/pages/cultivating-knowledge-through-digital-gardens/</link>
+      <link>https://www.indi.bio/pages/cultivating-knowledge-through-digital-gardens/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/cultivating-knowledge-through-digital-gardens/</guid>
+      <guid>https://www.indi.bio/pages/cultivating-knowledge-through-digital-gardens/</guid>
       <description>If a note is not published, does it really exist? - Erwin Schrödinger*spores The phrase &amp;ldquo;digital garden&amp;rdquo; is more of an analogy than a descriptive literal. Just as a mushroom garden flourishes from tiny spores into a complex network, a digital garden nurtures small ideas into a rich, interconnected ecosystem of knowledge. Digital gardens are living entities, constantly evolving as they harbor works in progress, nascent ideas, and fleeting thoughts that, over time, grow and intertwine into a robust network of knowledge.</description>
     </item>
     
     <item>
       <title>2024-01-21</title>
-      <link>https://tealblu.github.io/pages/2024-01-21/</link>
+      <link>https://www.indi.bio/pages/2024-01-21/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/2024-01-21/</guid>
+      <guid>https://www.indi.bio/pages/2024-01-21/</guid>
       <description>I want to write about my code projects. Where can I do that?
 Code Projects #Diaries 2024-01-21 20:55: The internet is such a cool thing. I spent today working on my website and home automation stuff, and now I&amp;rsquo;m hanging out with my best friends on Discord. We live thousands of miles away, yet we can chat as if we were sitting next to each other. Each day I wake up grateful that I was born in the 21st century.</description>
     </item>
     
     <item>
       <title>2024-06-23</title>
-      <link>https://tealblu.github.io/pages/2024-06-23/</link>
+      <link>https://www.indi.bio/pages/2024-06-23/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/2024-06-23/</guid>
+      <guid>https://www.indi.bio/pages/2024-06-23/</guid>
       <description>09:12 I need to refactor the code for this website and improve the content. There’s not really anything worth reading on it at the moment and I want to change that. I have lots of ideas, but every time I sit down to write at my computer I don’t feel motivated to make content. How can I fix that?
 DONE Fix Templates
 DONE Check if &amp;lt;% today %&amp;gt; macro works for hugo ssg DONE Redo 📄 README.</description>
@@ -52,10 +52,10 @@ DONE Check if &amp;lt;% today %&amp;gt; macro works for hugo ssg DONE Redo �
     
     <item>
       <title>2024-02-18</title>
-      <link>https://tealblu.github.io/pages/2024-02-18/</link>
+      <link>https://www.indi.bio/pages/2024-02-18/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/2024-02-18/</guid>
+      <guid>https://www.indi.bio/pages/2024-02-18/</guid>
       <description>I&amp;rsquo;ve done a few projects recently, and I want to add them to the site
 TODO Write about image recognition project
 TODO Write about inspection modularization
@@ -65,10 +65,10 @@ Move to Graph Structure TODO Write script to convert Logseq frontmatter to YAML 
     
     <item>
       <title>Graph Rendering</title>
-      <link>https://tealblu.github.io/pages/graph-rendering/</link>
+      <link>https://www.indi.bio/pages/graph-rendering/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/graph-rendering/</guid>
+      <guid>https://www.indi.bio/pages/graph-rendering/</guid>
       <description>Project goals: Create an interactive &amp;ldquo;graph view&amp;rdquo; of this website to display on its homepage.
 Make it compatible with github pages and hugo&amp;rsquo;s static site specifications.
 Research: Plotly with Hugo
@@ -83,10 +83,10 @@ I need to figure out how to render a graph in this page</description>
     
     <item>
       <title>Code Projects</title>
-      <link>https://tealblu.github.io/pages/code-projects/</link>
+      <link>https://www.indi.bio/pages/code-projects/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/code-projects/</guid>
+      <guid>https://www.indi.bio/pages/code-projects/</guid>
       <description>Description: This is the collection of my code projects that I&amp;rsquo;ve done over the years.
 Project List: PDP-11 Instruction Set Simulator: PDP-11 Instruction Set Simulator
 DriveTime: DriveTime
@@ -98,57 +98,57 @@ Homepage graph view: Graph Rendering </description>
     
     <item>
       <title>Diaries</title>
-      <link>https://tealblu.github.io/pages/diaries/</link>
+      <link>https://www.indi.bio/pages/diaries/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/diaries/</guid>
+      <guid>https://www.indi.bio/pages/diaries/</guid>
       <description>Flesh out this page later
 #Diaries is the tag that I will use to denote a diary entry.</description>
     </item>
     
     <item>
       <title>DriveTime</title>
-      <link>https://tealblu.github.io/pages/drivetime/</link>
+      <link>https://www.indi.bio/pages/drivetime/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/drivetime/</guid>
+      <guid>https://www.indi.bio/pages/drivetime/</guid>
       <description>DriveTime is a web application intended to incentivize truck drivers to drive more safely. It is built with C#, CSHMTL, Entity Framework Core, Ebay API, iTunes API, AWS Elastic Beanstalk, AWS EC2, and AWS RDS.</description>
     </item>
     
     <item>
       <title>Image Classification AI</title>
-      <link>https://tealblu.github.io/pages/image-classification-ai/</link>
+      <link>https://www.indi.bio/pages/image-classification-ai/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/image-classification-ai/</guid>
+      <guid>https://www.indi.bio/pages/image-classification-ai/</guid>
       <description>I created an AI for automated classification of production line quality control images on Stratus Vision AOI systems. I identified key areas of application and improvement, and performed ongoing fine-tuning and maintenance to the model based on various metrics.</description>
     </item>
     
     <item>
       <title>LUCA</title>
-      <link>https://tealblu.github.io/pages/luca/</link>
+      <link>https://www.indi.bio/pages/luca/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/luca/</guid>
+      <guid>https://www.indi.bio/pages/luca/</guid>
       <description>Helped develop and maintain Bosch’s in-house computer vision system. Gradually took ownership of the project and became the sole developer and maintainer of the project.
 The system is built from a raspberry pi, 8 NVidia Jetson Nano boards, and 16 high-resolution cameras. The cameras are attached to a 3-axis mount controlled by 3 servo motors. LED lighting strips were added later to the inside of the machine in order to add the ability to customize lighting.</description>
     </item>
     
     <item>
       <title>PDP-11 Instruction Set Simulator</title>
-      <link>https://tealblu.github.io/pages/pdp-11-instruction-set-simulator/</link>
+      <link>https://www.indi.bio/pages/pdp-11-instruction-set-simulator/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/pdp-11-instruction-set-simulator/</guid>
+      <guid>https://www.indi.bio/pages/pdp-11-instruction-set-simulator/</guid>
       <description>Description: This is a C program that accurately simulates the PDP-11 computer&amp;rsquo;s assembly language, complete with virtual memory, CPU registers, and a caching system. Input and output are performed through the command line or through files. Instruction Set: The PDP-11 instruction set contains 12 basic operations to be performed on memory addresses. Operands are represented by 16-bit words, with the leftmost bits containing the opcode and the rightmost bits containing source, destination, and register addresses.</description>
     </item>
     
     <item>
       <title>2024-01-20</title>
-      <link>https://tealblu.github.io/pages/2024-01-20/</link>
+      <link>https://www.indi.bio/pages/2024-01-20/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/2024-01-20/</guid>
+      <guid>https://www.indi.bio/pages/2024-01-20/</guid>
       <description>This is my first page! I intend to use journals (pages titled with a date) as working spaces. All actual content should be on its own page.
 Things to note when working on this site:
 Logseq-schrodinger uses YAML for the Hugo front-matter. It will convert Logseq page-properties to Hugo front matter.
@@ -157,10 +157,10 @@ Logseq keywords are lowercase converted to Hugo keywords, and category in Lo
     
     <item>
       <title>Deployment</title>
-      <link>https://tealblu.github.io/pages/deployment/</link>
+      <link>https://www.indi.bio/pages/deployment/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/deployment/</guid>
+      <guid>https://www.indi.bio/pages/deployment/</guid>
       <description>How to deploy to this site: From Logseq, use schrodinger to export all public pages.
 Unzip the new archive and move the new &amp;lsquo;pages&amp;rsquo; folder into tealblu.github.io/content.
 May also need to copy the &amp;lsquo;assets&amp;rsquo; folder from the /logseq/ directory to the /content/ directory. Inside tealblu.github.io, open a terminal and run hugo
@@ -170,10 +170,10 @@ Wait a few minutes for Github Actions to run.</description>
     
     <item>
       <title>Graph Structure</title>
-      <link>https://tealblu.github.io/pages/graph-structure/</link>
+      <link>https://www.indi.bio/pages/graph-structure/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/graph-structure/</guid>
+      <guid>https://www.indi.bio/pages/graph-structure/</guid>
       <description>Current graph state: Structure Specification: Architecture The graph should consist of multiple hub-and-spoke structures.
 The &amp;ldquo;hubs&amp;rdquo; in this system will be called root pages.
 The &amp;ldquo;spokes&amp;rdquo; in this system will be called child pages.
@@ -185,10 +185,10 @@ No orphan pages should ever be pushed to production.</description>
     
     <item>
       <title>Projects Homepage</title>
-      <link>https://tealblu.github.io/pages/projects-homepage/</link>
+      <link>https://www.indi.bio/pages/projects-homepage/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/projects-homepage/</guid>
+      <guid>https://www.indi.bio/pages/projects-homepage/</guid>
       <description>What kind of projects do I do? I&amp;rsquo;m interested in a lot of different stuff! This collection will hopefully become an archive of my various projects, both for my personal reference and to document for future employment purposes. The types of projects here will include:
 Code, programming, and related projects -&amp;gt; Code Projects
 DIY stuff
@@ -198,10 +198,10 @@ And potentially more&amp;hellip;</description>
     
     <item>
       <title>Templates</title>
-      <link>https://tealblu.github.io/pages/templates/</link>
+      <link>https://www.indi.bio/pages/templates/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://tealblu.github.io/pages/templates/</guid>
+      <guid>https://www.indi.bio/pages/templates/</guid>
       <description>Templates can be used to provide structure to an otherwise unstructured graph. They are relatively self-explanatory - by using a slash command (/template), I can choose which template I want and then paste it anywhere in the file that I have open.
 For more information, check the official Logseq documentation. metadata template:: metadata template-including-parent:: false
 date:: YYYY-MM-DD category:: keywords:: public:: true diary template:: diary template-including-parent:: false

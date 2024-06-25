@@ -1,4 +1,4 @@
-baseURL: https://tealblu.github.io
+baseURL: https://www.indi.bio
 languageCode: en-us
 title: indi.bio
 theme: "PaperMod"
@@ -18,7 +18,7 @@ params:
     - name: "matrix"
       url: "https://matrix.to/#/@indiharts:matrix.org"
     - name: "rss"
-      url: "https://tealblu.github.io/index.xml"
+      url: "https://www.indi.bio/index.xml"
   ShowReadingTime: true
   author: "indigo hartsell"
   contact:
