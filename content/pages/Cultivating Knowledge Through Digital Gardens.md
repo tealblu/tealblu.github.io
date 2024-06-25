@@ -11,7 +11,7 @@ lastMod: 2024-06-24
 *- Erwin Schrödinger** 
 {{< / logseq/orgQUOTE >}}
 
-![mushrooms.jpg](/content/assets/mushrooms.jpg)
+![mushrooms.jpg](/assets/mushrooms.jpg)
 
 # spores
 
