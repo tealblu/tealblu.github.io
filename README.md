@@ -11,6 +11,14 @@
         alt="Logseq"
         src="https://img.shields.io/static/v1?label=&message=LOGSEQ&color=002B35&style=for-the-badge">
     </a>
+    <a href="https://gohugo.io/">
+    <img
+        alt="Hugo"
+        src="https://img.shields.io/badge/Hugo-black.svg?style=for-the-badge&logo=Hugo">
+    </a>
+    <img
+        alt="Markdown"
+        src="https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white">
 </a>
 
 ## Description
