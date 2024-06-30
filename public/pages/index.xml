@@ -13,7 +13,8 @@
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/2024-06-30/</guid>
-      <description>15:09 I want to put more content on this website. Let&amp;rsquo;s flesh out Ada.</description>
+      <description>15:09 I want to put more content on this website. Let&amp;rsquo;s flesh out Ada.
+19:37 Add Reading List</description>
     </item>
     
     <item>
@@ -26,12 +27,31 @@
     </item>
     
     <item>
+      <title>Interstitial Journaling</title>
+      <link>http://localhost:1313/pages/interstitial-journaling/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/interstitial-journaling/</guid>
+      <description>work in progress</description>
+    </item>
+    
+    <item>
+      <title>Reading List</title>
+      <link>http://localhost:1313/pages/reading-list/</link>
+      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/reading-list/</guid>
+      <description>Since I&amp;rsquo;m getting more into reading these days, I thought it might be interesting to share my reading list.
+in progress Fuzzy Logic completed upcoming </description>
+    </item>
+    
+    <item>
       <title>2024-06-25</title>
       <link>http://localhost:1313/pages/2024-06-25/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/2024-06-25/</guid>
-      <description>21:06 Installed #[[Interstitial Journaling]] plugin
+      <description>21:06 Installed #Interstitial Journaling plugin
 21:08 Just had an idea - let&amp;rsquo;s write about Home Assistant and Ada</description>
     </item>
     

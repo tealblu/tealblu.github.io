@@ -42,6 +42,6 @@ Think back to the quote at the beginning of this article and consider Schröding
 
   + [Erwin Schrodinger](https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger)
 
-  + [[Interstitial Journaling]] | indi.bio
+  + [Interstitial Journaling]({{< ref "/pages/Interstitial Journaling" >}}) | indi.bio
 
 *This is not a real quote. It's a joke about superposition and note taking.
