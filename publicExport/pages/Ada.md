@@ -28,6 +28,27 @@ Text queries are taken in via a number of different interfaces (voice, text, etc
 
 Ada is currently capable of dual-mode input: both text and images can be processed dynamically depending on context. At the moment, images must come from either a local file, or a camera stream set up in Home Assistant. I only have one camera (front doorbell), but I intend to change that soon. I plan to install a number of cameras inside the house that Ada can query to gain context about what's happening at home. For example, I would like to be able to ask if the cat's litter box is full, if anyone is home, which pets are where, etc.
 
+## Text interaction
+
+Ada is capable of parsing complex intents from messages and executing them. See this conversation flow, where Ada correctly describes the status of the front door, even describing change over time. Ada also correctly described the weather for both camera frames as well as the current weather.
+
+```text
+[Ada text input window opened]
+ada: How can I assist?
+
+user: What's going on at the front door right now? And also tell me the weather.
+
+ada: Both images show a view from a front door camera,
+	 overlooking a yard with a flag and a car under a blue canopy.
+	 In the first image, the weather appears sunny with clear skies,
+     and a person is working on the car.
+     In the second image, the weather is overcast, suggesting recent rain,
+     and the person is not visible. The flag and surroundings remain consistent.
+     The weather outside is currently cloudy.
+```
+
+
+
 # Inspiration
 
 The name Ada comes from Ada Lovelace, one of the founders of computer science and one of my personal favorite historical figures.
