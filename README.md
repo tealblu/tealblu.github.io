@@ -27,7 +27,7 @@ This is a [HUGO](https://gohugo.io/) website for my [Logseq](https://logseq.com/
 
 ![how i feel using this setup](./src/thanos_logseq_hugo.svg)
 
-## 🧱 Projects Structure
+## 🧱 Project Structure
 
 ```bash
 ├── archetypes/
