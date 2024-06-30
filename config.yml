@@ -1,11 +1,11 @@
 baseURL: https://indi.bio
 languageCode: en-us
-title: indigo hartsell
+title: indi.bio
 theme: "PaperMod"
 
 params:
   homeInfoParams:
-    Title: indi.bio
+    Title: indigo hartsell
     Content: "*a digital garden*  🌱"
 
   socialIcons: # optional
