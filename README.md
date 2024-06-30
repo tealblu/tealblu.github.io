@@ -1,5 +1,5 @@
 <h1 align="center">
-    tealblu.github.io
+    indi.bio
 </h1>
 
 <p align="center">

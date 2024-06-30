@@ -1,4 +1,4 @@
-baseURL: https://www.indi.bio
+baseURL: indi.bio
 languageCode: en-us
 title: indi.bio
 theme: "PaperMod"
@@ -6,7 +6,7 @@ theme: "PaperMod"
 params:
   homeInfoParams:
     Title: indi.bio
-    Content: "*a digital garden*"
+    Content: "*a digital garden*  🌱"
 
   socialIcons: # optional
     - name: "github"
@@ -19,15 +19,16 @@ params:
       url: "https://matrix.to/#/@indiharts:matrix.org"
     - name: "rss"
       url: "https://www.indi.bio/index.xml"
-  ShowReadingTime: true
   author: "indigo hartsell"
   contact:
     email: "indiharts@proton.me"
   feedlinks: true
-  copyright: "<!--Creative Commons License-->This site is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).<!--/Creative Commons License-->"
+  copyright: "<!--MIT License-->This site is licensed under the [MIT License](https://opensource.org/licenses/MIT).<!--/MIT License-->"
   mobileMenu: true
   ShowShareButtons: true # toggle share buttons
   ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
 
   googlefonts: "//fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans"
 
@@ -39,10 +40,6 @@ outputs:
     - HTML
     - RSS
     - JSON # is necessary
-  section:
-    - HTML
-    - RSS
-    - JSON
 
 menu:
   main:
