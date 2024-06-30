@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on indi.bio</title>
-    <link>https://indi.bio/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on indi.bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Journal</title>
-      <link>https://indi.bio/categories/journal/</link>
+      <link>http://localhost:1313/categories/journal/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://indi.bio/categories/journal/</guid>
+      <guid>http://localhost:1313/categories/journal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>https://indi.bio/categories/projects/</link>
+      <link>http://localhost:1313/categories/projects/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://indi.bio/categories/projects/</guid>
+      <guid>http://localhost:1313/categories/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>https://indi.bio/categories/blog/</link>
+      <link>http://localhost:1313/categories/blog/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://indi.bio/categories/blog/</guid>
+      <guid>http://localhost:1313/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Diary</title>
-      <link>https://indi.bio/categories/diary/</link>
+      <link>http://localhost:1313/categories/diary/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://indi.bio/categories/diary/</guid>
+      <guid>http://localhost:1313/categories/diary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meta</title>
-      <link>https://indi.bio/categories/meta/</link>
+      <link>http://localhost:1313/categories/meta/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://indi.bio/categories/meta/</guid>
+      <guid>http://localhost:1313/categories/meta/</guid>
       <description></description>
     </item>
     

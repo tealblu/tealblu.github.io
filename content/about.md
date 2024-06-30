@@ -39,6 +39,10 @@ Hey there! I'm Indigo - a computer science grad from Clemson with experience in 
 
 # Notable Projects
 
+### [Ada - Smart Home Voice Assistant]({{< ref "/pages/Ada" >}})
+- Utilizing tools from OpenAI and Nabu Casa as well as homemade code, assembled a GPT-4o based smart
+assistant, capable of answering questions, controlling smart home devices, and analyzing camera streams.
+
 ### [Image Classification AI]({{< ref "/pages/Image Classification AI" >}})
 - Spearheaded AI project selected for inclusion in executive presentations to German and US Departments of Energy and Bosch Global President, spotlighting over $50K in expected annual savings.
 

@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on indi.bio</title>
-    <link>https://indi.bio/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on indi.bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ada</title>
-      <link>https://indi.bio/tags/ada/</link>
+      <link>http://localhost:1313/tags/ada/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://indi.bio/tags/ada/</guid>
+      <guid>http://localhost:1313/tags/ada/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Home Assistant</title>
-      <link>https://indi.bio/tags/home-assistant/</link>
+      <link>http://localhost:1313/tags/home-assistant/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://indi.bio/tags/home-assistant/</guid>
+      <guid>http://localhost:1313/tags/home-assistant/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Digital Garden</title>
-      <link>https://indi.bio/tags/digital-garden/</link>
+      <link>http://localhost:1313/tags/digital-garden/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://indi.bio/tags/digital-garden/</guid>
+      <guid>http://localhost:1313/tags/digital-garden/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interstitial Journaling</title>
-      <link>https://indi.bio/tags/interstitial-journaling/</link>
+      <link>http://localhost:1313/tags/interstitial-journaling/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://indi.bio/tags/interstitial-journaling/</guid>
+      <guid>http://localhost:1313/tags/interstitial-journaling/</guid>
       <description></description>
     </item>
     
