@@ -1,17 +1,22 @@
 ---
+id: 6679e5a4-f786-4640-b6bf-31494f3c540c
 date: 2024-06-24
 title: Cultivating Knowledge Through Digital Gardens
+alias:
+- digital garden
 category: blog
 keywords: digital garden, zettelkasten, interstitial journaling, pkm, personal knowledge management
 tags:
+- digital garden
+- interstitial journaling
 categories: blog
-lastMod: 2024-06-24
+lastMod: 2024-06-25
 ---
 {{< logseq/orgQUOTE >}}If a note is not published, does it really exist? 
 *- Erwin Schrödinger** 
 {{< / logseq/orgQUOTE >}}
 
-![mushrooms.jpg](/assets/mushrooms.jpg)
+![mushrooms-2743051_1280.jpg](/assets/mushrooms-2743051_1280_1719269204314_0.jpg)
 
 # spores
 
@@ -36,5 +41,7 @@ Think back to the quote at the beginning of this article and consider Schröding
   + [What is a digital garden? Danielle Messler](https://www.thunknotes.com/blog/what-is-a-digital-garden)
 
   + [Erwin Schrodinger](https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger)
+
+  + [[Interstitial Journaling]] | indi.bio
 
 *This is not a real quote. It's a joke about superposition and note taking.

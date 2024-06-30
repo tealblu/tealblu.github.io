@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home Assistant on indi.bio</title>
+    <link>https://indi.bio/tags/home-assistant/</link>
+    <description>Recent content in Home Assistant on indi.bio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/tags/home-assistant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home Assistant</title>
+      <link>https://indi.bio/pages/home-assistant/</link>
+      <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://indi.bio/pages/home-assistant/</guid>
+      <description>overview Home Assistant is essentially a home automation platform designed to be both accessible to users and powerful for enthusiasts. It is hosted on local hardware using software created by Nabu Casa (who also maintain ESPHome, a project I fully intend to utilize in the future). Home Assistant boasts a dedicated enterprise community that have developed a robust ecosystem of hardware and software compatible with Home Assistant right out of the box.</description>
+    </item>
+    
+  </channel>
+</rss>
