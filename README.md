@@ -27,7 +27,7 @@ This is a [HUGO](https://gohugo.io/) website for my [Logseq](https://logseq.com/
 
 ![how i feel using this setup](./src/thanos_logseq_hugo.svg)
 
-## 🧱 Template Structure
+## 🧱 Projects Structure
 
 ```bash
 ├── archetypes/
@@ -67,9 +67,9 @@ This is a [HUGO](https://gohugo.io/) website for my [Logseq](https://logseq.com/
 
 ## Issues
 
-[Issues for logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger#issues)
+[Issues for this project](https://github.com/tealblu/tealblu.github.io/issues)
 
-[Issues for this template](https://github.com/CharlesChiuGit/Logseq-Hugo-Template/issues)
+[Issues for logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger#issues)
 
 ## License
 
