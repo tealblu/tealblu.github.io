@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>indi.bio</title><link>https://indi.bio/</link><description>Recent content on indi.bio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/index.xml" rel="self" type="application/rss+xml"/><item><title>2024-06-30</title><link>https://indi.bio/pages/2024-06-30/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/2024-06-30/</guid><description>&lt;p>&lt;strong>15:09&lt;/strong> I want to put more content on this website. Let&amp;rsquo;s flesh out &lt;a href="https://indi.bio/pages/ada/">Ada&lt;/a>.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>indi.bio</title><link>https://indi.bio/</link><description>Recent content on indi.bio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 14 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-02-14</title><link>https://indi.bio/pages/2025-02-14/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/2025-02-14/</guid><description>&lt;p>14:33 it&amp;rsquo;s valentines day! i&amp;rsquo;m updating my about page to reflect recent changes&lt;/p></description></item><item><title>2024-06-30</title><link>https://indi.bio/pages/2024-06-30/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/2024-06-30/</guid><description>&lt;p>&lt;strong>15:09&lt;/strong> I want to put more content on this website. Let&amp;rsquo;s flesh out &lt;a href="https://indi.bio/pages/ada/">Ada&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>19:37&lt;/strong> Add &lt;a href="https://indi.bio/pages/reading-list/">Reading List&lt;/a>&lt;/p></description></item><item><title>Ada</title><link>https://indi.bio/pages/ada/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/ada/</guid><description>&lt;h1 id="teleology">Teleology&lt;/h1>
 &lt;p>After 5+ years of using Amazon&amp;rsquo;s Alexa and Google&amp;rsquo;s Assistant, I was left unsatisfied. Alexa is annoying at best. Google is constantly removing features from their Assistant. Enter &lt;a href="https://indi.bio/pages/home-assistant/">Home Assistant&lt;/a> - with its built-in Assist platform, I set out to create a custom, local voice assistant. It is worth noting that HASS announced this year that they are working on their own local/cloud-integrated LLM system. I decided to do this project long before that was announced.&lt;/p></description></item><item><title>Interstitial Journaling</title><link>https://indi.bio/pages/interstitial-journaling/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/interstitial-journaling/</guid><description>&lt;p>work in progress&lt;/p></description></item><item><title>Reading List</title><link>https://indi.bio/pages/reading-list/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/reading-list/</guid><description>&lt;p>Since I&amp;rsquo;m getting more into reading these days, I thought it might be interesting to share my reading list.&lt;/p>
 &lt;h1 id="in-progress">in progress&lt;/h1>
@@ -23,7 +23,7 @@
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h1 id="completed">completed]&lt;/h1>
+&lt;h1 id="completed">completed&lt;/h1>
 &lt;p>| cover | title | rating | link to review |&lt;/p>
 &lt;h1 id="upcoming">upcoming&lt;/h1>
 &lt;p>| cover | title | rating | link to review |&lt;/p></description></item><item><title>2024-06-25</title><link>https://indi.bio/pages/2024-06-25/</link><pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/2024-06-25/</guid><description>&lt;p>&lt;strong>21:06&lt;/strong> Installed #&lt;a href="https://indi.bio/pages/interstitial-journaling/">Interstitial Journaling&lt;/a> plugin&lt;/p>
@@ -46,25 +46,24 @@ If a note is not published, does it really exist?
 &lt;/p>
 &lt;h1 id="spores">spores&lt;/h1>
 &lt;p>The phrase &amp;ldquo;digital garden&amp;rdquo; is more of an analogy than a descriptive literal. Just as a mushroom garden flourishes from tiny spores into a complex network, a digital garden nurtures small ideas into a rich, interconnected ecosystem of knowledge. Digital gardens are living entities, constantly evolving as they harbor works in progress, nascent ideas, and fleeting thoughts that, over time, grow and intertwine into a robust network of knowledge. Each note in a digital garden starts small. Over time, as the user researches, learns, and grows, they can apply that learning to the note. Through cycles of addition and refinement, these small notes grow into a network of interwoven thoughts and ideas, providing structure and meaning to an otherwise scattered and messy collection of ideas.&lt;/p></description></item><item><title>2024-06-23</title><link>https://indi.bio/pages/2024-06-23/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/2024-06-23/</guid><description>&lt;p>09:12 I need to refactor the code for this website and improve the content. There’s not really anything worth reading on it at the moment and I want to change that. I have lots of ideas, but every time I sit down to write at my computer I don’t feel motivated to make content. How can I fix that?&lt;/p>
-&lt;p>DONE Fix &lt;a href="https://tealblu.github.io/pages/templates/">Templates&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>DONE Check if &lt;code>&amp;lt;% today %&amp;gt;&lt;/code> macro works for hugo ssg
-DONE Redo &lt;a href="https://tealblu.github.io/pages/2024-06-23/">📄 README.md&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>DONE Homepage changes&lt;/p></description></item><item><title>2024-02-18</title><link>https://indi.bio/pages/2024-02-18/</link><pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/2024-02-18/</guid><description>&lt;p>I&amp;rsquo;ve done a few projects recently, and I want to add them to the site&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>TODO Write about image recognition project&lt;/p>
+&lt;p>Change name from archive to something else&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>TODO Write about inspection modularization&lt;/p>
+&lt;p>Rewrite description block&lt;/p>
 &lt;/li>
-&lt;/ul>
+&lt;li>
+&lt;p>Add images&lt;/p></description></item><item><title>2024-02-18</title><link>https://indi.bio/pages/2024-02-18/</link><pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/2024-02-18/</guid><description>&lt;p>I&amp;rsquo;ve done a few projects recently, and I want to add them to the site&lt;/p>
 &lt;p>Let&amp;rsquo;s pause and zoom out for a sec - I don&amp;rsquo;t like the structure of this graph. It doesn&amp;rsquo;t work well with the way I&amp;rsquo;ve structured my Hugo templates.&lt;/p>
 &lt;ul>
-&lt;li>Move to &lt;a href="https://indi.bio/pages/graph-structure/">Graph Structure&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>TODO Write script to convert Logseq frontmatter to YAML for Cosma parsing&lt;/p></description></item><item><title>Graph Rendering</title><link>https://indi.bio/pages/graph-rendering/</link><pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/graph-rendering/</guid><description>&lt;h3 id="project-goals">Project goals:&lt;/h3>
+&lt;li>
+&lt;p>Move to &lt;a href="https://indi.bio/pages/graph-structure/">Graph Structure&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://indi.bio/pages/graph-rendering/">Graph Rendering&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Graph Rendering</title><link>https://indi.bio/pages/graph-rendering/</link><pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/graph-rendering/</guid><description>&lt;h3 id="project-goals">Project goals:&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>Create an interactive &amp;ldquo;graph view&amp;rdquo; of this website to display on its homepage.&lt;/p>
