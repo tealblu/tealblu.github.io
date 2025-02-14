@@ -1,14 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Meta on indi.bio</title><link>https://indi.bio/categories/meta/</link><description>Recent content in Meta on indi.bio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/categories/meta/index.xml" rel="self" type="application/rss+xml"/><item><title>Deployment</title><link>https://indi.bio/pages/deployment/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/deployment/</guid><description>How to deploy to this site: From Logseq, use schrodinger to export all public pages.
-Unzip the new archive and move the new &amp;lsquo;pages&amp;rsquo; folder into tealblu.github.io/content.
-May also need to copy the &amp;lsquo;assets&amp;rsquo; folder from the /logseq/ directory to the /content/ directory. Inside tealblu.github.io, open a terminal and run hugo
-Create a new commit and push to the remote graph.
-Wait a few minutes for Github Actions to run.</description></item><item><title>Graph Structure</title><link>https://indi.bio/pages/graph-structure/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/graph-structure/</guid><description>Current graph state: Structure Specification: Architecture The graph should consist of multiple hub-and-spoke structures.
-The &amp;ldquo;hubs&amp;rdquo; in this system will be called root pages.
-The &amp;ldquo;spokes&amp;rdquo; in this system will be called child pages.
-Guidelines Any block larger than one paragraph (subjective) should be its own page.
-Any page longer than two full screens should be split up.
-Full sentences should be used when possible.
-No orphan pages should ever be pushed to production.</description></item><item><title>Templates</title><link>https://indi.bio/pages/templates/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/templates/</guid><description>Templates can be used to provide structure to an otherwise unstructured graph. They are relatively self-explanatory - by using a slash command (/template), I can choose which template I want and then paste it anywhere in the file that I have open.
-For more information, check the official Logseq documentation. metadata template:: metadata template-including-parent:: false
-date:: YYYY-MM-DD category:: keywords:: public:: true diary template:: diary template-including-parent:: false
-#Diaries &amp;lt;% today %&amp;gt; &amp;lt;% time %&amp;gt;:</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Meta on indi.bio</title><link>https://indi.bio/categories/meta/</link><description>Recent content in Meta on indi.bio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/categories/meta/index.xml" rel="self" type="application/rss+xml"/><item><title>Deployment</title><link>https://indi.bio/pages/deployment/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/deployment/</guid><description>&lt;h3 id="how-to-deploy-to-this-site">How to deploy to this site:&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>From Logseq, use schrodinger to export all public pages.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Unzip the new archive and move the new &amp;lsquo;pages&amp;rsquo; folder into tealblu.github.io/content.&lt;/p>
+&lt;ul>
+&lt;li>May also need to copy the &amp;lsquo;assets&amp;rsquo; folder from the &lt;code>/logseq/&lt;/code> directory to the &lt;code>/content/&lt;/code> directory.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Inside tealblu.github.io, open a terminal and run &lt;code>hugo&lt;/code>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Create a new commit and push to the remote graph.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Wait a few minutes for Github Actions to run.&lt;/p></description></item><item><title>Graph Structure</title><link>https://indi.bio/pages/graph-structure/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/graph-structure/</guid><description>&lt;h2 id="current-graph-state">Current graph state:&lt;/h2>
+&lt;p>&lt;img loading="lazy" src="https://indi.bio/assets/image_1708273581197_0.png" alt="image.png" />
+&lt;/p>
+&lt;h2 id="structure-specification">Structure Specification:&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;h3 id="architecture">Architecture&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>The graph should consist of multiple hub-and-spoke structures.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The &amp;ldquo;hubs&amp;rdquo; in this system will be called &lt;strong>root pages&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The &amp;ldquo;spokes&amp;rdquo; in this system will be called &lt;strong>child pages&lt;/strong>.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;h3 id="guidelines">Guidelines&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>Any block larger than one paragraph (subjective) should be its own page.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Any page longer than two full screens should be split up.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Full sentences should be used when possible.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>No orphan pages should &lt;em>ever&lt;/em> be pushed to production.&lt;/p></description></item><item><title>Templates</title><link>https://indi.bio/pages/templates/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/templates/</guid><description>&lt;p>Templates can be used to provide structure to an otherwise unstructured graph. They are relatively self-explanatory - by using a slash command (&lt;code>/template&lt;/code>), I can choose which template I want and then paste it anywhere in the file that I have open.&lt;/p>
+&lt;ul>
+&lt;li>For more information, check the &lt;a href="https://hub.logseq.com/features/av5LyiLi5xS7EFQXy4h4K8/how-to-create-and-use-templates-in-logseq/uiwhKfyFJrG7mdrkopjuAG">official Logseq documentation&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>metadata
+template:: metadata
+template-including-parent:: false&lt;/p>
+&lt;ul>
+&lt;li>date:: YYYY-MM-DD
+category::
+keywords::
+public:: true&lt;/li>
+&lt;/ul>
+&lt;p>diary
+template:: diary
+template-including-parent:: false&lt;/p>
+&lt;ul>
+&lt;li>#Diaries &amp;lt;% today %&amp;gt; &amp;lt;% time %&amp;gt;:&lt;/li>
+&lt;/ul></description></item></channel></rss>

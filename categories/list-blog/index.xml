@@ -1,3 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>List, Blog on indi.bio</title><link>https://indi.bio/categories/list-blog/</link><description>Recent content in List, Blog on indi.bio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/categories/list-blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Reading List</title><link>https://indi.bio/pages/reading-list/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/reading-list/</guid><description>Since I&amp;rsquo;m getting more into reading these days, I thought it might be interesting to share my reading list.
-in progress cover title rating link to review Fuzzy Logic n/a n/a completed] | cover | title | rating | link to review |
-upcoming | cover | title | rating | link to review |</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>List, Blog on indi.bio</title><link>https://indi.bio/categories/list-blog/</link><description>Recent content in List, Blog on indi.bio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/categories/list-blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Reading List</title><link>https://indi.bio/pages/reading-list/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/reading-list/</guid><description>&lt;p>Since I&amp;rsquo;m getting more into reading these days, I thought it might be interesting to share my reading list.&lt;/p>
+&lt;h1 id="in-progress">in progress&lt;/h1>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align: left">cover&lt;/th>
+&lt;th style="text-align: left">title&lt;/th>
+&lt;th style="text-align: left">rating&lt;/th>
+&lt;th style="text-align: left">link to review&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align: left">&lt;img loading="lazy" src="https://indi.bio/assets/image_1719791058658_0.png" alt="image.png" />
+&lt;/td>
+&lt;td style="text-align: left">&lt;a href="https://books.google.com/books/about/Fuzzy_Logic.html?id=CM1SAAAAMAAJ">Fuzzy Logic&lt;/a>&lt;/td>
+&lt;td style="text-align: left">n/a&lt;/td>
+&lt;td style="text-align: left">n/a&lt;/td>
+&lt;td>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h1 id="completed">completed]&lt;/h1>
+&lt;p>| cover | title | rating | link to review |&lt;/p>
+&lt;h1 id="upcoming">upcoming&lt;/h1>
+&lt;p>| cover | title | rating | link to review |&lt;/p></description></item></channel></rss>
