@@ -2,60 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Journal on indi.bio</title>
-    <link>http://localhost:1313/categories/journal/</link>
+    <link>http://localhost:36755/categories/journal/</link>
     <description>Recent content in Journal on indi.bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 14 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/journal/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2024-01-21</title>
-      <link>http://localhost:1313/pages/2024-01-21/</link>
-      <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/pages/2024-01-21/</guid>
-      <description>&lt;p&gt;I want to write about my code projects. Where can I do that?&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/pages/code-projects/&#34;&gt;Code Projects&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;#Diaries &lt;a href=&#34;http://localhost:1313/pages/2024-01-21/&#34;&gt;2024-01-21&lt;/a&gt; 20:55: The internet is such a cool thing. I spent today working on my website and home automation stuff, and now I&amp;rsquo;m hanging out with my best friends on Discord. We live thousands of miles away, yet we can chat as if we were sitting next to each other. Each day I wake up grateful that I was born in the 21st century.&lt;/p&gt;</description>
-    </item>
-    
+    <lastBuildDate>Fri, 14 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:36755/categories/journal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025-02-14</title>
-      <link>http://localhost:1313/pages/2025-02-14/</link>
+      <link>http://localhost:36755/pages/2025-02-14/</link>
       <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/2025-02-14/</guid>
+      <guid>http://localhost:36755/pages/2025-02-14/</guid>
       <description>&lt;p&gt;14:33  it&amp;rsquo;s valentines day! i&amp;rsquo;m updating my about page to reflect recent changes&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2024-06-30</title>
-      <link>http://localhost:1313/pages/2024-06-30/</link>
+      <link>http://localhost:36755/pages/2024-06-30/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/2024-06-30/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;15:09&lt;/strong&gt;  I want to put more content on this website. Let&amp;rsquo;s flesh out &lt;a href=&#34;http://localhost:1313/pages/ada/&#34;&gt;Ada&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;19:37&lt;/strong&gt;  Add &lt;a href=&#34;http://localhost:1313/pages/reading-list/&#34;&gt;Reading List&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:36755/pages/2024-06-30/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;15:09&lt;/strong&gt;  I want to put more content on this website. Let&amp;rsquo;s flesh out &lt;a href=&#34;http://localhost:36755/pages/ada/&#34;&gt;Ada&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;19:37&lt;/strong&gt;  Add &lt;a href=&#34;http://localhost:36755/pages/reading-list/&#34;&gt;Reading List&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2024-06-25</title>
-      <link>http://localhost:1313/pages/2024-06-25/</link>
+      <link>http://localhost:36755/pages/2024-06-25/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/2024-06-25/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;21:06&lt;/strong&gt;  Installed #&lt;a href=&#34;http://localhost:1313/pages/interstitial-journaling/&#34;&gt;Interstitial Journaling&lt;/a&gt; plugin&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;21:08&lt;/strong&gt;  Just had an idea - let&amp;rsquo;s write about &lt;a href=&#34;http://localhost:1313/pages/home-assistant/&#34;&gt;Home Assistant&lt;/a&gt; and &lt;a href=&#34;http://localhost:1313/pages/ada/&#34;&gt;Ada&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:36755/pages/2024-06-25/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;21:06&lt;/strong&gt;  Installed #&lt;a href=&#34;http://localhost:36755/pages/interstitial-journaling/&#34;&gt;Interstitial Journaling&lt;/a&gt; plugin&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;21:08&lt;/strong&gt;  Just had an idea - let&amp;rsquo;s write about &lt;a href=&#34;http://localhost:36755/pages/home-assistant/&#34;&gt;Home Assistant&lt;/a&gt; and &lt;a href=&#34;http://localhost:36755/pages/ada/&#34;&gt;Ada&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>2024-06-24</title>
-      <link>http://localhost:1313/pages/2024-06-24/</link>
+      <link>http://localhost:36755/pages/2024-06-24/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/2024-06-24/</guid>
-      <description>&lt;p&gt;06:14 Write more about &lt;a href=&#34;http://localhost:1313/pages/cultivating-knowledge-through-digital-gardens/&#34;&gt;Cultivating Knowledge Through Digital Gardens&lt;/a&gt;s&lt;/p&gt;
+      <guid>http://localhost:36755/pages/2024-06-24/</guid>
+      <description>&lt;p&gt;06:14 Write more about &lt;a href=&#34;http://localhost:36755/pages/cultivating-knowledge-through-digital-gardens/&#34;&gt;Cultivating Knowledge Through Digital Gardens&lt;/a&gt;s&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;What is a knowledge garden?&lt;/p&gt;
@@ -70,10 +57,10 @@
     
     <item>
       <title>2024-06-23</title>
-      <link>http://localhost:1313/pages/2024-06-23/</link>
+      <link>http://localhost:36755/pages/2024-06-23/</link>
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/2024-06-23/</guid>
+      <guid>http://localhost:36755/pages/2024-06-23/</guid>
       <description>&lt;p&gt;09:12 I need to refactor the code for this website and improve the content. There’s not really anything worth reading on it at the moment and I want to change that. I have lots of ideas, but every time I sit down to write at my computer I don’t feel motivated to make content. How can I fix that?&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -88,28 +75,41 @@
     
     <item>
       <title>2024-02-18</title>
-      <link>http://localhost:1313/pages/2024-02-18/</link>
+      <link>http://localhost:36755/pages/2024-02-18/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/2024-02-18/</guid>
+      <guid>http://localhost:36755/pages/2024-02-18/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve done a few projects recently, and I want to add them to the site&lt;/p&gt;
 &lt;p&gt;Let&amp;rsquo;s pause and zoom out for a sec - I don&amp;rsquo;t like the structure of this graph. It doesn&amp;rsquo;t work well with the way I&amp;rsquo;ve structured my Hugo templates.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Move to &lt;a href=&#34;http://localhost:1313/pages/graph-structure/&#34;&gt;Graph Structure&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Move to &lt;a href=&#34;http://localhost:36755/pages/graph-structure/&#34;&gt;Graph Structure&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/pages/graph-rendering/&#34;&gt;Graph Rendering&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:36755/pages/graph-rendering/&#34;&gt;Graph Rendering&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
     <item>
+      <title>2024-01-21</title>
+      <link>http://localhost:36755/pages/2024-01-21/</link>
+      <pubDate>Sun, 21 Jan 2024 13:29:00 +0000</pubDate>
+      
+      <guid>http://localhost:36755/pages/2024-01-21/</guid>
+      <description>&lt;p&gt;I want to write about my code projects. Where can I do that?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:36755/pages/code-projects/&#34;&gt;Code Projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;#Diaries &lt;a href=&#34;http://localhost:36755/pages/2024-01-21/&#34;&gt;2024-01-21&lt;/a&gt; 20:55: The internet is such a cool thing. I spent today working on my website and home automation stuff, and now I&amp;rsquo;m hanging out with my best friends on Discord. We live thousands of miles away, yet we can chat as if we were sitting next to each other. Each day I wake up grateful that I was born in the 21st century.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>2024-01-20</title>
-      <link>http://localhost:1313/pages/2024-01-20/</link>
+      <link>http://localhost:36755/pages/2024-01-20/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/2024-01-20/</guid>
+      <guid>http://localhost:36755/pages/2024-01-20/</guid>
       <description>&lt;p&gt;This is my first page! I intend to use journals (pages titled with a date) as working spaces. All actual content should be on its own page.&lt;/p&gt;
 &lt;p&gt;Things to note when working on this site:&lt;/p&gt;
 &lt;ul&gt;
