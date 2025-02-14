@@ -6,7 +6,7 @@ keywords:
 title: Templates
 tags:
 categories: meta
-lastMod: 2024-06-23
+lastMod: 2025-02-14
 ---
 Templates can be used to provide structure to an otherwise unstructured graph. They are relatively self-explanatory - by using a slash command (`/template`), I can choose which template I want and then paste it anywhere in the file that I have open.
 

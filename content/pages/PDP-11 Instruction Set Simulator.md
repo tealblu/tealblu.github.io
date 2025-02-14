@@ -4,7 +4,7 @@ keywords: code, coding, pdp11, assembly, school
 title: PDP-11 Instruction Set Simulator
 tags:
 categories:
-lastMod: 2024-06-23
+lastMod: 2025-02-14
 ---
 ### Description:
 This is a C program that accurately simulates the PDP-11 computer's assembly language, complete with virtual memory, CPU registers, and a caching system. Input and output are performed through the command line or through files.

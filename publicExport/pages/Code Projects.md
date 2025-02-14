@@ -5,7 +5,7 @@ keywords: projects, code, coding
 title: Code Projects
 tags:
 categories: projects
-lastMod: 2024-06-23
+lastMod: 2025-02-14
 ---
 ### Description:
 This is the collection of my code projects that I've done over the years.

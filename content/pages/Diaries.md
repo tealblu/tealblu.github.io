@@ -5,7 +5,7 @@ keywords:
 title: Diaries
 tags:
 categories: diary
-lastMod: 2024-06-23
+lastMod: 2025-02-14
 ---
 Flesh out this page later
 

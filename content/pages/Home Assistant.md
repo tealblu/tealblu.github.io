@@ -1,12 +1,13 @@
 ---
-date: 2024-06-25
+date:
+- 2024-06-25
 category: projects
 keywords: home automation, home assistant, hass, hassio
 tags:
 - home assistant
 title: Home Assistant
 categories: projects
-lastMod: 2024-06-25
+lastMod: 2025-02-14
 ---
 # overview
 

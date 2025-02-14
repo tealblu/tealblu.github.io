@@ -6,7 +6,7 @@ tags:
 - ada
 title: Ada
 categories: projects
-lastMod: 2024-06-30
+lastMod: 2025-02-14
 ---
 # Teleology
 

@@ -6,7 +6,29 @@
     <description>Recent content in Journal on indi.bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/journal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/journal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024-01-21</title>
+      <link>http://localhost:1313/pages/2024-01-21/</link>
+      <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/2024-01-21/</guid>
+      <description>&lt;p&gt;I want to write about my code projects. Where can I do that?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/pages/code-projects/&#34;&gt;Code Projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;#Diaries &lt;a href=&#34;http://localhost:1313/pages/2024-01-21/&#34;&gt;2024-01-21&lt;/a&gt; 20:55: The internet is such a cool thing. I spent today working on my website and home automation stuff, and now I&amp;rsquo;m hanging out with my best friends on Discord. We live thousands of miles away, yet we can chat as if we were sitting next to each other. Each day I wake up grateful that I was born in the 21st century.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2025-02-14</title>
+      <link>http://localhost:1313/pages/2025-02-14/</link>
+      <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/2025-02-14/</guid>
+      <description>&lt;p&gt;14:33  it&amp;rsquo;s valentines day! i&amp;rsquo;m updating my about page to reflect recent changes&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>2024-06-30</title>
       <link>http://localhost:1313/pages/2024-06-30/</link>
@@ -53,12 +75,15 @@
       
       <guid>http://localhost:1313/pages/2024-06-23/</guid>
       <description>&lt;p&gt;09:12 I need to refactor the code for this website and improve the content. There’s not really anything worth reading on it at the moment and I want to change that. I have lots of ideas, but every time I sit down to write at my computer I don’t feel motivated to make content. How can I fix that?&lt;/p&gt;
-&lt;p&gt;DONE Fix &lt;a href=&#34;https://tealblu.github.io/pages/templates/&#34;&gt;Templates&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;DONE Check if &lt;code&gt;&amp;lt;% today %&amp;gt;&lt;/code&gt; macro works for hugo ssg
-DONE Redo &lt;a href=&#34;https://tealblu.github.io/pages/2024-06-23/&#34;&gt;📄 README.md&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;DONE Homepage changes&lt;/p&gt;</description>
+&lt;li&gt;
+&lt;p&gt;Change name from archive to something else&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rewrite description block&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Add images&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -68,32 +93,15 @@ DONE Redo &lt;a href=&#34;https://tealblu.github.io/pages/2024-06-23/&#34;&gt;�
       
       <guid>http://localhost:1313/pages/2024-02-18/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve done a few projects recently, and I want to add them to the site&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;TODO Write about image recognition project&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;TODO Write about inspection modularization&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;Let&amp;rsquo;s pause and zoom out for a sec - I don&amp;rsquo;t like the structure of this graph. It doesn&amp;rsquo;t work well with the way I&amp;rsquo;ve structured my Hugo templates.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Move to &lt;a href=&#34;http://localhost:1313/pages/graph-structure/&#34;&gt;Graph Structure&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;TODO Write script to convert Logseq frontmatter to YAML for Cosma parsing&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>2024-01-21</title>
-      <link>http://localhost:1313/pages/2024-01-21/</link>
-      <pubDate>Sun, 21 Jan 2024 13:29:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/pages/2024-01-21/</guid>
-      <description>&lt;p&gt;I want to write about my code projects. Where can I do that?&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/pages/code-projects/&#34;&gt;Code Projects&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;#Diaries &lt;a href=&#34;http://localhost:1313/pages/2024-01-21/&#34;&gt;2024-01-21&lt;/a&gt; 20:55: The internet is such a cool thing. I spent today working on my website and home automation stuff, and now I&amp;rsquo;m hanging out with my best friends on Discord. We live thousands of miles away, yet we can chat as if we were sitting next to each other. Each day I wake up grateful that I was born in the 21st century.&lt;/p&gt;</description>
+&lt;li&gt;
+&lt;p&gt;Move to &lt;a href=&#34;http://localhost:1313/pages/graph-structure/&#34;&gt;Graph Structure&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/pages/graph-rendering/&#34;&gt;Graph Rendering&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>

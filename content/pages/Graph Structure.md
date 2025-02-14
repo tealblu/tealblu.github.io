@@ -5,7 +5,7 @@ keywords: development, structure, pkm, graph
 title: Graph Structure
 tags:
 categories: meta
-lastMod: 2024-06-23
+lastMod: 2025-02-14
 ---
 ## Current graph state:
 ![image.png](/assets/image_1708273581197_0.png)

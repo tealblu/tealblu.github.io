@@ -7,7 +7,7 @@ tags:
 - home assistant
 title: Home Assistant
 categories: projects
-lastMod: 2024-06-25
+lastMod: 2025-02-14
 ---
 # overview
 

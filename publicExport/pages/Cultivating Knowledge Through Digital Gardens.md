@@ -10,7 +10,7 @@ tags:
 - digital garden
 - interstitial journaling
 categories: blog
-lastMod: 2024-06-25
+lastMod: 2025-02-14
 ---
 {{< logseq/orgQUOTE >}}If a note is not published, does it really exist? 
 *- Erwin Schrödinger** 

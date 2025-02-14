@@ -2,119 +2,122 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/pages/2024-06-30/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/pages/2024-01-21/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ada/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/ada/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/blog/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/pages/2025-02-14/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/interstitial-journaling/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/journal/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/list-blog/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/projects/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/reading-list/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-06-30T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/2024-06-25/</loc>
-    <lastmod>2024-06-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/home-assistant/</loc>
-    <lastmod>2024-06-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/home-assistant/</loc>
-    <lastmod>2024-06-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/journal/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pages/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/projects/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pages/2024-06-30/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/ada/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pages/ada/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/blog/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pages/interstitial-journaling/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/list-blog/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pages/reading-list/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pages/2024-06-25/</loc>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-06-23T20:12:45-04:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/2024-06-24/</loc>
-    <lastmod>2024-06-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/cultivating-knowledge-through-digital-gardens/</loc>
-    <lastmod>2024-06-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/digital-garden/</loc>
-    <lastmod>2024-06-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/interstitial-journaling/</loc>
-    <lastmod>2024-06-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/2024-06-23/</loc>
-    <lastmod>2024-06-25T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/2024-02-18/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/graph-rendering/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/2024-01-21/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/code-projects/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/diaries/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/diary/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/drivetime/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/image-classification-ai/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/luca/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/pdp-11-instruction-set-simulator/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/2024-01-20/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/deployment/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/graph-structure/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/meta/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/projects-homepage/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/pages/templates/</loc>
-    <lastmod>2024-06-23T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
   </url><url>
