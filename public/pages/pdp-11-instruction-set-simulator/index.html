@@ -7,7 +7,12 @@
 <meta name="robots" content="noindex, nofollow">
 <title>PDP-11 Instruction Set Simulator | indi.bio</title>
 <meta name="keywords" content="code,, coding,, pdp11,, assembly,, school" />
-<meta name="description" content="Description: This is a C program that accurately simulates the PDP-11 computer&rsquo;s assembly language, complete with virtual memory, CPU registers, and a caching system. Input and output are performed through the command line or through files. Instruction Set: The PDP-11 instruction set contains 12 basic operations to be performed on memory addresses. Operands are represented by 16-bit words, with the leftmost bits containing the opcode and the rightmost bits containing source, destination, and register addresses.">
+<meta name="description" content="Description:
+This is a C program that accurately simulates the PDP-11 computer&rsquo;s assembly language, complete with virtual memory, CPU registers, and a caching system. Input and output are performed through the command line or through files.
+
+
+Instruction Set:
+The PDP-11 instruction set contains 12 basic operations to be performed on memory addresses. Operands are represented by 16-bit words, with the leftmost bits containing the opcode and the rightmost bits containing source, destination, and register addresses. In addition, many other operands are supported, allowing for a wide variety of operations to be performed.">
 <meta name="author" content="indigo hartsell">
 <link rel="canonical" href="http://localhost:1313/pages/pdp-11-instruction-set-simulator/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.9742131dd92ef99fd8499bcd287c459efab116726b2e5e8f4a85f0fc8d4f35e0.css" integrity="sha256-l0ITHdku&#43;Z/YSZvNKHxFnvqxFnJrLl6PSoXw/I1PNeA=" rel="preload stylesheet" as="style">
@@ -20,7 +25,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.127.0">
+<meta name="generator" content="Hugo 0.143.1">
 <link rel="alternate" hreflang="en" href="http://localhost:1313/pages/pdp-11-instruction-set-simulator/" />
 <noscript>
     <style>
@@ -174,64 +179,64 @@
 </ul>
 <p>The PDP-11 computer uses eight &ldquo;addressing modes&rdquo;. Each addressing mode alters the operation of the registers as shown in the following chart.</p>
 <table>
-<thead>
-<tr>
-<th><strong>Code</strong></th>
-<th><strong>Name</strong></th>
-<th><strong>Example</strong></th>
-<th><strong>Description</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0n</td>
-<td>Register</td>
-<td>Rn</td>
-<td>The operand is in Rn.</td>
-</tr>
-<tr>
-<td>1n</td>
-<td>Register deferred</td>
-<td>(Rn)</td>
-<td>Rn contains the address of the operand.</td>
-</tr>
-<tr>
-<td>2n</td>
-<td>Autoincrement</td>
-<td>(Rn)+</td>
-<td>Rn contains the address of the operand, then increment Rn.</td>
-</tr>
-<tr>
-<td>3n</td>
-<td>Autoincrement deferred</td>
-<td>@(Rn)+</td>
-<td>Rn contains the address of the address of the operand, then increment Rn by 2.</td>
-</tr>
-<tr>
-<td>4n</td>
-<td>Autodecrement</td>
-<td>-(Rn)</td>
-<td>Decrement Rn, then use the result as the address of the operand.</td>
-</tr>
-<tr>
-<td>5n</td>
-<td>Autodecrement deferred</td>
-<td>@-(Rn)</td>
-<td>Decrement Rn by 2, then use the result as the address of the address of the operand.</td>
-</tr>
-<tr>
-<td>6n</td>
-<td>Index</td>
-<td>X(Rn)</td>
-<td>Rn+X is the address of the operand.</td>
-</tr>
-<tr>
-<td>7n</td>
-<td>Index deferred</td>
-<td>@X(Rn)</td>
-<td>Rn+X is the address of the address of the operand.</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th><strong>Code</strong></th>
+          <th><strong>Name</strong></th>
+          <th><strong>Example</strong></th>
+          <th><strong>Description</strong></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0n</td>
+          <td>Register</td>
+          <td>Rn</td>
+          <td>The operand is in Rn.</td>
+      </tr>
+      <tr>
+          <td>1n</td>
+          <td>Register deferred</td>
+          <td>(Rn)</td>
+          <td>Rn contains the address of the operand.</td>
+      </tr>
+      <tr>
+          <td>2n</td>
+          <td>Autoincrement</td>
+          <td>(Rn)+</td>
+          <td>Rn contains the address of the operand, then increment Rn.</td>
+      </tr>
+      <tr>
+          <td>3n</td>
+          <td>Autoincrement deferred</td>
+          <td>@(Rn)+</td>
+          <td>Rn contains the address of the address of the operand, then increment Rn by 2.</td>
+      </tr>
+      <tr>
+          <td>4n</td>
+          <td>Autodecrement</td>
+          <td>-(Rn)</td>
+          <td>Decrement Rn, then use the result as the address of the operand.</td>
+      </tr>
+      <tr>
+          <td>5n</td>
+          <td>Autodecrement deferred</td>
+          <td>@-(Rn)</td>
+          <td>Decrement Rn by 2, then use the result as the address of the address of the operand.</td>
+      </tr>
+      <tr>
+          <td>6n</td>
+          <td>Index</td>
+          <td>X(Rn)</td>
+          <td>Rn+X is the address of the operand.</td>
+      </tr>
+      <tr>
+          <td>7n</td>
+          <td>Index deferred</td>
+          <td>@X(Rn)</td>
+          <td>Rn+X is the address of the address of the operand.</td>
+      </tr>
+  </tbody>
 </table>
 <p>The Program Counter has four addressing modes, and the Stack has 6 addressing modes, both of which alter the operation of the system in their own way.</p>
 <h3 id="code-breakdown">Code Breakdown:<a hidden class="anchor" aria-hidden="true" href="#code-breakdown">#</a></h3>
@@ -464,7 +469,7 @@
 
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="http://localhost:1313/">indi.bio</a></span>
+    <span>&copy; 2025 <a href="http://localhost:1313/">indi.bio</a></span>
     <br>
     <span>
         Powered by

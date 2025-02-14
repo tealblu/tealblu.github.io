@@ -13,8 +13,33 @@
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/reading-list/</guid>
-      <description>Since I&amp;rsquo;m getting more into reading these days, I thought it might be interesting to share my reading list.
-in progress Fuzzy Logic completed upcoming </description>
+      <description>&lt;p&gt;Since I&amp;rsquo;m getting more into reading these days, I thought it might be interesting to share my reading list.&lt;/p&gt;
+&lt;h1 id=&#34;in-progress&#34;&gt;in progress&lt;/h1&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;cover&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;title&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;rating&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;link to review&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/assets/image_1719791058658_0.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://books.google.com/books/about/Fuzzy_Logic.html?id=CM1SAAAAMAAJ&#34;&gt;Fuzzy Logic&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;n/a&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;n/a&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;completed&#34;&gt;completed]&lt;/h1&gt;
+&lt;p&gt;| cover | title | rating | link to review |&lt;/p&gt;
+&lt;h1 id=&#34;upcoming&#34;&gt;upcoming&lt;/h1&gt;
+&lt;p&gt;| cover | title | rating | link to review |&lt;/p&gt;</description>
     </item>
     
   </channel>

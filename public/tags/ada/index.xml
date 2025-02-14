@@ -13,7 +13,8 @@
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/ada/</guid>
-      <description>Teleology After 5+ years of using Amazon&amp;rsquo;s Alexa and Google&amp;rsquo;s Assistant, I was left unsatisfied. Alexa is annoying at best. Google is constantly removing features from their Assistant. Enter Home Assistant - with its built-in Assist platform, I set out to create a custom, local voice assistant. It is worth noting that HASS announced this year that they are working on their own local/cloud-integrated LLM system. I decided to do this project long before that was announced.</description>
+      <description>&lt;h1 id=&#34;teleology&#34;&gt;Teleology&lt;/h1&gt;
+&lt;p&gt;After 5+ years of using Amazon&amp;rsquo;s Alexa and Google&amp;rsquo;s Assistant, I was left unsatisfied. Alexa is annoying at best. Google is constantly removing features from their Assistant. Enter &lt;a href=&#34;http://localhost:1313/pages/home-assistant/&#34;&gt;Home Assistant&lt;/a&gt; - with its built-in Assist platform, I set out to create a custom, local voice assistant. It is worth noting that HASS announced this year that they are working on their own local/cloud-integrated LLM system. I decided to do this project long before that was announced.&lt;/p&gt;</description>
     </item>
     
   </channel>

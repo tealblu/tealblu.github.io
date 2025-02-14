@@ -13,8 +13,8 @@
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/2024-06-30/</guid>
-      <description>15:09 I want to put more content on this website. Let&amp;rsquo;s flesh out Ada.
-19:37 Add Reading List</description>
+      <description>&lt;p&gt;&lt;strong&gt;15:09&lt;/strong&gt;  I want to put more content on this website. Let&amp;rsquo;s flesh out &lt;a href=&#34;http://localhost:1313/pages/ada/&#34;&gt;Ada&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;19:37&lt;/strong&gt;  Add &lt;a href=&#34;http://localhost:1313/pages/reading-list/&#34;&gt;Reading List&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -23,8 +23,8 @@
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/2024-06-25/</guid>
-      <description>21:06 Installed #Interstitial Journaling plugin
-21:08 Just had an idea - let&amp;rsquo;s write about Home Assistant and Ada</description>
+      <description>&lt;p&gt;&lt;strong&gt;21:06&lt;/strong&gt;  Installed #&lt;a href=&#34;http://localhost:1313/pages/interstitial-journaling/&#34;&gt;Interstitial Journaling&lt;/a&gt; plugin&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;21:08&lt;/strong&gt;  Just had an idea - let&amp;rsquo;s write about &lt;a href=&#34;http://localhost:1313/pages/home-assistant/&#34;&gt;Home Assistant&lt;/a&gt; and &lt;a href=&#34;http://localhost:1313/pages/ada/&#34;&gt;Ada&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -33,21 +33,17 @@
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/2024-06-24/</guid>
-      <description>06:14 Write more about Cultivating Knowledge Through Digital Gardenss
-What is a knowledge garden?
-Zettelkassen
-08:10 I also want to add a page with my contact info and socials. Kind of like a linktree but on my domain and hosted on this site.
-10:38 need to edit Hugo theme so that todo items render correctly</description>
-    </item>
-    
-    <item>
-      <title>2024-01-21</title>
-      <link>http://localhost:1313/pages/2024-01-21/</link>
-      <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/pages/2024-01-21/</guid>
-      <description>I want to write about my code projects. Where can I do that?
-Code Projects #Diaries 2024-01-21 20:55: The internet is such a cool thing. I spent today working on my website and home automation stuff, and now I&amp;rsquo;m hanging out with my best friends on Discord. We live thousands of miles away, yet we can chat as if we were sitting next to each other. Each day I wake up grateful that I was born in the 21st century.</description>
+      <description>&lt;p&gt;06:14 Write more about &lt;a href=&#34;http://localhost:1313/pages/cultivating-knowledge-through-digital-gardens/&#34;&gt;Cultivating Knowledge Through Digital Gardens&lt;/a&gt;s&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;What is a knowledge garden?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zettelkassen&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;08:10 I also want to add a page with my contact info and socials. Kind of like a linktree but on my domain and hosted on this site.&lt;/p&gt;
+&lt;p&gt;10:38 need to edit Hugo theme so that todo items render correctly&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -56,9 +52,13 @@ Code Projects #Diaries 2024-01-21 20:55: The internet is such a cool thing. I sp
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/2024-06-23/</guid>
-      <description>09:12 I need to refactor the code for this website and improve the content. There’s not really anything worth reading on it at the moment and I want to change that. I have lots of ideas, but every time I sit down to write at my computer I don’t feel motivated to make content. How can I fix that?
-DONE Fix Templates
-DONE Check if &amp;lt;% today %&amp;gt; macro works for hugo ssg DONE Redo 📄 README.</description>
+      <description>&lt;p&gt;09:12 I need to refactor the code for this website and improve the content. There’s not really anything worth reading on it at the moment and I want to change that. I have lots of ideas, but every time I sit down to write at my computer I don’t feel motivated to make content. How can I fix that?&lt;/p&gt;
+&lt;p&gt;DONE Fix &lt;a href=&#34;https://tealblu.github.io/pages/templates/&#34;&gt;Templates&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DONE Check if &lt;code&gt;&amp;lt;% today %&amp;gt;&lt;/code&gt; macro works for hugo ssg
+DONE Redo &lt;a href=&#34;https://tealblu.github.io/pages/2024-06-23/&#34;&gt;📄 README.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;DONE Homepage changes&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -67,11 +67,33 @@ DONE Check if &amp;lt;% today %&amp;gt; macro works for hugo ssg DONE Redo �
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/2024-02-18/</guid>
-      <description>I&amp;rsquo;ve done a few projects recently, and I want to add them to the site
-TODO Write about image recognition project
-TODO Write about inspection modularization
-Let&amp;rsquo;s pause and zoom out for a sec - I don&amp;rsquo;t like the structure of this graph. It doesn&amp;rsquo;t work well with the way I&amp;rsquo;ve structured my Hugo templates.
-Move to Graph Structure TODO Write script to convert Logseq frontmatter to YAML for Cosma parsing</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve done a few projects recently, and I want to add them to the site&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;TODO Write about image recognition project&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;TODO Write about inspection modularization&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let&amp;rsquo;s pause and zoom out for a sec - I don&amp;rsquo;t like the structure of this graph. It doesn&amp;rsquo;t work well with the way I&amp;rsquo;ve structured my Hugo templates.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Move to &lt;a href=&#34;http://localhost:1313/pages/graph-structure/&#34;&gt;Graph Structure&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;TODO Write script to convert Logseq frontmatter to YAML for Cosma parsing&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2024-01-21</title>
+      <link>http://localhost:1313/pages/2024-01-21/</link>
+      <pubDate>Sun, 21 Jan 2024 13:29:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/2024-01-21/</guid>
+      <description>&lt;p&gt;I want to write about my code projects. Where can I do that?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/pages/code-projects/&#34;&gt;Code Projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;#Diaries &lt;a href=&#34;http://localhost:1313/pages/2024-01-21/&#34;&gt;2024-01-21&lt;/a&gt; 20:55: The internet is such a cool thing. I spent today working on my website and home automation stuff, and now I&amp;rsquo;m hanging out with my best friends on Discord. We live thousands of miles away, yet we can chat as if we were sitting next to each other. Each day I wake up grateful that I was born in the 21st century.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -80,10 +102,14 @@ Move to Graph Structure TODO Write script to convert Logseq frontmatter to YAML 
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/2024-01-20/</guid>
-      <description>This is my first page! I intend to use journals (pages titled with a date) as working spaces. All actual content should be on its own page.
-Things to note when working on this site:
-Logseq-schrodinger uses YAML for the Hugo front-matter. It will convert Logseq page-properties to Hugo front matter.
-Logseq keywords are lowercase converted to Hugo keywords, and category in Logseq is translated to categories for use with Hugo.</description>
+      <description>&lt;p&gt;This is my first page! I intend to use journals (pages titled with a date) as working spaces. All actual content should be on its own page.&lt;/p&gt;
+&lt;p&gt;Things to note when working on this site:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Logseq-schrodinger uses YAML for the Hugo &lt;a href=&#34;https://gohugo.io/content-management/front-matter/&#34;&gt;front-matter&lt;/a&gt;. It will convert Logseq page-properties to Hugo front matter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Logseq &lt;em&gt;keywords&lt;/em&gt; are lowercase converted to Hugo keywords, and &lt;strong&gt;category&lt;/strong&gt; in Logseq is translated to &lt;em&gt;categories&lt;/em&gt; for use with Hugo. Logseq &lt;em&gt;links&lt;/em&gt; (&lt;code&gt;[[like_this]]&lt;/code&gt;) are stripped of &lt;code&gt;[[&lt;/code&gt; and &lt;code&gt;]]&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

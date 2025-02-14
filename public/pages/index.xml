@@ -13,8 +13,8 @@
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/2024-06-30/</guid>
-      <description>15:09 I want to put more content on this website. Let&amp;rsquo;s flesh out Ada.
-19:37 Add Reading List</description>
+      <description>&lt;p&gt;&lt;strong&gt;15:09&lt;/strong&gt;  I want to put more content on this website. Let&amp;rsquo;s flesh out &lt;a href=&#34;http://localhost:1313/pages/ada/&#34;&gt;Ada&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;19:37&lt;/strong&gt;  Add &lt;a href=&#34;http://localhost:1313/pages/reading-list/&#34;&gt;Reading List&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -23,7 +23,8 @@
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/ada/</guid>
-      <description>Teleology After 5+ years of using Amazon&amp;rsquo;s Alexa and Google&amp;rsquo;s Assistant, I was left unsatisfied. Alexa is annoying at best. Google is constantly removing features from their Assistant. Enter Home Assistant - with its built-in Assist platform, I set out to create a custom, local voice assistant. It is worth noting that HASS announced this year that they are working on their own local/cloud-integrated LLM system. I decided to do this project long before that was announced.</description>
+      <description>&lt;h1 id=&#34;teleology&#34;&gt;Teleology&lt;/h1&gt;
+&lt;p&gt;After 5+ years of using Amazon&amp;rsquo;s Alexa and Google&amp;rsquo;s Assistant, I was left unsatisfied. Alexa is annoying at best. Google is constantly removing features from their Assistant. Enter &lt;a href=&#34;http://localhost:1313/pages/home-assistant/&#34;&gt;Home Assistant&lt;/a&gt; - with its built-in Assist platform, I set out to create a custom, local voice assistant. It is worth noting that HASS announced this year that they are working on their own local/cloud-integrated LLM system. I decided to do this project long before that was announced.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -32,7 +33,7 @@
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/interstitial-journaling/</guid>
-      <description>work in progress</description>
+      <description>&lt;p&gt;work in progress&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -41,8 +42,33 @@
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/reading-list/</guid>
-      <description>Since I&amp;rsquo;m getting more into reading these days, I thought it might be interesting to share my reading list.
-in progress Fuzzy Logic completed upcoming </description>
+      <description>&lt;p&gt;Since I&amp;rsquo;m getting more into reading these days, I thought it might be interesting to share my reading list.&lt;/p&gt;
+&lt;h1 id=&#34;in-progress&#34;&gt;in progress&lt;/h1&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;cover&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;title&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;rating&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;link to review&lt;/th&gt;
+          &lt;th&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/assets/image_1719791058658_0.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;a href=&#34;https://books.google.com/books/about/Fuzzy_Logic.html?id=CM1SAAAAMAAJ&#34;&gt;Fuzzy Logic&lt;/a&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;n/a&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;n/a&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;completed&#34;&gt;completed]&lt;/h1&gt;
+&lt;p&gt;| cover | title | rating | link to review |&lt;/p&gt;
+&lt;h1 id=&#34;upcoming&#34;&gt;upcoming&lt;/h1&gt;
+&lt;p&gt;| cover | title | rating | link to review |&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -51,8 +77,8 @@ in progress Fuzzy Logic completed upcoming </description>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/2024-06-25/</guid>
-      <description>21:06 Installed #Interstitial Journaling plugin
-21:08 Just had an idea - let&amp;rsquo;s write about Home Assistant and Ada</description>
+      <description>&lt;p&gt;&lt;strong&gt;21:06&lt;/strong&gt;  Installed #&lt;a href=&#34;http://localhost:1313/pages/interstitial-journaling/&#34;&gt;Interstitial Journaling&lt;/a&gt; plugin&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;21:08&lt;/strong&gt;  Just had an idea - let&amp;rsquo;s write about &lt;a href=&#34;http://localhost:1313/pages/home-assistant/&#34;&gt;Home Assistant&lt;/a&gt; and &lt;a href=&#34;http://localhost:1313/pages/ada/&#34;&gt;Ada&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -61,7 +87,8 @@ in progress Fuzzy Logic completed upcoming </description>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/home-assistant/</guid>
-      <description>overview Home Assistant is essentially a home automation platform designed to be both accessible to users and powerful for enthusiasts. It is hosted on local hardware using software created by Nabu Casa (who also maintain ESPHome, a project I fully intend to utilize in the future). Home Assistant boasts a dedicated enterprise community that have developed a robust ecosystem of hardware and software compatible with Home Assistant right out of the box.</description>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;overview&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.home-assistant.io/&#34;&gt;Home Assistant&lt;/a&gt; is essentially a home automation platform designed to be both accessible to users and powerful for enthusiasts. It is hosted on local hardware using software created by &lt;a href=&#34;https://www.nabucasa.com/&#34;&gt;Nabu Casa&lt;/a&gt; (who also maintain &lt;a href=&#34;https://esphome.io/index.html&#34;&gt;ESPHome&lt;/a&gt;, a project I fully intend to utilize in the future). Home Assistant boasts a dedicated enterprise community that have developed a robust ecosystem of hardware and software compatible with Home Assistant right out of the box. Furthermore, through the &lt;a href=&#34;https://hacs.xyz/&#34;&gt;Home Assistant Community Store&lt;/a&gt; (colloquially HACS), users can install and run custom integrations, add-ons, and UI components created and maintained by Home Assistant&amp;rsquo;s passionate user community.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -70,11 +97,17 @@ in progress Fuzzy Logic completed upcoming </description>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/2024-06-24/</guid>
-      <description>06:14 Write more about Cultivating Knowledge Through Digital Gardenss
-What is a knowledge garden?
-Zettelkassen
-08:10 I also want to add a page with my contact info and socials. Kind of like a linktree but on my domain and hosted on this site.
-10:38 need to edit Hugo theme so that todo items render correctly</description>
+      <description>&lt;p&gt;06:14 Write more about &lt;a href=&#34;http://localhost:1313/pages/cultivating-knowledge-through-digital-gardens/&#34;&gt;Cultivating Knowledge Through Digital Gardens&lt;/a&gt;s&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;What is a knowledge garden?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Zettelkassen&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;08:10 I also want to add a page with my contact info and socials. Kind of like a linktree but on my domain and hosted on this site.&lt;/p&gt;
+&lt;p&gt;10:38 need to edit Hugo theme so that todo items render correctly&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -83,17 +116,14 @@ Zettelkassen
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/cultivating-knowledge-through-digital-gardens/</guid>
-      <description>If a note is not published, does it really exist? - Erwin Schrödinger*spores The phrase &amp;ldquo;digital garden&amp;rdquo; is more of an analogy than a descriptive literal. Just as a mushroom garden flourishes from tiny spores into a complex network, a digital garden nurtures small ideas into a rich, interconnected ecosystem of knowledge. Digital gardens are living entities, constantly evolving as they harbor works in progress, nascent ideas, and fleeting thoughts that, over time, grow and intertwine into a robust network of knowledge.</description>
-    </item>
-    
-    <item>
-      <title>2024-01-21</title>
-      <link>http://localhost:1313/pages/2024-01-21/</link>
-      <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/pages/2024-01-21/</guid>
-      <description>I want to write about my code projects. Where can I do that?
-Code Projects #Diaries 2024-01-21 20:55: The internet is such a cool thing. I spent today working on my website and home automation stuff, and now I&amp;rsquo;m hanging out with my best friends on Discord. We live thousands of miles away, yet we can chat as if we were sitting next to each other. Each day I wake up grateful that I was born in the 21st century.</description>
+      <description>&lt;blockquote class=&#34;hint &#34;&gt;
+    If a note is not published, does it really exist?
+&lt;em&gt;- Erwin Schrödinger&lt;/em&gt;*
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/assets/mushrooms-2743051_1280_1719269204314_0.jpg&#34; alt=&#34;mushrooms-2743051_1280.jpg&#34;  /&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;spores&#34;&gt;spores&lt;/h1&gt;
+&lt;p&gt;The phrase &amp;ldquo;digital garden&amp;rdquo; is more of an analogy than a descriptive literal. Just as a mushroom garden flourishes from tiny spores into a complex network, a digital garden nurtures small ideas into a rich, interconnected ecosystem of knowledge. Digital gardens are living entities, constantly evolving as they harbor works in progress, nascent ideas, and fleeting thoughts that, over time, grow and intertwine into a robust network of knowledge. Each note in a digital garden starts small. Over time, as the user researches, learns, and grows, they can apply that learning to the note. Through cycles of addition and refinement, these small notes grow into a network of interwoven thoughts and ideas, providing structure and meaning to an otherwise scattered and messy collection of ideas.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -102,9 +132,13 @@ Code Projects #Diaries 2024-01-21 20:55: The internet is such a cool thing. I sp
       <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/2024-06-23/</guid>
-      <description>09:12 I need to refactor the code for this website and improve the content. There’s not really anything worth reading on it at the moment and I want to change that. I have lots of ideas, but every time I sit down to write at my computer I don’t feel motivated to make content. How can I fix that?
-DONE Fix Templates
-DONE Check if &amp;lt;% today %&amp;gt; macro works for hugo ssg DONE Redo 📄 README.</description>
+      <description>&lt;p&gt;09:12 I need to refactor the code for this website and improve the content. There’s not really anything worth reading on it at the moment and I want to change that. I have lots of ideas, but every time I sit down to write at my computer I don’t feel motivated to make content. How can I fix that?&lt;/p&gt;
+&lt;p&gt;DONE Fix &lt;a href=&#34;https://tealblu.github.io/pages/templates/&#34;&gt;Templates&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DONE Check if &lt;code&gt;&amp;lt;% today %&amp;gt;&lt;/code&gt; macro works for hugo ssg
+DONE Redo &lt;a href=&#34;https://tealblu.github.io/pages/2024-06-23/&#34;&gt;📄 README.md&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;DONE Homepage changes&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -113,11 +147,20 @@ DONE Check if &amp;lt;% today %&amp;gt; macro works for hugo ssg DONE Redo �
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/2024-02-18/</guid>
-      <description>I&amp;rsquo;ve done a few projects recently, and I want to add them to the site
-TODO Write about image recognition project
-TODO Write about inspection modularization
-Let&amp;rsquo;s pause and zoom out for a sec - I don&amp;rsquo;t like the structure of this graph. It doesn&amp;rsquo;t work well with the way I&amp;rsquo;ve structured my Hugo templates.
-Move to Graph Structure TODO Write script to convert Logseq frontmatter to YAML for Cosma parsing</description>
+      <description>&lt;p&gt;I&amp;rsquo;ve done a few projects recently, and I want to add them to the site&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;TODO Write about image recognition project&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;TODO Write about inspection modularization&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Let&amp;rsquo;s pause and zoom out for a sec - I don&amp;rsquo;t like the structure of this graph. It doesn&amp;rsquo;t work well with the way I&amp;rsquo;ve structured my Hugo templates.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Move to &lt;a href=&#34;http://localhost:1313/pages/graph-structure/&#34;&gt;Graph Structure&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;TODO Write script to convert Logseq frontmatter to YAML for Cosma parsing&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -126,16 +169,56 @@ Move to Graph Structure TODO Write script to convert Logseq frontmatter to YAML 
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/graph-rendering/</guid>
-      <description>Project goals: Create an interactive &amp;ldquo;graph view&amp;rdquo; of this website to display on its homepage.
-Make it compatible with github pages and hugo&amp;rsquo;s static site specifications.
-Research: Plotly with Hugo
-Logseq codebase overview
-Article on logseq codebase structure
-Logseq built-in renderer
-Cosma | Installing Cosma (arthurperret.fr)
-Logseq Graph Analysis plugin
-Development themes/PaperModlayouts/partials/home_info.html is the template for my home page
-I need to figure out how to render a graph in this page</description>
+      <description>&lt;h3 id=&#34;project-goals&#34;&gt;Project goals:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Create an interactive &amp;ldquo;graph view&amp;rdquo; of this website to display on its homepage.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make it compatible with github pages and hugo&amp;rsquo;s static site specifications.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;research&#34;&gt;Research:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://mertbakir.gitlab.io/hugo/plotly-with-hugo/&#34;&gt;Plotly with Hugo&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/logseq/logseq/blob/master/CODEBASE_OVERVIEW.md&#34;&gt;Logseq codebase overview&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.logseq.com/#/page/The%20Refactoring%20Of%20Logseq&#34;&gt;Article on logseq codebase structure&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/logseq/logseq/blob/master/src/main/frontend/extensions/graph/pixi.cljs&#34;&gt;Logseq built-in renderer&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://cosma.arthurperret.fr/installing.html&#34;&gt;Cosma | Installing Cosma (arthurperret.fr)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/trashhalo/logseq-graph-analysis/blob/main/src/main.ts&#34;&gt;Logseq Graph Analysis plugin&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;development&#34;&gt;Development&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;themes/PaperModlayouts/partials/home_info.html&lt;/code&gt; is the template for my home page&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I need to figure out how to render a graph in this page&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>2024-01-21</title>
+      <link>http://localhost:1313/pages/2024-01-21/</link>
+      <pubDate>Sun, 21 Jan 2024 13:29:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/pages/2024-01-21/</guid>
+      <description>&lt;p&gt;I want to write about my code projects. Where can I do that?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/pages/code-projects/&#34;&gt;Code Projects&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;#Diaries &lt;a href=&#34;http://localhost:1313/pages/2024-01-21/&#34;&gt;2024-01-21&lt;/a&gt; 20:55: The internet is such a cool thing. I spent today working on my website and home automation stuff, and now I&amp;rsquo;m hanging out with my best friends on Discord. We live thousands of miles away, yet we can chat as if we were sitting next to each other. Each day I wake up grateful that I was born in the 21st century.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -144,13 +227,29 @@ I need to figure out how to render a graph in this page</description>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/code-projects/</guid>
-      <description>Description: This is the collection of my code projects that I&amp;rsquo;ve done over the years.
-Project List: PDP-11 Instruction Set Simulator: PDP-11 Instruction Set Simulator
-DriveTime: DriveTime
-Image Classification AI: Image Classification AI
-Low-Cost Universal Camera Array: LUCA
-Archive website (the website you&amp;rsquo;re on)
-Homepage graph view: Graph Rendering </description>
+      <description>&lt;h3 id=&#34;description&#34;&gt;Description:&lt;/h3&gt;
+&lt;p&gt;This is the collection of my code projects that I&amp;rsquo;ve done over the years.&lt;/p&gt;
+&lt;h3 id=&#34;project-list&#34;&gt;Project List:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;PDP-11 Instruction Set Simulator: &lt;a href=&#34;http://localhost:1313/pages/pdp-11-instruction-set-simulator/&#34;&gt;PDP-11 Instruction Set Simulator&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DriveTime: &lt;a href=&#34;http://localhost:1313/pages/drivetime/&#34;&gt;DriveTime&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Image Classification AI: &lt;a href=&#34;http://localhost:1313/pages/image-classification-ai/&#34;&gt;Image Classification AI&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Low-Cost Universal Camera Array: &lt;a href=&#34;http://localhost:1313/pages/luca/&#34;&gt;LUCA&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Archive website (the website you&amp;rsquo;re on)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Homepage graph view: &lt;a href=&#34;http://localhost:1313/pages/graph-rendering/&#34;&gt;Graph Rendering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -159,8 +258,8 @@ Homepage graph view: Graph Rendering </description>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/diaries/</guid>
-      <description>Flesh out this page later
-#Diaries is the tag that I will use to denote a diary entry.</description>
+      <description>&lt;p&gt;Flesh out this page later&lt;/p&gt;
+&lt;p&gt;#Diaries is the tag that I will use to denote a diary entry.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -169,7 +268,7 @@ Homepage graph view: Graph Rendering </description>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/drivetime/</guid>
-      <description>DriveTime is a web application intended to incentivize truck drivers to drive more safely. It is built with C#, CSHMTL, Entity Framework Core, Ebay API, iTunes API, AWS Elastic Beanstalk, AWS EC2, and AWS RDS.</description>
+      <description>&lt;p&gt;DriveTime is a web application intended to incentivize truck drivers to drive more safely. It is built with C#, CSHMTL, Entity Framework Core, Ebay API, iTunes API, AWS Elastic Beanstalk, AWS EC2, and AWS RDS.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -178,7 +277,7 @@ Homepage graph view: Graph Rendering </description>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/image-classification-ai/</guid>
-      <description>I created an AI for automated classification of production line quality control images on Stratus Vision AOI systems. I identified key areas of application and improvement, and performed ongoing fine-tuning and maintenance to the model based on various metrics.</description>
+      <description>&lt;p&gt;I created an AI for automated classification of production line quality control images on Stratus Vision AOI systems. I identified key areas of application and improvement, and performed ongoing fine-tuning and maintenance to the model based on various metrics.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -187,8 +286,8 @@ Homepage graph view: Graph Rendering </description>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/luca/</guid>
-      <description>Helped develop and maintain Bosch’s in-house computer vision system. Gradually took ownership of the project and became the sole developer and maintainer of the project.
-The system is built from a raspberry pi, 8 NVidia Jetson Nano boards, and 16 high-resolution cameras. The cameras are attached to a 3-axis mount controlled by 3 servo motors. LED lighting strips were added later to the inside of the machine in order to add the ability to customize lighting.</description>
+      <description>&lt;p&gt;Helped develop and maintain Bosch’s in-house computer vision system. Gradually took ownership of the project and became the sole developer and maintainer of the project.&lt;/p&gt;
+&lt;p&gt;The system is built from a raspberry pi, 8 NVidia Jetson Nano boards, and 16 high-resolution cameras. The cameras are attached to a 3-axis mount controlled by 3 servo motors. LED lighting strips were added later to the inside of the machine in order to add the ability to customize lighting.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -197,7 +296,12 @@ The system is built from a raspberry pi, 8 NVidia Jetson Nano boards, and 16 hig
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/pdp-11-instruction-set-simulator/</guid>
-      <description>Description: This is a C program that accurately simulates the PDP-11 computer&amp;rsquo;s assembly language, complete with virtual memory, CPU registers, and a caching system. Input and output are performed through the command line or through files. Instruction Set: The PDP-11 instruction set contains 12 basic operations to be performed on memory addresses. Operands are represented by 16-bit words, with the leftmost bits containing the opcode and the rightmost bits containing source, destination, and register addresses.</description>
+      <description>&lt;h3 id=&#34;description&#34;&gt;Description:&lt;/h3&gt;
+&lt;p&gt;This is a C program that accurately simulates the PDP-11 computer&amp;rsquo;s assembly language, complete with virtual memory, CPU registers, and a caching system. Input and output are performed through the command line or through files.
+&lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.arstechnica.net/wp-content/uploads/2013/10/unix-creators.jpg&#34; alt=&#34;A brief tour of the PDP-11, the most influential minicomputer of all time |  Ars Technica&#34;  /&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;instruction-set&#34;&gt;Instruction Set:&lt;/h3&gt;
+&lt;p&gt;The PDP-11 instruction set contains 12 basic operations to be performed on memory addresses. Operands are represented by 16-bit words, with the leftmost bits containing the opcode and the rightmost bits containing source, destination, and register addresses. In addition, many other operands are supported, allowing for a wide variety of operations to be performed.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -206,10 +310,14 @@ The system is built from a raspberry pi, 8 NVidia Jetson Nano boards, and 16 hig
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/2024-01-20/</guid>
-      <description>This is my first page! I intend to use journals (pages titled with a date) as working spaces. All actual content should be on its own page.
-Things to note when working on this site:
-Logseq-schrodinger uses YAML for the Hugo front-matter. It will convert Logseq page-properties to Hugo front matter.
-Logseq keywords are lowercase converted to Hugo keywords, and category in Logseq is translated to categories for use with Hugo.</description>
+      <description>&lt;p&gt;This is my first page! I intend to use journals (pages titled with a date) as working spaces. All actual content should be on its own page.&lt;/p&gt;
+&lt;p&gt;Things to note when working on this site:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Logseq-schrodinger uses YAML for the Hugo &lt;a href=&#34;https://gohugo.io/content-management/front-matter/&#34;&gt;front-matter&lt;/a&gt;. It will convert Logseq page-properties to Hugo front matter.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Logseq &lt;em&gt;keywords&lt;/em&gt; are lowercase converted to Hugo keywords, and &lt;strong&gt;category&lt;/strong&gt; in Logseq is translated to &lt;em&gt;categories&lt;/em&gt; for use with Hugo. Logseq &lt;em&gt;links&lt;/em&gt; (&lt;code&gt;[[like_this]]&lt;/code&gt;) are stripped of &lt;code&gt;[[&lt;/code&gt; and &lt;code&gt;]]&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -218,11 +326,25 @@ Logseq keywords are lowercase converted to Hugo keywords, and category in Lo
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/deployment/</guid>
-      <description>How to deploy to this site: From Logseq, use schrodinger to export all public pages.
-Unzip the new archive and move the new &amp;lsquo;pages&amp;rsquo; folder into tealblu.github.io/content.
-May also need to copy the &amp;lsquo;assets&amp;rsquo; folder from the /logseq/ directory to the /content/ directory. Inside tealblu.github.io, open a terminal and run hugo
-Create a new commit and push to the remote graph.
-Wait a few minutes for Github Actions to run.</description>
+      <description>&lt;h3 id=&#34;how-to-deploy-to-this-site&#34;&gt;How to deploy to this site:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;From Logseq, use schrodinger to export all public pages.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Unzip the new archive and move the new &amp;lsquo;pages&amp;rsquo; folder into tealblu.github.io/content.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;May also need to copy the &amp;lsquo;assets&amp;rsquo; folder from the &lt;code&gt;/logseq/&lt;/code&gt; directory to the &lt;code&gt;/content/&lt;/code&gt; directory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Inside tealblu.github.io, open a terminal and run &lt;code&gt;hugo&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a new commit and push to the remote graph.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wait a few minutes for Github Actions to run.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -231,13 +353,39 @@ Wait a few minutes for Github Actions to run.</description>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/graph-structure/</guid>
-      <description>Current graph state: Structure Specification: Architecture The graph should consist of multiple hub-and-spoke structures.
-The &amp;ldquo;hubs&amp;rdquo; in this system will be called root pages.
-The &amp;ldquo;spokes&amp;rdquo; in this system will be called child pages.
-Guidelines Any block larger than one paragraph (subjective) should be its own page.
-Any page longer than two full screens should be split up.
-Full sentences should be used when possible.
-No orphan pages should ever be pushed to production.</description>
+      <description>&lt;h2 id=&#34;current-graph-state&#34;&gt;Current graph state:&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/assets/image_1708273581197_0.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;structure-specification&#34;&gt;Structure Specification:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;architecture&#34;&gt;Architecture&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The graph should consist of multiple hub-and-spoke structures.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &amp;ldquo;hubs&amp;rdquo; in this system will be called &lt;strong&gt;root pages&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &amp;ldquo;spokes&amp;rdquo; in this system will be called &lt;strong&gt;child pages&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;guidelines&#34;&gt;Guidelines&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Any block larger than one paragraph (subjective) should be its own page.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Any page longer than two full screens should be split up.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Full sentences should be used when possible.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;No orphan pages should &lt;em&gt;ever&lt;/em&gt; be pushed to production.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -246,11 +394,22 @@ No orphan pages should ever be pushed to production.</description>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/projects-homepage/</guid>
-      <description>What kind of projects do I do? I&amp;rsquo;m interested in a lot of different stuff! This collection will hopefully become an archive of my various projects, both for my personal reference and to document for future employment purposes. The types of projects here will include:
-Code, programming, and related projects -&amp;gt; Code Projects
-DIY stuff
-Music
-And potentially more&amp;hellip;</description>
+      <description>&lt;h3 id=&#34;what-kind-of-projects-do-i-do&#34;&gt;What kind of projects do I do?&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;m interested in a lot of different stuff! This collection will hopefully become an archive of my various projects, both for my personal reference and to document for future employment purposes. The types of projects here will include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Code, programming, and related projects -&amp;gt; &lt;a href=&#34;http://localhost:1313/pages/code-projects/&#34;&gt;Code Projects&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DIY stuff&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Music&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And potentially more&amp;hellip;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -259,10 +418,25 @@ And potentially more&amp;hellip;</description>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/templates/</guid>
-      <description>Templates can be used to provide structure to an otherwise unstructured graph. They are relatively self-explanatory - by using a slash command (/template), I can choose which template I want and then paste it anywhere in the file that I have open.
-For more information, check the official Logseq documentation. metadata template:: metadata template-including-parent:: false
-date:: YYYY-MM-DD category:: keywords:: public:: true diary template:: diary template-including-parent:: false
-#Diaries &amp;lt;% today %&amp;gt; &amp;lt;% time %&amp;gt;: </description>
+      <description>&lt;p&gt;Templates can be used to provide structure to an otherwise unstructured graph. They are relatively self-explanatory - by using a slash command (&lt;code&gt;/template&lt;/code&gt;), I can choose which template I want and then paste it anywhere in the file that I have open.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For more information, check the &lt;a href=&#34;https://hub.logseq.com/features/av5LyiLi5xS7EFQXy4h4K8/how-to-create-and-use-templates-in-logseq/uiwhKfyFJrG7mdrkopjuAG&#34;&gt;official Logseq documentation&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;metadata
+template:: metadata
+template-including-parent:: false&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;date:: YYYY-MM-DD
+category::
+keywords::
+public:: true&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;diary
+template:: diary
+template-including-parent:: false&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;#Diaries &amp;lt;% today %&amp;gt; &amp;lt;% time %&amp;gt;:&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
   </channel>

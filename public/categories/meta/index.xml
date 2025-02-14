@@ -13,11 +13,25 @@
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/deployment/</guid>
-      <description>How to deploy to this site: From Logseq, use schrodinger to export all public pages.
-Unzip the new archive and move the new &amp;lsquo;pages&amp;rsquo; folder into tealblu.github.io/content.
-May also need to copy the &amp;lsquo;assets&amp;rsquo; folder from the /logseq/ directory to the /content/ directory. Inside tealblu.github.io, open a terminal and run hugo
-Create a new commit and push to the remote graph.
-Wait a few minutes for Github Actions to run.</description>
+      <description>&lt;h3 id=&#34;how-to-deploy-to-this-site&#34;&gt;How to deploy to this site:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;From Logseq, use schrodinger to export all public pages.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Unzip the new archive and move the new &amp;lsquo;pages&amp;rsquo; folder into tealblu.github.io/content.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;May also need to copy the &amp;lsquo;assets&amp;rsquo; folder from the &lt;code&gt;/logseq/&lt;/code&gt; directory to the &lt;code&gt;/content/&lt;/code&gt; directory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Inside tealblu.github.io, open a terminal and run &lt;code&gt;hugo&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a new commit and push to the remote graph.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wait a few minutes for Github Actions to run.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -26,13 +40,39 @@ Wait a few minutes for Github Actions to run.</description>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/graph-structure/</guid>
-      <description>Current graph state: Structure Specification: Architecture The graph should consist of multiple hub-and-spoke structures.
-The &amp;ldquo;hubs&amp;rdquo; in this system will be called root pages.
-The &amp;ldquo;spokes&amp;rdquo; in this system will be called child pages.
-Guidelines Any block larger than one paragraph (subjective) should be its own page.
-Any page longer than two full screens should be split up.
-Full sentences should be used when possible.
-No orphan pages should ever be pushed to production.</description>
+      <description>&lt;h2 id=&#34;current-graph-state&#34;&gt;Current graph state:&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/assets/image_1708273581197_0.png&#34; alt=&#34;image.png&#34;  /&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;structure-specification&#34;&gt;Structure Specification:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;architecture&#34;&gt;Architecture&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The graph should consist of multiple hub-and-spoke structures.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &amp;ldquo;hubs&amp;rdquo; in this system will be called &lt;strong&gt;root pages&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &amp;ldquo;spokes&amp;rdquo; in this system will be called &lt;strong&gt;child pages&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id=&#34;guidelines&#34;&gt;Guidelines&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Any block larger than one paragraph (subjective) should be its own page.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Any page longer than two full screens should be split up.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Full sentences should be used when possible.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;No orphan pages should &lt;em&gt;ever&lt;/em&gt; be pushed to production.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -41,10 +81,25 @@ No orphan pages should ever be pushed to production.</description>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/pages/templates/</guid>
-      <description>Templates can be used to provide structure to an otherwise unstructured graph. They are relatively self-explanatory - by using a slash command (/template), I can choose which template I want and then paste it anywhere in the file that I have open.
-For more information, check the official Logseq documentation. metadata template:: metadata template-including-parent:: false
-date:: YYYY-MM-DD category:: keywords:: public:: true diary template:: diary template-including-parent:: false
-#Diaries &amp;lt;% today %&amp;gt; &amp;lt;% time %&amp;gt;: </description>
+      <description>&lt;p&gt;Templates can be used to provide structure to an otherwise unstructured graph. They are relatively self-explanatory - by using a slash command (&lt;code&gt;/template&lt;/code&gt;), I can choose which template I want and then paste it anywhere in the file that I have open.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For more information, check the &lt;a href=&#34;https://hub.logseq.com/features/av5LyiLi5xS7EFQXy4h4K8/how-to-create-and-use-templates-in-logseq/uiwhKfyFJrG7mdrkopjuAG&#34;&gt;official Logseq documentation&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;metadata
+template:: metadata
+template-including-parent:: false&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;date:: YYYY-MM-DD
+category::
+keywords::
+public:: true&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;diary
+template:: diary
+template-including-parent:: false&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;#Diaries &amp;lt;% today %&amp;gt; &amp;lt;% time %&amp;gt;:&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
   </channel>
