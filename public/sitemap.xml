@@ -2,125 +2,95 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:36755/pages/2025-02-14/</loc>
+    <loc>https://indi.bio/pages/ada/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/categories/</loc>
+    <loc>https://indi.bio/tags/ada/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/</loc>
+    <loc>https://indi.bio/categories/blog/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/categories/journal/</loc>
+    <loc>https://indi.bio/categories/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/</loc>
+    <loc>https://indi.bio/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/2024-06-30/</loc>
+    <loc>https://indi.bio/pages/interstitial-journaling/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/tags/ada/</loc>
+    <loc>https://indi.bio/categories/list-blog/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/ada/</loc>
+    <loc>https://indi.bio/pages/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/categories/blog/</loc>
+    <loc>https://indi.bio/categories/projects/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/interstitial-journaling/</loc>
+    <loc>https://indi.bio/pages/reading-list/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/categories/list-blog/</loc>
+    <loc>https://indi.bio/tags/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/categories/projects/</loc>
+    <loc>https://indi.bio/pages/home-assistant/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/reading-list/</loc>
+    <loc>https://indi.bio/tags/home-assistant/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/tags/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:36755/pages/2024-06-25/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:36755/tags/home-assistant/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:36755/pages/home-assistant/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:36755/about/</loc>
+    <loc>https://indi.bio/about/</loc>
     <lastmod>2024-06-23T20:12:45-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/2024-06-24/</loc>
+    <loc>https://indi.bio/pages/cultivating-knowledge-through-digital-gardens/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/cultivating-knowledge-through-digital-gardens/</loc>
+    <loc>https://indi.bio/tags/digital-garden/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/tags/digital-garden/</loc>
+    <loc>https://indi.bio/tags/interstitial-journaling/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/tags/interstitial-journaling/</loc>
+    <loc>https://indi.bio/pages/graph-rendering/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/2024-06-23/</loc>
+    <loc>https://indi.bio/pages/code-projects/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/2024-02-18/</loc>
+    <loc>https://indi.bio/pages/diaries/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/graph-rendering/</loc>
+    <loc>https://indi.bio/categories/diary/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/2024-01-21/</loc>
+    <loc>https://indi.bio/pages/drivetime/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/code-projects/</loc>
+    <loc>https://indi.bio/pages/image-classification-ai/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/diaries/</loc>
+    <loc>https://indi.bio/pages/luca/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/categories/diary/</loc>
+    <loc>https://indi.bio/pages/pdp-11-instruction-set-simulator/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/drivetime/</loc>
+    <loc>https://indi.bio/pages/deployment/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/image-classification-ai/</loc>
+    <loc>https://indi.bio/pages/graph-structure/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/luca/</loc>
+    <loc>https://indi.bio/categories/meta/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/pdp-11-instruction-set-simulator/</loc>
+    <loc>https://indi.bio/pages/projects-homepage/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:36755/pages/2024-01-20/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+    <loc>https://indi.bio/archives/</loc>
   </url><url>
-    <loc>http://localhost:36755/pages/deployment/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:36755/pages/graph-structure/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:36755/categories/meta/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:36755/pages/projects-homepage/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:36755/pages/templates/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:36755/archives/</loc>
-  </url><url>
-    <loc>http://localhost:36755/search/</loc>
+    <loc>https://indi.bio/search/</loc>
   </url>
 </urlset>
