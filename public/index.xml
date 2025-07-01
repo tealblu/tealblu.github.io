@@ -6,7 +6,19 @@
     <description>Recent content on indi.bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DIY Electrolysis Machine</title>
+      <link>https://indi.bio/pages/diy-electrolysis/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://indi.bio/pages/diy-electrolysis/</guid>
+      <description>&lt;h3 id=&#34;description&#34;&gt;Description:&lt;/h3&gt;
+&lt;p&gt;This project explores the design and construction of a DIY electrolysis machine using constant-current control circuitry. The system automatically maintains precise current levels (typically 0.7 mA) for safe galvanic electrolysis applications, eliminating the need for manual voltage adjustments during treatment.&lt;/p&gt;
+&lt;h3 id=&#34;research-background&#34;&gt;Research Background:&lt;/h3&gt;
+&lt;p&gt;Based on community research and feedback, the optimal approach involves using a constant-current circuit that automatically adjusts voltage to maintain the target amperage. This ensures consistent treatment while preventing overcurrent conditions that could cause skin damage.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Ada</title>
       <link>https://indi.bio/pages/ada/</link>
