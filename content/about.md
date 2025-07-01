@@ -40,8 +40,8 @@ Hey there! I'm Indigo - a computer scientist and engineer located in Chicago, IL
 - Performed management duties including inventory tracking, forecasting, and order placement, mileage tracking, sales reports, and more.
 
 # Skills
-- **Languages/Frameworks**: C, C++, C# (.NET, .NET Core, MVC, EFC), Java, PHP (LAMP), JavaScript, Google Apps Script, HTML, CSS, SQL (MySql, MSSQL), Python (OpenCV, Matplotlib, Eigen), MATLAB, PowerShell, Prolog, OCaml
-- **Databases**: MySQL, Microsoft SQL Server
+- **Languages/Frameworks**: C, C++, C# (.NET, .NET Core, MVC, EFC), Java, PHP, JavaScript, Google Apps Script, HTML, CSS, SQL (various flavors), Python (OpenCV, Eigen, networkx), MATLAB, PowerShell, Prolog, OCaml
+- **Databases**: MySQL, Microsoft SQL Server, Postres, SQLite, NoSQL, EFC/LINQ
 - **Tooling**: Git, GitLab, Azure DevOps, Postman, Visual Studio, IntelliJ IDEA
 - **UI Frameworks**: Material UI, TkInter, niceGUI, Qt
 - **Other**: Scrum, Agile methodologies, Amazon Web Services (EC2, RDS, Elastic Beanstalk), Stratus Vision SPIN/SPINDLE
