@@ -7,7 +7,7 @@ date: 2024-06-23T20:12:45-04:00
 showToc: true
 ---
 
-Hey there! I'm Indigo - a computer scientist and engineer hailing from Greenville, South Carolina. I'm a quick learner who enjoys taking on new challenges and responsibilities - in a past job, I took responsibility for all computer vision systems on the production line within a month of starting my job, made continuous improvements to their vision and software systems, and achieved a savings of over $500k annually. At my current role at Diesel Laptops, I work on reverse engineering vehicle networks and full-stack software development - C# most of the time, although in my personal work I usually use Python. Outside of work, I've taken on leadership roles in academic, professional, social, and political organizations throughout my life. In my free time, [listening to music](https://open.spotify.com/playlist/656lQkm7XFtA2iW0l984Ya?si=e5cac729d762427f), spending time with my friends, and working on my car ([2005 Saab 9-2X Aero](https://www.caranddriver.com/reviews/a15133083/2005-saab-9-2x-aero-road-test/) - if you know you know!). Let's connect!
+Hey there! I'm Indigo - a computer scientist and engineer located in Chicago, IL. I'm a quick learner who enjoys taking on new challenges and responsibilities - in a past role, I rapidly took responsibility for all computer vision systems on the production line, made continuous improvements to the vision and software systems, and achieved a savings of over $500k annually. At my current role at Diesel Laptops, I work on reverse engineering vehicle communications and full-stack software development - C# most of the time, although in my personal work I usually use Python. Outside of work, I've taken on leadership roles in academic, professional, social, and political organizations throughout my life. In my free time, [listening to music](https://open.spotify.com/playlist/656lQkm7XFtA2iW0l984Ya?si=e5cac729d762427f), 3D printing and tinkering with electronics, spending time with my friends, and working on my car ([2005 Saab 9-2X Aero](https://www.caranddriver.com/reviews/a15133083/2005-saab-9-2x-aero-road-test/) - if you know you know!). Let's connect!
 
 # Work experience
 ### Diesel Laptops LLC - Vehicle Software Engineer
@@ -22,10 +22,10 @@ Hey there! I'm Indigo - a computer scientist and engineer hailing from Greenvill
 ### Robert Bosch Inc. – Engineer (Software/AOI)
 **Anderson, SC, USA**  
 **March 2023 - August 2024**
-- Took sole responsibility for all computer vision systems and all related infrastructure in the LTCC production line, utilizing tools from Stratus Vision, Teledyne, ATMO, and our locally-designed LUCA computer vision platform.
-- Performed maintenance and spearheaded ongoing improvement of computer vision systems through projects such as AI implementation, statistical analysis, database management, and more.
+- Took sole responsibility for all computer vision systems and all related infrastructure in the LTCC production line, utilizing tools from Stratus Vision, Teledyne, ATMO, and our locally-designed [LUCA]({{< ref "/pages/LUCA" >}}) computer vision platform.
+- Performed maintenance and spearheaded ongoing improvement of computer vision systems through projects such as [AI implementation]({{< ref "/pages/Image Classification AI">}}), statistical analysis, database management, and more.
 - Provided the department with local support for developing and maintaining software projects involving C++, C#, Python, Excel, R, JavaScript, and MS SQL Server.
-- Led continuous improvement initiatives reducing IDC by over $300k annually.
+- Led continuous improvement initiatives reducing costs by over $300k annually.
 
 ### Clemson Computing and Information Technology – IT Technician
 **Clemson, SC, USA**  
