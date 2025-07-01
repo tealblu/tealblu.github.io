@@ -48,22 +48,4 @@
 &lt;p>Full sentences should be used when possible.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>No orphan pages should &lt;em>ever&lt;/em> be pushed to production.&lt;/p></description></item><item><title>Templates</title><link>https://indi.bio/pages/templates/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/templates/</guid><description>&lt;p>Templates can be used to provide structure to an otherwise unstructured graph. They are relatively self-explanatory - by using a slash command (&lt;code>/template&lt;/code>), I can choose which template I want and then paste it anywhere in the file that I have open.&lt;/p>
-&lt;ul>
-&lt;li>For more information, check the &lt;a href="https://hub.logseq.com/features/av5LyiLi5xS7EFQXy4h4K8/how-to-create-and-use-templates-in-logseq/uiwhKfyFJrG7mdrkopjuAG">official Logseq documentation&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;p>metadata
-template:: metadata
-template-including-parent:: false&lt;/p>
-&lt;ul>
-&lt;li>date:: YYYY-MM-DD
-category::
-keywords::
-public:: true&lt;/li>
-&lt;/ul>
-&lt;p>diary
-template:: diary
-template-including-parent:: false&lt;/p>
-&lt;ul>
-&lt;li>#Diaries &amp;lt;% today %&amp;gt; &amp;lt;% time %&amp;gt;:&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;p>No orphan pages should &lt;em>ever&lt;/em> be pushed to production.&lt;/p></description></item></channel></rss>

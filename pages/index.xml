@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pages on indi.bio</title><link>https://indi.bio/pages/</link><description>Recent content in Pages on indi.bio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 14 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/pages/index.xml" rel="self" type="application/rss+xml"/><item><title>2025-02-14</title><link>https://indi.bio/pages/2025-02-14/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/2025-02-14/</guid><description>&lt;p>14:33 it&amp;rsquo;s valentines day! i&amp;rsquo;m updating my about page to reflect recent changes&lt;/p></description></item><item><title>2024-06-30</title><link>https://indi.bio/pages/2024-06-30/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/2024-06-30/</guid><description>&lt;p>&lt;strong>15:09&lt;/strong> I want to put more content on this website. Let&amp;rsquo;s flesh out &lt;a href="https://indi.bio/pages/ada/">Ada&lt;/a>.&lt;/p>
-&lt;p>&lt;strong>19:37&lt;/strong> Add &lt;a href="https://indi.bio/pages/reading-list/">Reading List&lt;/a>&lt;/p></description></item><item><title>Ada</title><link>https://indi.bio/pages/ada/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/ada/</guid><description>&lt;h1 id="teleology">Teleology&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pages on indi.bio</title><link>https://indi.bio/pages/</link><description>Recent content in Pages on indi.bio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/pages/index.xml" rel="self" type="application/rss+xml"/><item><title>DIY Electrolysis Machine</title><link>https://indi.bio/pages/diy-electrolysis/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/diy-electrolysis/</guid><description>&lt;h3 id="description">Description:&lt;/h3>
+&lt;p>This project explores the design and construction of a DIY electrolysis machine using constant-current control circuitry. The system automatically maintains precise current levels (typically 0.7 mA) for safe galvanic electrolysis applications, eliminating the need for manual voltage adjustments during treatment.&lt;/p>
+&lt;h3 id="research-background">Research Background:&lt;/h3>
+&lt;p>Based on community research and feedback, the optimal approach involves using a constant-current circuit that automatically adjusts voltage to maintain the target amperage. This ensures consistent treatment while preventing overcurrent conditions that could cause skin damage.&lt;/p></description></item><item><title>Ada</title><link>https://indi.bio/pages/ada/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/ada/</guid><description>&lt;h1 id="teleology">Teleology&lt;/h1>
 &lt;p>After 5+ years of using Amazon&amp;rsquo;s Alexa and Google&amp;rsquo;s Assistant, I was left unsatisfied. Alexa is annoying at best. Google is constantly removing features from their Assistant. Enter &lt;a href="https://indi.bio/pages/home-assistant/">Home Assistant&lt;/a> - with its built-in Assist platform, I set out to create a custom, local voice assistant. It is worth noting that HASS announced this year that they are working on their own local/cloud-integrated LLM system. I decided to do this project long before that was announced.&lt;/p></description></item><item><title>Interstitial Journaling</title><link>https://indi.bio/pages/interstitial-journaling/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/interstitial-journaling/</guid><description>&lt;p>work in progress&lt;/p></description></item><item><title>Reading List</title><link>https://indi.bio/pages/reading-list/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/reading-list/</guid><description>&lt;p>Since I&amp;rsquo;m getting more into reading these days, I thought it might be interesting to share my reading list.&lt;/p>
 &lt;h1 id="in-progress">in progress&lt;/h1>
 &lt;table>
@@ -26,44 +28,15 @@
 &lt;h1 id="completed">completed&lt;/h1>
 &lt;p>| cover | title | rating | link to review |&lt;/p>
 &lt;h1 id="upcoming">upcoming&lt;/h1>
-&lt;p>| cover | title | rating | link to review |&lt;/p></description></item><item><title>2024-06-25</title><link>https://indi.bio/pages/2024-06-25/</link><pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/2024-06-25/</guid><description>&lt;p>&lt;strong>21:06&lt;/strong> Installed #&lt;a href="https://indi.bio/pages/interstitial-journaling/">Interstitial Journaling&lt;/a> plugin&lt;/p>
-&lt;p>&lt;strong>21:08&lt;/strong> Just had an idea - let&amp;rsquo;s write about &lt;a href="https://indi.bio/pages/home-assistant/">Home Assistant&lt;/a> and &lt;a href="https://indi.bio/pages/ada/">Ada&lt;/a>&lt;/p></description></item><item><title>Home Assistant</title><link>https://indi.bio/pages/home-assistant/</link><pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/home-assistant/</guid><description>&lt;h1 id="overview">overview&lt;/h1>
-&lt;p>&lt;a href="https://www.home-assistant.io/">Home Assistant&lt;/a> is essentially a home automation platform designed to be both accessible to users and powerful for enthusiasts. It is hosted on local hardware using software created by &lt;a href="https://www.nabucasa.com/">Nabu Casa&lt;/a> (who also maintain &lt;a href="https://esphome.io/index.html">ESPHome&lt;/a>, a project I fully intend to utilize in the future). Home Assistant boasts a dedicated enterprise community that have developed a robust ecosystem of hardware and software compatible with Home Assistant right out of the box. Furthermore, through the &lt;a href="https://hacs.xyz/">Home Assistant Community Store&lt;/a> (colloquially HACS), users can install and run custom integrations, add-ons, and UI components created and maintained by Home Assistant&amp;rsquo;s passionate user community.&lt;/p></description></item><item><title>2024-06-24</title><link>https://indi.bio/pages/2024-06-24/</link><pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/2024-06-24/</guid><description>&lt;p>06:14 Write more about &lt;a href="https://indi.bio/pages/cultivating-knowledge-through-digital-gardens/">Cultivating Knowledge Through Digital Gardens&lt;/a>s&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>What is a knowledge garden?&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Zettelkassen&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;p>08:10 I also want to add a page with my contact info and socials. Kind of like a linktree but on my domain and hosted on this site.&lt;/p>
-&lt;p>10:38 need to edit Hugo theme so that todo items render correctly&lt;/p></description></item><item><title>Cultivating Knowledge Through Digital Gardens</title><link>https://indi.bio/pages/cultivating-knowledge-through-digital-gardens/</link><pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/cultivating-knowledge-through-digital-gardens/</guid><description>&lt;blockquote class="hint ">
+&lt;p>| cover | title | rating | link to review |&lt;/p></description></item><item><title>Home Assistant</title><link>https://indi.bio/pages/home-assistant/</link><pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/home-assistant/</guid><description>&lt;h1 id="overview">overview&lt;/h1>
+&lt;p>&lt;a href="https://www.home-assistant.io/">Home Assistant&lt;/a> is essentially a home automation platform designed to be both accessible to users and powerful for enthusiasts. It is hosted on local hardware using software created by &lt;a href="https://www.nabucasa.com/">Nabu Casa&lt;/a> (who also maintain &lt;a href="https://esphome.io/index.html">ESPHome&lt;/a>, a project I fully intend to utilize in the future). Home Assistant boasts a dedicated enterprise community that have developed a robust ecosystem of hardware and software compatible with Home Assistant right out of the box. Furthermore, through the &lt;a href="https://hacs.xyz/">Home Assistant Community Store&lt;/a> (colloquially HACS), users can install and run custom integrations, add-ons, and UI components created and maintained by Home Assistant&amp;rsquo;s passionate user community.&lt;/p></description></item><item><title>Cultivating Knowledge Through Digital Gardens</title><link>https://indi.bio/pages/cultivating-knowledge-through-digital-gardens/</link><pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/cultivating-knowledge-through-digital-gardens/</guid><description>&lt;blockquote class="hint ">
 If a note is not published, does it really exist?
 &lt;em>- Erwin Schrödinger&lt;/em>*
 &lt;/blockquote>
 &lt;p>&lt;img loading="lazy" src="https://indi.bio/assets/mushrooms-2743051_1280_1719269204314_0.jpg" alt="mushrooms-2743051_1280.jpg" />
 &lt;/p>
 &lt;h1 id="spores">spores&lt;/h1>
-&lt;p>The phrase &amp;ldquo;digital garden&amp;rdquo; is more of an analogy than a descriptive literal. Just as a mushroom garden flourishes from tiny spores into a complex network, a digital garden nurtures small ideas into a rich, interconnected ecosystem of knowledge. Digital gardens are living entities, constantly evolving as they harbor works in progress, nascent ideas, and fleeting thoughts that, over time, grow and intertwine into a robust network of knowledge. Each note in a digital garden starts small. Over time, as the user researches, learns, and grows, they can apply that learning to the note. Through cycles of addition and refinement, these small notes grow into a network of interwoven thoughts and ideas, providing structure and meaning to an otherwise scattered and messy collection of ideas.&lt;/p></description></item><item><title>2024-06-23</title><link>https://indi.bio/pages/2024-06-23/</link><pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/2024-06-23/</guid><description>&lt;p>09:12 I need to refactor the code for this website and improve the content. There’s not really anything worth reading on it at the moment and I want to change that. I have lots of ideas, but every time I sit down to write at my computer I don’t feel motivated to make content. How can I fix that?&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Change name from archive to something else&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Rewrite description block&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Add images&lt;/p></description></item><item><title>2024-02-18</title><link>https://indi.bio/pages/2024-02-18/</link><pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/2024-02-18/</guid><description>&lt;p>I&amp;rsquo;ve done a few projects recently, and I want to add them to the site&lt;/p>
-&lt;p>Let&amp;rsquo;s pause and zoom out for a sec - I don&amp;rsquo;t like the structure of this graph. It doesn&amp;rsquo;t work well with the way I&amp;rsquo;ve structured my Hugo templates.&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Move to &lt;a href="https://indi.bio/pages/graph-structure/">Graph Structure&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://indi.bio/pages/graph-rendering/">Graph Rendering&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul></description></item><item><title>Graph Rendering</title><link>https://indi.bio/pages/graph-rendering/</link><pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/graph-rendering/</guid><description>&lt;h3 id="project-goals">Project goals:&lt;/h3>
+&lt;p>The phrase &amp;ldquo;digital garden&amp;rdquo; is more of an analogy than a descriptive literal. Just as a mushroom garden flourishes from tiny spores into a complex network, a digital garden nurtures small ideas into a rich, interconnected ecosystem of knowledge. Digital gardens are living entities, constantly evolving as they harbor works in progress, nascent ideas, and fleeting thoughts that, over time, grow and intertwine into a robust network of knowledge. Each note in a digital garden starts small. Over time, as the user researches, learns, and grows, they can apply that learning to the note. Through cycles of addition and refinement, these small notes grow into a network of interwoven thoughts and ideas, providing structure and meaning to an otherwise scattered and messy collection of ideas.&lt;/p></description></item><item><title>Graph Rendering</title><link>https://indi.bio/pages/graph-rendering/</link><pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/graph-rendering/</guid><description>&lt;h3 id="project-goals">Project goals:&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>Create an interactive &amp;ldquo;graph view&amp;rdquo; of this website to display on its homepage.&lt;/p>
@@ -99,11 +72,7 @@ If a note is not published, does it really exist?
 &lt;p>&lt;code>themes/PaperModlayouts/partials/home_info.html&lt;/code> is the template for my home page&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>I need to figure out how to render a graph in this page&lt;/p></description></item><item><title>2024-01-21</title><link>https://indi.bio/pages/2024-01-21/</link><pubDate>Sun, 21 Jan 2024 13:29:00 +0000</pubDate><guid>https://indi.bio/pages/2024-01-21/</guid><description>&lt;p>I want to write about my code projects. Where can I do that?&lt;/p>
-&lt;ul>
-&lt;li>&lt;a href="https://indi.bio/pages/code-projects/">Code Projects&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;p>#Diaries &lt;a href="https://indi.bio/pages/2024-01-21/">2024-01-21&lt;/a> 20:55: The internet is such a cool thing. I spent today working on my website and home automation stuff, and now I&amp;rsquo;m hanging out with my best friends on Discord. We live thousands of miles away, yet we can chat as if we were sitting next to each other. Each day I wake up grateful that I was born in the 21st century.&lt;/p></description></item><item><title>Code Projects</title><link>https://indi.bio/pages/code-projects/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/code-projects/</guid><description>&lt;h3 id="description">Description:&lt;/h3>
+&lt;p>I need to figure out how to render a graph in this page&lt;/p></description></item><item><title>Code Projects</title><link>https://indi.bio/pages/code-projects/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/code-projects/</guid><description>&lt;h3 id="description">Description:&lt;/h3>
 &lt;p>This is the collection of my code projects that I&amp;rsquo;ve done over the years.&lt;/p>
 &lt;h3 id="project-list">Project List:&lt;/h3>
 &lt;ul>
@@ -132,14 +101,7 @@ If a note is not published, does it really exist?
 &lt;img loading="lazy" src="https://cdn.arstechnica.net/wp-content/uploads/2013/10/unix-creators.jpg" alt="A brief tour of the PDP-11, the most influential minicomputer of all time | Ars Technica" />
 &lt;/p>
 &lt;h3 id="instruction-set">Instruction Set:&lt;/h3>
-&lt;p>The PDP-11 instruction set contains 12 basic operations to be performed on memory addresses. Operands are represented by 16-bit words, with the leftmost bits containing the opcode and the rightmost bits containing source, destination, and register addresses. In addition, many other operands are supported, allowing for a wide variety of operations to be performed.&lt;/p></description></item><item><title>2024-01-20</title><link>https://indi.bio/pages/2024-01-20/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/2024-01-20/</guid><description>&lt;p>This is my first page! I intend to use journals (pages titled with a date) as working spaces. All actual content should be on its own page.&lt;/p>
-&lt;p>Things to note when working on this site:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Logseq-schrodinger uses YAML for the Hugo &lt;a href="https://gohugo.io/content-management/front-matter/">front-matter&lt;/a>. It will convert Logseq page-properties to Hugo front matter.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Logseq &lt;em>keywords&lt;/em> are lowercase converted to Hugo keywords, and &lt;strong>category&lt;/strong> in Logseq is translated to &lt;em>categories&lt;/em> for use with Hugo. Logseq &lt;em>links&lt;/em> (&lt;code>[[like_this]]&lt;/code>) are stripped of &lt;code>[[&lt;/code> and &lt;code>]]&lt;/code>.&lt;/p></description></item><item><title>Deployment</title><link>https://indi.bio/pages/deployment/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/deployment/</guid><description>&lt;h3 id="how-to-deploy-to-this-site">How to deploy to this site:&lt;/h3>
+&lt;p>The PDP-11 instruction set contains 12 basic operations to be performed on memory addresses. Operands are represented by 16-bit words, with the leftmost bits containing the opcode and the rightmost bits containing source, destination, and register addresses. In addition, many other operands are supported, allowing for a wide variety of operations to be performed.&lt;/p></description></item><item><title>Deployment</title><link>https://indi.bio/pages/deployment/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/deployment/</guid><description>&lt;h3 id="how-to-deploy-to-this-site">How to deploy to this site:&lt;/h3>
 &lt;ul>
 &lt;li>
 &lt;p>From Logseq, use schrodinger to export all public pages.&lt;/p>
@@ -204,22 +166,4 @@ If a note is not published, does it really exist?
 &lt;li>
 &lt;p>And potentially more&amp;hellip;&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>Templates</title><link>https://indi.bio/pages/templates/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/templates/</guid><description>&lt;p>Templates can be used to provide structure to an otherwise unstructured graph. They are relatively self-explanatory - by using a slash command (&lt;code>/template&lt;/code>), I can choose which template I want and then paste it anywhere in the file that I have open.&lt;/p>
-&lt;ul>
-&lt;li>For more information, check the &lt;a href="https://hub.logseq.com/features/av5LyiLi5xS7EFQXy4h4K8/how-to-create-and-use-templates-in-logseq/uiwhKfyFJrG7mdrkopjuAG">official Logseq documentation&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;p>metadata
-template:: metadata
-template-including-parent:: false&lt;/p>
-&lt;ul>
-&lt;li>date:: YYYY-MM-DD
-category::
-keywords::
-public:: true&lt;/li>
-&lt;/ul>
-&lt;p>diary
-template:: diary
-template-including-parent:: false&lt;/p>
-&lt;ul>
-&lt;li>#Diaries &amp;lt;% today %&amp;gt; &amp;lt;% time %&amp;gt;:&lt;/li>
 &lt;/ul></description></item></channel></rss>
