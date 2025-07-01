@@ -3,7 +3,7 @@ date: 2024-02-18
 keywords: development, javascript, graph
 title: Graph Rendering
 tags:
-categories:
+categories: projects
 lastMod: 2025-02-14
 ---
 ### Project goals:

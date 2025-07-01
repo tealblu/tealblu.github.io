@@ -3,7 +3,7 @@ date: 2025-01-15
 keywords: electronics, diy, electrolysis, constant-current, circuit-design
 title: DIY Electrolysis Machine
 tags:
-categories:
+categories: projects
 lastMod: 2025-01-15
 ---
 

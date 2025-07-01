@@ -6,7 +6,16 @@
     <description>Recent content in Categories on indi.bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Projects</title>
+      <link>https://indi.bio/categories/projects/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://indi.bio/categories/projects/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Blog</title>
       <link>https://indi.bio/categories/blog/</link>
@@ -22,15 +31,6 @@
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://indi.bio/categories/list-blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://indi.bio/categories/projects/</link>
-      <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://indi.bio/categories/projects/</guid>
       <description></description>
     </item>
     

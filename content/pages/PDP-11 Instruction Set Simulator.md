@@ -3,7 +3,7 @@ date: 2024-01-21
 keywords: code, coding, pdp11, assembly, school
 title: PDP-11 Instruction Set Simulator
 tags:
-categories:
+categories: projects
 lastMod: 2025-02-14
 ---
 ### Description:
