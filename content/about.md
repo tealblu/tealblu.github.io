@@ -7,73 +7,64 @@ date: 2024-06-23T20:12:45-04:00
 showToc: true
 ---
 
-Hey there! I'm Indigo - a computer scientist and engineer located in Chicago, IL. I'm a quick learner who enjoys taking on new challenges and responsibilities - in a past role, I rapidly took responsibility for all computer vision systems on the production line, made continuous improvements to the vision and software systems, and achieved a savings of over $500k annually. At my current role at Diesel Laptops, I work on reverse engineering vehicle communications and full-stack software development - C# most of the time, although in my personal work I usually use Python. Outside of work, I've taken on leadership roles in academic, professional, social, and political organizations throughout my life. In my free time, [listening to music](https://open.spotify.com/playlist/656lQkm7XFtA2iW0l984Ya?si=e5cac729d762427f), 3D printing and tinkering with electronics, spending time with my friends, and working on my car ([2005 Saab 9-2X Aero](https://www.caranddriver.com/reviews/a15133083/2005-saab-9-2x-aero-road-test/) - if you know you know!). Let's connect!
+hey, i'm indi! i am a passionate computer scientist and engineer located in chicago! i love learning new things and taking on new challenges - in a past role, i rapidly took responsibility for all computer vision systems on all production lines, made continuous improvements to the vision and software systems, and achieved a savings of well over $500k anually. in my current role, i work on reverse engineering vehicle communications and full-stack software development. for work i usually code in C#, but in my free time i love learning new programming languages and software tools. in my free time, i love [listening to music](https://open.spotify.com/playlist/656lQkm7XFtA2iW0l984Ya?si=e5cac729d762427f), 3D printing and tinkering with electronics, playing with my cats, spending time with my friends, and working on my car ([2005 Saab 9-2X Aero](https://www.caranddriver.com/reviews/a15133083/2005-saab-9-2x-aero-road-test/) - iykyk). hit me up, i love meeting new people!
 
-# Work experience
-### Diesel Laptops LLC - Vehicle Software Engineer
-**Irmo, SC, USA (Remote)**  
-**August 2024 - Present**
-- Spearheaded development of Diesel Laptops’s revolutionary vehicle diagnostics platform [Diesel Explorer](https://www.diesellaptops.com/products/diesel-explorer).
-- Took ownership of - and completed - projects involving vehicle networks (CAN, OBD, WWH, UDS, etc), API services, and customer feature requests.
-- Reverse-engineered manufacturer-specific communication protocols and implemented cost-saving solutions for replacing OEM software tools.
-- Ensured ongoing software evolution, from memory optimization to multithreading to UI improvements.
+# skills
+- **languages/frameworks**: C, C++, C# (.NET/Core, MVC, EFC, LINQ), Java, PHP, JavaScript, Google Apps Script, HTML, CSS, SQL (various flavors), Python (OpenCV, Eigen, networkx), MATLAB, PowerShell, Prolog, OCaml, Go
+- **databases**: MySQL, Microsoft SQL Server, Postgres, SQLite, NoSQL
+- **tooling**: Git, GitHub/GitLab/Gitea, Azure DevOps, Postman, Visual Studio, IntelliJ IDEA, Amazon Web Services (EC2, RDS, Elastic Beanstalk)
+- **ui frameworks**: Material UI, TkInter, niceGUI, Qt, Windows Forms, WPF, React
+- **other**: Scrum, Agile methodologies, Stratus Vision SPIN/SPINDLE
 
-
-### Robert Bosch Inc. – Engineer (Software/AOI)
-**Anderson, SC, USA**  
-**March 2023 - August 2024**
-- Took sole responsibility for all computer vision systems and all related infrastructure in the LTCC production line, utilizing tools from Stratus Vision, Teledyne, ATMO, and our locally-designed [LUCA]({{< ref "/pages/LUCA" >}}) computer vision platform.
-- Performed maintenance and spearheaded ongoing improvement of computer vision systems through projects such as [AI implementation]({{< ref "/pages/Image Classification AI">}}), statistical analysis, database management, and more.
-- Provided the department with local support for developing and maintaining software projects involving C++, C#, Python, Excel, R, JavaScript, and MS SQL Server.
-- Led continuous improvement initiatives reducing costs by over $300k annually.
-
-### Clemson Computing and Information Technology – IT Technician
-**Clemson, SC, USA**  
-**January 2021 - December 2022**
-- Provided real-time, in-person A/V system and networking support to university employees and students.
-- Performed hardware and software installs, upgrades, and maintenance across campus.
-
-### Chick-fil-A – Team Member
-**Cherrydale, SC, USA**  
-**May 2017 - August 2020**
-- Granted a great degree of autonomy and trusted to work independently managing a one-of-a-kind Chick-fil-A location.
-- Performed management duties including inventory tracking, forecasting, and order placement, mileage tracking, sales reports, and more.
-
-# Skills
-- **Languages/Frameworks**: C, C++, C# (.NET, .NET Core, MVC, EFC), Java, PHP, JavaScript, Google Apps Script, HTML, CSS, SQL (various flavors), Python (OpenCV, Eigen, networkx), MATLAB, PowerShell, Prolog, OCaml
-- **Databases**: MySQL, Microsoft SQL Server, Postres, SQLite, NoSQL, EFC/LINQ
-- **Tooling**: Git, GitLab, Azure DevOps, Postman, Visual Studio, IntelliJ IDEA
-- **UI Frameworks**: Material UI, TkInter, niceGUI, Qt
-- **Other**: Scrum, Agile methodologies, Amazon Web Services (EC2, RDS, Elastic Beanstalk), Stratus Vision SPIN/SPINDLE
-
-# Notable Projects
-
-### [Ada - Smart Home Voice Assistant]({{< ref "/pages/Ada" >}})
-- In-progress project aimed at creating a fully local non-deterministic AI voice assistant capable of answering questions, browsing the web, and controlling home devices (through [Home Assistant]({{< ref "/pages/Home Assistant">}})).
+# notable projects
 
 ### [Image Classification AI]({{< ref "/pages/Image Classification AI" >}})
-- Spearheaded AI project selected for inclusion in executive presentations to German and US Departments of Energy and Bosch Global President, spotlighting over $50K in expected annual savings.
+- AI PCB defect finding project, selected for inclusion in executive presentations to German and US Departments of Energy and Bosch Global President, spotlighting high annual savings and output quality improvements for a low input cost.
 
 ### [Low-Cost Universal Camera Array (LUCA)]({{< ref "/pages/LUCA" >}})
-- Helped develop and maintain Bosch’s in-house computer vision system. Gradually took ownership of the project and became the sole developer and maintainer of the project.
+- co-developed and maintained Bosch’s in-house computer vision solution. gradually took ownership of the project and became the sole developer and maintainer of the project.
+
+### [Ada - Smart Home Voice Assistant]({{< ref "/pages/Ada" >}})
+- project aimed at creating a fully local voice assistant capable of answering questions, browsing the web, and controlling home devices (through [Home Assistant]({{< ref "/pages/Home Assistant">}})).
 
 ### [PDP-11 Instruction Set Simulator]({{< ref "/pages/PDP-11 Instruction Set Simulator" >}})
-- Designed a C program that accurately simulates the PDP-11 computer’s assembly language, complete with virtual memory, CPU registers, and a caching system. Input and output are performed via the command line or through files.
+- designed a C program which accurately simulates the PDP-11 computer’s assembly language, complete with virtual memory, CPU registers, and a caching system. I/O can be performed via the command line or through files.
 
 ### [DriveTime]({{< ref "/pages/DriveTime" >}})
-- Led a team of five in designing a web application intended to incentivize truck drivers to drive more safely. Utilized C#, CSHMTL, Entity Framework Core, Ebay API, iTunes API, AWS Elastic Beanstalk, AWS EC2, and AWS RDS.
+- led a team of five in co-designing a web application intended to incentivize truck drivers to drive more safely. utilized C#, CSHMTL, Entity Framework Core, Ebay API, iTunes API, AWS Elastic Beanstalk, AWS EC2, and AWS RDS.
 
+# professional experience
 
-# Other
+### Diesel Laptops LLC - Vehicle Software Engineer
+*Irmo, SC, USA (Remote from Chicago, IL)*  
+*August 2024 - Present*
+- spearheaded development of Diesel Laptops’s revolutionary vehicle diagnostics platform [Diesel Explorer](https://www.diesellaptops.com/products/diesel-explorer).
+- took ownership of - and completed - projects involving core code, infrastructure, API services, and customer feature requests.
+- reverse-engineered manufacturer-specific communication protocols and implemented solutions for replacing OEM software tools.
+- ensured ongoing software evolution, from memory optimization to multithreading, critical infrastructure, and UI improvements.
 
-### Leadership Roles
-- **IT Liason to Engineering Team 3** (Bosch - 2023-24)
-- **Secretary at Clemson Boards** (Clemson - 2020-2022)
-- **Leader at Chick-fil-A Downtown Greenville** (2018-2020)
-- **President of the ΗΣΑ National Homeschool Honor Society, ΦΒ chapter** (2017-18)
+### Robert Bosch Inc. – Engineer (Software/AOI)
+*Anderson, SC, USA*  
+*March 2023 - August 2024*
+- took sole responsibility for all computer vision systems and all related infrastructure in the LTCC production line, utilizing tools from Stratus Vision, Teledyne, ATMO, and our locally-designed [LUCA]({{< ref "/pages/LUCA" >}}) computer vision platform.
+- performed maintenance and spearheaded ongoing improvement of computer vision systems through projects such as [AI implementation]({{< ref "/pages/Image Classification AI">}}), statistical analysis, database management, and more.
+- provided the department with local support for developing and maintaining software projects involving C++, C#, Python, Excel, R, JavaScript, and MS SQL Server.
+- led continuous improvement initiatives reducing costs by over $300k annually.
 
-### Additional Information
+### Clemson Computing and Information Technology – IT Technician
+*Clemson, SC, USA*  
+*January 2021 - December 2022*
+- provided real-time, in-person A/V system and networking support to university employees and students.
+- coordinated and performed hardware and software installs, upgrades, and maintenance across campus.
 
-- Completed the Junior Leadership Greenville and Junior Leadership Greer programs.
-- Accumulated hundreds of community service hours through the Honor Society and other opportunities.
-- Completed extracurricular classes in Electric Circuits, Logic & Computing Devices, Systems Programming, MATLAB, and Engineering Concepts.
+### Chick-fil-A – Team Member
+*Cherrydale, SC, USA*  
+*May 2017 - August 2020*
+- granted a great degree of autonomy and trusted to work independently managing a one-of-a-kind pilot Chick-fil-A franchise.
+- performed management duties including inventory tracking, forecasting, order placement, mileage tracking, sales reports, and more.
+
+# other
+
+### leadership roles
+- **General Secretary at Clemson Boards** (Clemson - 2020-2022)
+- **President of the ΗΣΑ National Honor Society, ΦΒ chapter** (2017-18)

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home Assistant on indi.bio</title>
-    <link>https://indi.bio/tags/home-assistant/</link>
+    <link>http://localhost:1313/tags/home-assistant/</link>
     <description>Recent content in Home Assistant on indi.bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 25 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/tags/home-assistant/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/home-assistant/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Home Assistant</title>
-      <link>https://indi.bio/pages/home-assistant/</link>
+      <link>http://localhost:1313/pages/home-assistant/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://indi.bio/pages/home-assistant/</guid>
+      <guid>http://localhost:1313/pages/home-assistant/</guid>
       <description>&lt;h1 id=&#34;overview&#34;&gt;overview&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.home-assistant.io/&#34;&gt;Home Assistant&lt;/a&gt; is essentially a home automation platform designed to be both accessible to users and powerful for enthusiasts. It is hosted on local hardware using software created by &lt;a href=&#34;https://www.nabucasa.com/&#34;&gt;Nabu Casa&lt;/a&gt; (who also maintain &lt;a href=&#34;https://esphome.io/index.html&#34;&gt;ESPHome&lt;/a&gt;, a project I fully intend to utilize in the future). Home Assistant boasts a dedicated enterprise community that have developed a robust ecosystem of hardware and software compatible with Home Assistant right out of the box. Furthermore, through the &lt;a href=&#34;https://hacs.xyz/&#34;&gt;Home Assistant Community Store&lt;/a&gt; (colloquially HACS), users can install and run custom integrations, add-ons, and UI components created and maintained by Home Assistant&amp;rsquo;s passionate user community.&lt;/p&gt;</description>
     </item>
