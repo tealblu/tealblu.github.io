@@ -1,169 +1,169 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pages on indi.bio</title><link>https://indi.bio/pages/</link><description>Recent content in Pages on indi.bio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/pages/index.xml" rel="self" type="application/rss+xml"/><item><title>DIY Electrolysis Machine</title><link>https://indi.bio/pages/diy-electrolysis/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/diy-electrolysis/</guid><description>&lt;h3 id="description">Description:&lt;/h3>
-&lt;p>This project explores the design and construction of a DIY electrolysis machine using constant-current control circuitry. The system automatically maintains precise current levels (typically 0.7 mA) for safe galvanic electrolysis applications, eliminating the need for manual voltage adjustments during treatment.&lt;/p>
-&lt;h3 id="research-background">Research Background:&lt;/h3>
-&lt;p>Based on community research and feedback, the optimal approach involves using a constant-current circuit that automatically adjusts voltage to maintain the target amperage. This ensures consistent treatment while preventing overcurrent conditions that could cause skin damage.&lt;/p></description></item><item><title>Ada</title><link>https://indi.bio/pages/ada/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/ada/</guid><description>&lt;h1 id="teleology">Teleology&lt;/h1>
-&lt;p>After 5+ years of using Amazon&amp;rsquo;s Alexa and Google&amp;rsquo;s Assistant, I was left unsatisfied. Alexa is annoying at best. Google is constantly removing features from their Assistant. Enter &lt;a href="https://indi.bio/pages/home-assistant/">Home Assistant&lt;/a> - with its built-in Assist platform, I set out to create a custom, local voice assistant. It is worth noting that HASS announced this year that they are working on their own local/cloud-integrated LLM system. I decided to do this project long before that was announced.&lt;/p></description></item><item><title>Interstitial Journaling</title><link>https://indi.bio/pages/interstitial-journaling/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/interstitial-journaling/</guid><description>&lt;p>work in progress&lt;/p></description></item><item><title>Reading List</title><link>https://indi.bio/pages/reading-list/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/reading-list/</guid><description>&lt;p>Since I&amp;rsquo;m getting more into reading these days, I thought it might be interesting to share my reading list.&lt;/p>
-&lt;h1 id="in-progress">in progress&lt;/h1>
-&lt;table>
-&lt;thead>
-&lt;tr>
-&lt;th style="text-align: left">cover&lt;/th>
-&lt;th style="text-align: left">title&lt;/th>
-&lt;th style="text-align: left">rating&lt;/th>
-&lt;th style="text-align: left">link to review&lt;/th>
-&lt;th>&lt;/th>
-&lt;/tr>
-&lt;/thead>
-&lt;tbody>
-&lt;tr>
-&lt;td style="text-align: left">&lt;img loading="lazy" src="https://indi.bio/assets/image_1719791058658_0.png" alt="image.png" />
-&lt;/td>
-&lt;td style="text-align: left">&lt;a href="https://books.google.com/books/about/Fuzzy_Logic.html?id=CM1SAAAAMAAJ">Fuzzy Logic&lt;/a>&lt;/td>
-&lt;td style="text-align: left">n/a&lt;/td>
-&lt;td style="text-align: left">n/a&lt;/td>
-&lt;td>&lt;/td>
-&lt;/tr>
-&lt;/tbody>
-&lt;/table>
-&lt;h1 id="completed">completed&lt;/h1>
-&lt;p>| cover | title | rating | link to review |&lt;/p>
-&lt;h1 id="upcoming">upcoming&lt;/h1>
-&lt;p>| cover | title | rating | link to review |&lt;/p></description></item><item><title>Home Assistant</title><link>https://indi.bio/pages/home-assistant/</link><pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/home-assistant/</guid><description>&lt;h1 id="overview">overview&lt;/h1>
-&lt;p>&lt;a href="https://www.home-assistant.io/">Home Assistant&lt;/a> is essentially a home automation platform designed to be both accessible to users and powerful for enthusiasts. It is hosted on local hardware using software created by &lt;a href="https://www.nabucasa.com/">Nabu Casa&lt;/a> (who also maintain &lt;a href="https://esphome.io/index.html">ESPHome&lt;/a>, a project I fully intend to utilize in the future). Home Assistant boasts a dedicated enterprise community that have developed a robust ecosystem of hardware and software compatible with Home Assistant right out of the box. Furthermore, through the &lt;a href="https://hacs.xyz/">Home Assistant Community Store&lt;/a> (colloquially HACS), users can install and run custom integrations, add-ons, and UI components created and maintained by Home Assistant&amp;rsquo;s passionate user community.&lt;/p></description></item><item><title>Cultivating Knowledge Through Digital Gardens</title><link>https://indi.bio/pages/cultivating-knowledge-through-digital-gardens/</link><pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/cultivating-knowledge-through-digital-gardens/</guid><description>&lt;blockquote class="hint ">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Pages on indi.bio</title><link>https://indi.bio/pages/</link><description>Recent content in Pages on indi.bio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/pages/index.xml" rel="self" type="application/rss+xml"/><item><title>DIY Electrolysis Machine</title><link>https://indi.bio/pages/diy-electrolysis/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/diy-electrolysis/</guid><description>&lt;h3 id="description"&gt;Description:&lt;/h3&gt;
+&lt;p&gt;This project explores the design and construction of a DIY electrolysis machine using constant-current control circuitry. The system automatically maintains precise current levels (typically 0.7 mA) for safe galvanic electrolysis applications, eliminating the need for manual voltage adjustments during treatment.&lt;/p&gt;
+&lt;h3 id="research-background"&gt;Research Background:&lt;/h3&gt;
+&lt;p&gt;Based on community research and feedback, the optimal approach involves using a constant-current circuit that automatically adjusts voltage to maintain the target amperage. This ensures consistent treatment while preventing overcurrent conditions that could cause skin damage.&lt;/p&gt;</description></item><item><title>Ada</title><link>https://indi.bio/pages/ada/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/ada/</guid><description>&lt;h1 id="teleology"&gt;Teleology&lt;/h1&gt;
+&lt;p&gt;After 5+ years of using Amazon&amp;rsquo;s Alexa and Google&amp;rsquo;s Assistant, I was left unsatisfied. Alexa is annoying at best. Google is constantly removing features from their Assistant. Enter &lt;a href="https://indi.bio/pages/home-assistant/"&gt;Home Assistant&lt;/a&gt; - with its built-in Assist platform, I set out to create a custom, local voice assistant. It is worth noting that HASS announced this year that they are working on their own local/cloud-integrated LLM system. I decided to do this project long before that was announced.&lt;/p&gt;</description></item><item><title>Interstitial Journaling</title><link>https://indi.bio/pages/interstitial-journaling/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/interstitial-journaling/</guid><description>&lt;p&gt;work in progress&lt;/p&gt;</description></item><item><title>Reading List</title><link>https://indi.bio/pages/reading-list/</link><pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/reading-list/</guid><description>&lt;p&gt;Since I&amp;rsquo;m getting more into reading these days, I thought it might be interesting to share my reading list.&lt;/p&gt;
+&lt;h1 id="in-progress"&gt;in progress&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="text-align: left"&gt;cover&lt;/th&gt;
+&lt;th style="text-align: left"&gt;title&lt;/th&gt;
+&lt;th style="text-align: left"&gt;rating&lt;/th&gt;
+&lt;th style="text-align: left"&gt;link to review&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style="text-align: left"&gt;&lt;img loading="lazy" src="https://indi.bio/assets/image_1719791058658_0.png" alt="image.png" /&gt;
+&lt;/td&gt;
+&lt;td style="text-align: left"&gt;&lt;a href="https://books.google.com/books/about/Fuzzy_Logic.html?id=CM1SAAAAMAAJ"&gt;Fuzzy Logic&lt;/a&gt;&lt;/td&gt;
+&lt;td style="text-align: left"&gt;n/a&lt;/td&gt;
+&lt;td style="text-align: left"&gt;n/a&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id="completed"&gt;completed&lt;/h1&gt;
+&lt;p&gt;| cover | title | rating | link to review |&lt;/p&gt;
+&lt;h1 id="upcoming"&gt;upcoming&lt;/h1&gt;
+&lt;p&gt;| cover | title | rating | link to review |&lt;/p&gt;</description></item><item><title>Home Assistant</title><link>https://indi.bio/pages/home-assistant/</link><pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/home-assistant/</guid><description>&lt;h1 id="overview"&gt;overview&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://www.home-assistant.io/"&gt;Home Assistant&lt;/a&gt; is essentially a home automation platform designed to be both accessible to users and powerful for enthusiasts. It is hosted on local hardware using software created by &lt;a href="https://www.nabucasa.com/"&gt;Nabu Casa&lt;/a&gt; (who also maintain &lt;a href="https://esphome.io/index.html"&gt;ESPHome&lt;/a&gt;, a project I fully intend to utilize in the future). Home Assistant boasts a dedicated enterprise community that have developed a robust ecosystem of hardware and software compatible with Home Assistant right out of the box. Furthermore, through the &lt;a href="https://hacs.xyz/"&gt;Home Assistant Community Store&lt;/a&gt; (colloquially HACS), users can install and run custom integrations, add-ons, and UI components created and maintained by Home Assistant&amp;rsquo;s passionate user community.&lt;/p&gt;</description></item><item><title>Cultivating Knowledge Through Digital Gardens</title><link>https://indi.bio/pages/cultivating-knowledge-through-digital-gardens/</link><pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/cultivating-knowledge-through-digital-gardens/</guid><description>&lt;blockquote class="hint "&gt;
 If a note is not published, does it really exist?
-&lt;em>- Erwin Schrödinger&lt;/em>*
-&lt;/blockquote>
-&lt;p>&lt;img loading="lazy" src="https://indi.bio/assets/mushrooms-2743051_1280_1719269204314_0.jpg" alt="mushrooms-2743051_1280.jpg" />
-&lt;/p>
-&lt;h1 id="spores">spores&lt;/h1>
-&lt;p>The phrase &amp;ldquo;digital garden&amp;rdquo; is more of an analogy than a descriptive literal. Just as a mushroom garden flourishes from tiny spores into a complex network, a digital garden nurtures small ideas into a rich, interconnected ecosystem of knowledge. Digital gardens are living entities, constantly evolving as they harbor works in progress, nascent ideas, and fleeting thoughts that, over time, grow and intertwine into a robust network of knowledge. Each note in a digital garden starts small. Over time, as the user researches, learns, and grows, they can apply that learning to the note. Through cycles of addition and refinement, these small notes grow into a network of interwoven thoughts and ideas, providing structure and meaning to an otherwise scattered and messy collection of ideas.&lt;/p></description></item><item><title>Graph Rendering</title><link>https://indi.bio/pages/graph-rendering/</link><pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/graph-rendering/</guid><description>&lt;h3 id="project-goals">Project goals:&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>Create an interactive &amp;ldquo;graph view&amp;rdquo; of this website to display on its homepage.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Make it compatible with github pages and hugo&amp;rsquo;s static site specifications.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="research">Research:&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;a href="https://mertbakir.gitlab.io/hugo/plotly-with-hugo/">Plotly with Hugo&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://github.com/logseq/logseq/blob/master/CODEBASE_OVERVIEW.md">Logseq codebase overview&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://docs.logseq.com/#/page/The%20Refactoring%20Of%20Logseq">Article on logseq codebase structure&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://github.com/logseq/logseq/blob/master/src/main/frontend/extensions/graph/pixi.cljs">Logseq built-in renderer&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://cosma.arthurperret.fr/installing.html">Cosma | Installing Cosma (arthurperret.fr)&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://github.com/trashhalo/logseq-graph-analysis/blob/main/src/main.ts">Logseq Graph Analysis plugin&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="development">Development&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;code>themes/PaperModlayouts/partials/home_info.html&lt;/code> is the template for my home page&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>I need to figure out how to render a graph in this page&lt;/p></description></item><item><title>Code Projects</title><link>https://indi.bio/pages/code-projects/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/code-projects/</guid><description>&lt;h3 id="description">Description:&lt;/h3>
-&lt;p>This is the collection of my code projects that I&amp;rsquo;ve done over the years.&lt;/p>
-&lt;h3 id="project-list">Project List:&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>PDP-11 Instruction Set Simulator: &lt;a href="https://indi.bio/pages/pdp-11-instruction-set-simulator/">PDP-11 Instruction Set Simulator&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>DriveTime: &lt;a href="https://indi.bio/pages/drivetime/">DriveTime&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Image Classification AI: &lt;a href="https://indi.bio/pages/image-classification-ai/">Image Classification AI&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Low-Cost Universal Camera Array: &lt;a href="https://indi.bio/pages/luca/">LUCA&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Archive website (the website you&amp;rsquo;re on)&lt;/p>
-&lt;ul>
-&lt;li>Homepage graph view: &lt;a href="https://indi.bio/pages/graph-rendering/">Graph Rendering&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul></description></item><item><title>Diaries</title><link>https://indi.bio/pages/diaries/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/diaries/</guid><description>&lt;p>Flesh out this page later&lt;/p>
-&lt;p>#Diaries is the tag that I will use to denote a diary entry.&lt;/p></description></item><item><title>DriveTime</title><link>https://indi.bio/pages/drivetime/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/drivetime/</guid><description>&lt;p>DriveTime is a web application intended to incentivize truck drivers to drive more safely. It is built with C#, CSHMTL, Entity Framework Core, Ebay API, iTunes API, AWS Elastic Beanstalk, AWS EC2, and AWS RDS.&lt;/p></description></item><item><title>Image Classification AI</title><link>https://indi.bio/pages/image-classification-ai/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/image-classification-ai/</guid><description>&lt;p>I created an AI for automated classification of production line quality control images on Stratus Vision AOI systems. I identified key areas of application and improvement, and performed ongoing fine-tuning and maintenance to the model based on various metrics.&lt;/p></description></item><item><title>LUCA</title><link>https://indi.bio/pages/luca/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/luca/</guid><description>&lt;p>Helped develop and maintain Bosch’s in-house computer vision system. Gradually took ownership of the project and became the sole developer and maintainer of the project.&lt;/p>
-&lt;p>The system is built from a raspberry pi, 8 NVidia Jetson Nano boards, and 16 high-resolution cameras. The cameras are attached to a 3-axis mount controlled by 3 servo motors. LED lighting strips were added later to the inside of the machine in order to add the ability to customize lighting.&lt;/p></description></item><item><title>PDP-11 Instruction Set Simulator</title><link>https://indi.bio/pages/pdp-11-instruction-set-simulator/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/pdp-11-instruction-set-simulator/</guid><description>&lt;h3 id="description">Description:&lt;/h3>
-&lt;p>This is a C program that accurately simulates the PDP-11 computer&amp;rsquo;s assembly language, complete with virtual memory, CPU registers, and a caching system. Input and output are performed through the command line or through files.
-&lt;img loading="lazy" src="https://cdn.arstechnica.net/wp-content/uploads/2013/10/unix-creators.jpg" alt="A brief tour of the PDP-11, the most influential minicomputer of all time | Ars Technica" />
-&lt;/p>
-&lt;h3 id="instruction-set">Instruction Set:&lt;/h3>
-&lt;p>The PDP-11 instruction set contains 12 basic operations to be performed on memory addresses. Operands are represented by 16-bit words, with the leftmost bits containing the opcode and the rightmost bits containing source, destination, and register addresses. In addition, many other operands are supported, allowing for a wide variety of operations to be performed.&lt;/p></description></item><item><title>Deployment</title><link>https://indi.bio/pages/deployment/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/deployment/</guid><description>&lt;h3 id="how-to-deploy-to-this-site">How to deploy to this site:&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>From Logseq, use schrodinger to export all public pages.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Unzip the new archive and move the new &amp;lsquo;pages&amp;rsquo; folder into tealblu.github.io/content.&lt;/p>
-&lt;ul>
-&lt;li>May also need to copy the &amp;lsquo;assets&amp;rsquo; folder from the &lt;code>/logseq/&lt;/code> directory to the &lt;code>/content/&lt;/code> directory.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Inside tealblu.github.io, open a terminal and run &lt;code>hugo&lt;/code>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Create a new commit and push to the remote graph.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Wait a few minutes for Github Actions to run.&lt;/p></description></item><item><title>Graph Structure</title><link>https://indi.bio/pages/graph-structure/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/graph-structure/</guid><description>&lt;h2 id="current-graph-state">Current graph state:&lt;/h2>
-&lt;p>&lt;img loading="lazy" src="https://indi.bio/assets/image_1708273581197_0.png" alt="image.png" />
-&lt;/p>
-&lt;h2 id="structure-specification">Structure Specification:&lt;/h2>
-&lt;ul>
-&lt;li>
-&lt;h3 id="architecture">Architecture&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>The graph should consist of multiple hub-and-spoke structures.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>The &amp;ldquo;hubs&amp;rdquo; in this system will be called &lt;strong>root pages&lt;/strong>.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>The &amp;ldquo;spokes&amp;rdquo; in this system will be called &lt;strong>child pages&lt;/strong>.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;h3 id="guidelines">Guidelines&lt;/h3>
-&lt;ul>
-&lt;li>
-&lt;p>Any block larger than one paragraph (subjective) should be its own page.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Any page longer than two full screens should be split up.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Full sentences should be used when possible.&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>No orphan pages should &lt;em>ever&lt;/em> be pushed to production.&lt;/p></description></item><item><title>Projects Homepage</title><link>https://indi.bio/pages/projects-homepage/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/projects-homepage/</guid><description>&lt;h3 id="what-kind-of-projects-do-i-do">What kind of projects do I do?&lt;/h3>
-&lt;p>I&amp;rsquo;m interested in a lot of different stuff! This collection will hopefully become an archive of my various projects, both for my personal reference and to document for future employment purposes. The types of projects here will include:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>Code, programming, and related projects -&amp;gt; &lt;a href="https://indi.bio/pages/code-projects/">Code Projects&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>DIY stuff&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>Music&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>And potentially more&amp;hellip;&lt;/p>
-&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;em&gt;- Erwin Schrödinger&lt;/em&gt;*
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img loading="lazy" src="https://indi.bio/assets/mushrooms-2743051_1280_1719269204314_0.jpg" alt="mushrooms-2743051_1280.jpg" /&gt;
+&lt;/p&gt;
+&lt;h1 id="spores"&gt;spores&lt;/h1&gt;
+&lt;p&gt;The phrase &amp;ldquo;digital garden&amp;rdquo; is more of an analogy than a descriptive literal. Just as a mushroom garden flourishes from tiny spores into a complex network, a digital garden nurtures small ideas into a rich, interconnected ecosystem of knowledge. Digital gardens are living entities, constantly evolving as they harbor works in progress, nascent ideas, and fleeting thoughts that, over time, grow and intertwine into a robust network of knowledge. Each note in a digital garden starts small. Over time, as the user researches, learns, and grows, they can apply that learning to the note. Through cycles of addition and refinement, these small notes grow into a network of interwoven thoughts and ideas, providing structure and meaning to an otherwise scattered and messy collection of ideas.&lt;/p&gt;</description></item><item><title>Graph Rendering</title><link>https://indi.bio/pages/graph-rendering/</link><pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/graph-rendering/</guid><description>&lt;h3 id="project-goals"&gt;Project goals:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Create an interactive &amp;ldquo;graph view&amp;rdquo; of this website to display on its homepage.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Make it compatible with github pages and hugo&amp;rsquo;s static site specifications.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="research"&gt;Research:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://mertbakir.gitlab.io/hugo/plotly-with-hugo/"&gt;Plotly with Hugo&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/logseq/logseq/blob/master/CODEBASE_OVERVIEW.md"&gt;Logseq codebase overview&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://docs.logseq.com/#/page/The%20Refactoring%20Of%20Logseq"&gt;Article on logseq codebase structure&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/logseq/logseq/blob/master/src/main/frontend/extensions/graph/pixi.cljs"&gt;Logseq built-in renderer&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://cosma.arthurperret.fr/installing.html"&gt;Cosma | Installing Cosma (arthurperret.fr)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/trashhalo/logseq-graph-analysis/blob/main/src/main.ts"&gt;Logseq Graph Analysis plugin&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="development"&gt;Development&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;themes/PaperModlayouts/partials/home_info.html&lt;/code&gt; is the template for my home page&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;I need to figure out how to render a graph in this page&lt;/p&gt;</description></item><item><title>Code Projects</title><link>https://indi.bio/pages/code-projects/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/code-projects/</guid><description>&lt;h3 id="description"&gt;Description:&lt;/h3&gt;
+&lt;p&gt;This is the collection of my code projects that I&amp;rsquo;ve done over the years.&lt;/p&gt;
+&lt;h3 id="project-list"&gt;Project List:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;PDP-11 Instruction Set Simulator: &lt;a href="https://indi.bio/pages/pdp-11-instruction-set-simulator/"&gt;PDP-11 Instruction Set Simulator&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DriveTime: &lt;a href="https://indi.bio/pages/drivetime/"&gt;DriveTime&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Image Classification AI: &lt;a href="https://indi.bio/pages/image-classification-ai/"&gt;Image Classification AI&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Low-Cost Universal Camera Array: &lt;a href="https://indi.bio/pages/luca/"&gt;LUCA&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Archive website (the website you&amp;rsquo;re on)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Homepage graph view: &lt;a href="https://indi.bio/pages/graph-rendering/"&gt;Graph Rendering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Diaries</title><link>https://indi.bio/pages/diaries/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/diaries/</guid><description>&lt;p&gt;Flesh out this page later&lt;/p&gt;
+&lt;p&gt;#Diaries is the tag that I will use to denote a diary entry.&lt;/p&gt;</description></item><item><title>DriveTime</title><link>https://indi.bio/pages/drivetime/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/drivetime/</guid><description>&lt;p&gt;DriveTime is a web application intended to incentivize truck drivers to drive more safely. It is built with C#, CSHMTL, Entity Framework Core, Ebay API, iTunes API, AWS Elastic Beanstalk, AWS EC2, and AWS RDS.&lt;/p&gt;</description></item><item><title>Image Classification AI</title><link>https://indi.bio/pages/image-classification-ai/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/image-classification-ai/</guid><description>&lt;p&gt;I created an AI for automated classification of production line quality control images on Stratus Vision AOI systems. I identified key areas of application and improvement, and performed ongoing fine-tuning and maintenance to the model based on various metrics.&lt;/p&gt;</description></item><item><title>LUCA</title><link>https://indi.bio/pages/luca/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/luca/</guid><description>&lt;p&gt;Helped develop and maintain Bosch’s in-house computer vision system. Gradually took ownership of the project and became the sole developer and maintainer of the project.&lt;/p&gt;
+&lt;p&gt;The system is built from a raspberry pi, 8 NVidia Jetson Nano boards, and 16 high-resolution cameras. The cameras are attached to a 3-axis mount controlled by 3 servo motors. LED lighting strips were added later to the inside of the machine in order to add the ability to customize lighting.&lt;/p&gt;</description></item><item><title>PDP-11 Instruction Set Simulator</title><link>https://indi.bio/pages/pdp-11-instruction-set-simulator/</link><pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/pdp-11-instruction-set-simulator/</guid><description>&lt;h3 id="description"&gt;Description:&lt;/h3&gt;
+&lt;p&gt;This is a C program that accurately simulates the PDP-11 computer&amp;rsquo;s assembly language, complete with virtual memory, CPU registers, and a caching system. Input and output are performed through the command line or through files.
+&lt;img loading="lazy" src="https://cdn.arstechnica.net/wp-content/uploads/2013/10/unix-creators.jpg" alt="A brief tour of the PDP-11, the most influential minicomputer of all time | Ars Technica" /&gt;
+&lt;/p&gt;
+&lt;h3 id="instruction-set"&gt;Instruction Set:&lt;/h3&gt;
+&lt;p&gt;The PDP-11 instruction set contains 12 basic operations to be performed on memory addresses. Operands are represented by 16-bit words, with the leftmost bits containing the opcode and the rightmost bits containing source, destination, and register addresses. In addition, many other operands are supported, allowing for a wide variety of operations to be performed.&lt;/p&gt;</description></item><item><title>Deployment</title><link>https://indi.bio/pages/deployment/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/deployment/</guid><description>&lt;h3 id="how-to-deploy-to-this-site"&gt;How to deploy to this site:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;From Logseq, use schrodinger to export all public pages.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Unzip the new archive and move the new &amp;lsquo;pages&amp;rsquo; folder into tealblu.github.io/content.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;May also need to copy the &amp;lsquo;assets&amp;rsquo; folder from the &lt;code&gt;/logseq/&lt;/code&gt; directory to the &lt;code&gt;/content/&lt;/code&gt; directory.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Inside tealblu.github.io, open a terminal and run &lt;code&gt;hugo&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a new commit and push to the remote graph.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wait a few minutes for Github Actions to run.&lt;/p&gt;</description></item><item><title>Graph Structure</title><link>https://indi.bio/pages/graph-structure/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/graph-structure/</guid><description>&lt;h2 id="current-graph-state"&gt;Current graph state:&lt;/h2&gt;
+&lt;p&gt;&lt;img loading="lazy" src="https://indi.bio/assets/image_1708273581197_0.png" alt="image.png" /&gt;
+&lt;/p&gt;
+&lt;h2 id="structure-specification"&gt;Structure Specification:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h3 id="architecture"&gt;Architecture&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;The graph should consist of multiple hub-and-spoke structures.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &amp;ldquo;hubs&amp;rdquo; in this system will be called &lt;strong&gt;root pages&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The &amp;ldquo;spokes&amp;rdquo; in this system will be called &lt;strong&gt;child pages&lt;/strong&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h3 id="guidelines"&gt;Guidelines&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Any block larger than one paragraph (subjective) should be its own page.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Any page longer than two full screens should be split up.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Full sentences should be used when possible.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;No orphan pages should &lt;em&gt;ever&lt;/em&gt; be pushed to production.&lt;/p&gt;</description></item><item><title>Projects Homepage</title><link>https://indi.bio/pages/projects-homepage/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/projects-homepage/</guid><description>&lt;h3 id="what-kind-of-projects-do-i-do"&gt;What kind of projects do I do?&lt;/h3&gt;
+&lt;p&gt;I&amp;rsquo;m interested in a lot of different stuff! This collection will hopefully become an archive of my various projects, both for my personal reference and to document for future employment purposes. The types of projects here will include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Code, programming, and related projects -&amp;gt; &lt;a href="https://indi.bio/pages/code-projects/"&gt;Code Projects&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;DIY stuff&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Music&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;And potentially more&amp;hellip;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
