@@ -35,12 +35,12 @@ hey, i'm indi! i am a passionate computer scientist and engineer located in chic
 
 # professional experience
 
-### Diesel Laptops LLC - Vehicle Software Engineer
-*Irmo, SC, USA (Remote from Chicago, IL)*  
+### ~~[redacted for privacy]~~ - Vehicle Software Engineer
+*~~[redacted for privacy]~~ (Remote from Chicago, IL)*  
 *August 2024 - Present*
-- spearheaded development of Diesel Laptops’s revolutionary vehicle diagnostics platform [Diesel Explorer](https://www.diesellaptops.com/products/diesel-explorer).
-- took ownership of - and completed - projects involving core code, infrastructure, API services, and customer feature requests.
-- reverse-engineered manufacturer-specific communication protocols and implemented solutions for replacing OEM software tools.
+- spearheaded development of a revolutionary right-to-repair focused vehicle diagnostics platform.
+- reverse-engineered proprietary communication protocols and implemented solutions for replacing OEM software tools.
+- completed hundreds of projects involving core code, infrastructure, API services, and customer feature requests.
 - ensured ongoing software evolution, from memory optimization to multithreading, critical infrastructure, and UI improvements.
 
 ### Robert Bosch Inc. – Engineer (Software/AOI)
