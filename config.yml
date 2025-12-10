@@ -5,7 +5,7 @@ theme: "PaperMod"
 
 params:
   homeInfoParams:
-    Title: indigo hartsell
+    Title: indi.bio
     Content: "*a digital garden*  🌱"
 
   socialIcons: # optional
