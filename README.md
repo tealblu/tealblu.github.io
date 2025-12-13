@@ -23,9 +23,7 @@
 
 ## Description
 
-This is a [HUGO](https://gohugo.io/) website, using [GitHub Pages](https://pages.github.com/) to host the website, [logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger) to export my notes, and [utterances](https://utteranc.es/) to manage comments.
-
-![how i feel using this setup](./src/thanos_logseq_hugo.svg)
+This is a [HUGO](https://gohugo.io/) website, using [GitHub Pages](https://pages.github.com/) to host the website.
 
 ## 🧱 Project Structure
 
@@ -60,7 +58,7 @@ This is a [HUGO](https://gohugo.io/) website, using [GitHub Pages](https://pages
 │       ├── hint.html
 │       └── search.html
 ├── themes/
-│   └── random-theme/   # In this repo, PaperMod is the default theme.
+│   └── random-theme/   # This repo uses a custom version of the PaperMod theme
 ├── config.yml    # The main settings page for the website.
 └── .gitignore    # This is to prevent unwanted files be tracked by Git.
 ```
@@ -68,8 +66,6 @@ This is a [HUGO](https://gohugo.io/) website, using [GitHub Pages](https://pages
 ## Issues
 
 [Issues for this project](https://github.com/tealblu/tealblu.github.io/issues)
-
-[Issues for logseq-schrodinger](https://github.com/sawhney17/logseq-schrodinger#issues)
 
 ## License
 
