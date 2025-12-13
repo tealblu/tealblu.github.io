@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Interstitial Journaling on indi.bio</title>
-    <link>https://indi.bio/tags/interstitial-journaling/</link>
+    <link>http://192.168.0.225:1313/tags/interstitial-journaling/</link>
     <description>Recent content in Interstitial Journaling on indi.bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/tags/interstitial-journaling/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 24 Jun 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.0.225:1313/tags/interstitial-journaling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cultivating Knowledge Through Digital Gardens</title>
-      <link>https://indi.bio/pages/cultivating-knowledge-through-digital-gardens/</link>
+      <link>http://192.168.0.225:1313/pages/cultivating-knowledge-through-digital-gardens/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://indi.bio/pages/cultivating-knowledge-through-digital-gardens/</guid>
+      <guid>http://192.168.0.225:1313/pages/cultivating-knowledge-through-digital-gardens/</guid>
       <description>&lt;blockquote class=&#34;hint &#34;&gt;
     If a note is not published, does it really exist?
 &lt;em&gt;- Erwin Schrödinger&lt;/em&gt;*
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://indi.bio/assets/mushrooms-2743051_1280_1719269204314_0.jpg&#34; alt=&#34;mushrooms-2743051_1280.jpg&#34;  /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://192.168.0.225:1313/assets/mushrooms-2743051_1280_1719269204314_0.jpg&#34; alt=&#34;mushrooms-2743051_1280.jpg&#34;  /&gt;
 &lt;/p&gt;
 &lt;h1 id=&#34;spores&#34;&gt;spores&lt;/h1&gt;
 &lt;p&gt;The phrase &amp;ldquo;digital garden&amp;rdquo; is more of an analogy than a descriptive literal. Just as a mushroom garden flourishes from tiny spores into a complex network, a digital garden nurtures small ideas into a rich, interconnected ecosystem of knowledge. Digital gardens are living entities, constantly evolving as they harbor works in progress, nascent ideas, and fleeting thoughts that, over time, grow and intertwine into a robust network of knowledge. Each note in a digital garden starts small. Over time, as the user researches, learns, and grows, they can apply that learning to the note. Through cycles of addition and refinement, these small notes grow into a network of interwoven thoughts and ideas, providing structure and meaning to an otherwise scattered and messy collection of ideas.&lt;/p&gt;</description>
