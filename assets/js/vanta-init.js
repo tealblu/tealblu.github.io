@@ -80,6 +80,7 @@ const initializeVanta = (options = {}) => {
     minWidth: 200,
     scale: 1,
     scaleMobile: 3,
+    birdSize: 2,
     color1: colorPrimary,
     color2: colorSecondary,
     backgroundColor: colorBackground,
