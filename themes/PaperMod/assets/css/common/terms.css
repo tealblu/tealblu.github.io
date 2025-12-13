@@ -7,8 +7,9 @@
 .terms-tags a {
     display: block;
     padding: 3px 10px;
-    background: var(--tertiary);
-    border-radius: 6px;
+    background: var(--hljs-bg);
+    border-radius: var(--radius);
+    border: var(--border);
     transition: transform 0.1s;
 }
 

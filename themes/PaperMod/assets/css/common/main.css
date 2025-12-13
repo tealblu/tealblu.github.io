@@ -7,7 +7,7 @@
     background: color-mix(in srgb, var(--theme) 80%, transparent);
     border-radius: var(--radius);
     backdrop-filter: blur(5px);
-    border: 2px solid var(--border);
+    border: var(--border);
 }
 
 .page-header h1 {

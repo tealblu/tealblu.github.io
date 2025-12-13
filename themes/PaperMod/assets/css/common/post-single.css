@@ -137,7 +137,7 @@
     min-width: 80px;
     padding: 12px 8px;
     line-height: 1.5;
-    border-bottom: 1px solid var(--border);
+    border-bottom: var(--border);
 }
 
 .post-content table th {
@@ -199,7 +199,7 @@
     font-size: 0.78em;
     line-height: 1.5;
     background: var(--hljs-bg);
-    border-radius: 2px;
+    border-radius: var(--radius);
 }
 
 .post-content pre code {
@@ -208,7 +208,7 @@
     padding: 10px;
     color: rgb(213, 213, 214);
     background: 0 0;
-    border-radius: 0;
+    border-radius: var(--radius);
     overflow-x: auto;
     word-break: break-all;
 }
@@ -232,7 +232,7 @@
 }
 
 .post-content img {
-    border-radius: 4px;
+    border-radius: var(--radius);
     margin: 1rem 0;
 }
 
@@ -259,7 +259,7 @@
 
 .toc {
     margin: 0 2px 40px 2px;
-    border: 1px solid var(--border);
+    border: var(--border);
     background: var(--hljs-bg);
     border-radius: var(--radius);
     padding: 0.4em;
@@ -311,7 +311,7 @@
 .paginav {
     border-radius: var(--radius);
     background: var(--hljs-bg);
-    border: 1px solid var(--border);
+    border: var(--border);
 }
 
 .post-tags a {
@@ -326,7 +326,7 @@
 
 .post-tags a:hover,
 .paginav a:hover {
-    background: var(--border);
+    background: var(--border-color);
 }
 
 .share-buttons {
@@ -370,7 +370,7 @@ h6:hover .anchor {
 }
 
 .post-content :not(table) ::-webkit-scrollbar-thumb {
-    border: 2px solid var(--hljs-bg);
+    border: var(--border);
     background: rgb(113, 113, 117);
 }
 
@@ -388,7 +388,7 @@ h6:hover .anchor {
 }
 
 .post-content table::-webkit-scrollbar-thumb {
-    border-width: 2px;
+    border-width: var(--border-size);
 }
 
 .paginav {

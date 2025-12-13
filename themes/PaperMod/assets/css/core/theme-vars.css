@@ -6,6 +6,7 @@
     --header-height: 60px;
     --footer-height: 60px;
     --radius: 8px;
+    --border-size: 2px;
     --theme: rgb(255, 255, 255);
     --entry: rgb(255, 255, 255);
     --primary: rgb(30, 30, 30);
@@ -22,7 +23,8 @@
     --hljs-blue: #4fb4d7;
     --hljs-green: #78bb65;
     --hljs-magenta: #b45ea4;
-    --border: rgb(238, 238, 238);
+    --border-color: rgb(238, 238, 238);
+    --border: var(--border-size) solid var(--border-color);
     --link: #0b82b9;
 }
 
@@ -43,7 +45,8 @@
     --hljs-blue: #4fb4d7;
     --hljs-green: #78bb65;
     --hljs-magenta: #b45ea4;
-    --border: rgb(51, 51, 51);
+    --border-color: rgb(51, 51, 51);
+    --border: var(--border-size) solid var(--border-color);
     --link: #18bdec;
 }
 

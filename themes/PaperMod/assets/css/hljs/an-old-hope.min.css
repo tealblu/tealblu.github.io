@@ -52,6 +52,7 @@
     background: var(--hljs-bg);
     color: var(--hljs-foreground);
     padding: .5em;
+    border: var(--border)
 }
 
 .hljs-emphasis {
