@@ -7,7 +7,7 @@
 .terms-tags a {
     display: block;
     padding: 3px 10px;
-    background: var(--hljs-bg);
+    background: var(--code-block-bg);
     border-radius: var(--radius);
     border: var(--border);
     transition: transform 0.1s;

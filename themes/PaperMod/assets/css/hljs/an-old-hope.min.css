@@ -49,10 +49,10 @@
 .hljs {
     display: block;
     overflow-x: auto;
-    background: var(--hljs-bg);
+    background: var(--code-block-bg);
     color: var(--hljs-foreground);
     padding: .5em;
-    border: var(--border)
+    border: var(--border);
 }
 
 .hljs-emphasis {
