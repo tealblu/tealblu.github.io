@@ -75,7 +75,7 @@ const initializeVanta = (options = {}) => {
     el: target,
     mouseControls: true,
     touchControls: true,
-    gyroControls: false,
+    gyroControls: true,
     minHeight: 200,
     minWidth: 200,
     scale: 1,
@@ -84,9 +84,9 @@ const initializeVanta = (options = {}) => {
     color2: colorSecondary,
     backgroundColor: colorBackground,
     colorMode: "lerp",
-    wingSpan: 33,
+    wingSpan: 40,
     speedLimit: 3,
-    cohesion: 54,
+    cohesion: 20,
     quantity: 2
   });
 
