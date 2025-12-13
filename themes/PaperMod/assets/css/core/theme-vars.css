@@ -48,7 +48,7 @@
 }
 
 .list {
-    background: var(--code-bg);
+    background: var(--hljs-bg);
 }
 
 .dark.list {

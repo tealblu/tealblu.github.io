@@ -120,7 +120,7 @@ img {
 }
 
 .list:not(.dark)::-webkit-scrollbar-track {
-    background: var(--code-bg);
+    background: var(--hljs-bg);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -130,7 +130,7 @@ img {
 }
 
 .list:not(.dark)::-webkit-scrollbar-thumb {
-    border: 5px solid var(--code-bg);
+    border: 5px solid var(--hljs-bg);
 }
 
 ::-webkit-scrollbar-thumb:hover {

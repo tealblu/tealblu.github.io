@@ -198,7 +198,7 @@
     padding: 4px 6px;
     font-size: 0.78em;
     line-height: 1.5;
-    background: var(--code-bg);
+    background: var(--hljs-bg);
     border-radius: 2px;
 }
 
@@ -260,13 +260,13 @@
 .toc {
     margin: 0 2px 40px 2px;
     border: 1px solid var(--border);
-    background: var(--code-bg);
+    background: var(--hljs-bg);
     border-radius: var(--radius);
     padding: 0.4em;
 }
 
 .dark .toc {
-    background: var(--entry);
+    background: var(--hljs-bg);
 }
 
 .toc details summary {
@@ -310,7 +310,7 @@
 .share-buttons,
 .paginav {
     border-radius: var(--radius);
-    background: var(--code-bg);
+    background: var(--hljs-bg);
     border: 1px solid var(--border);
 }
 
@@ -321,7 +321,7 @@
     color: var(--secondary);
     font-size: 14px;
     line-height: 34px;
-    background: var(--code-bg);
+    background: var(--hljs-bg);
 }
 
 .post-tags a:hover,
