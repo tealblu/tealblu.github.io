@@ -4,8 +4,9 @@
     max-width: calc(var(--main-width) + var(--gap) * 2);
     margin: auto;
     padding: var(--gap);
-    background: var(--theme);
+    background: color-mix(in srgb, var(--theme) 80%, transparent);
     border-radius: var(--radius);
+    backdrop-filter: blur(10px);
 }
 
 .page-header h1 {
