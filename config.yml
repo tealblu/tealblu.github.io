@@ -33,6 +33,11 @@ params:
   navModule:
     interval: 10000
     ariaLabel: "Rotate status messages"
+    weather:
+      enabled: true
+      location: "Portland, OR"
+      units: "imperial"
+      label: "Portland weather"
     messages:
       - text: "Tending the digital garden."
       - text: "Sketching knowledge graphs."

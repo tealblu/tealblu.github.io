@@ -104,7 +104,16 @@
         </div>
         {{- $navModule := .Site.Params.navModule -}}
         {{- $messages := cond (and $navModule (isset $navModule "messages")) $navModule.messages nil -}}
-        {{- if gt (len $messages) 0 }}
+        {{- $weather := cond (and $navModule (isset $navModule "weather")) $navModule.weather nil -}}
+        {{- $weatherEnabled := and $weather (or (not (isset $weather "enabled")) (index $weather "enabled")) -}}
+        {{- $weatherLocation := "" -}}
+        {{- if and $weatherEnabled (isset $weather "location") }}
+            {{- $weatherLocation = strings.TrimSpace ((index $weather "location") | default "") -}}
+        {{- end -}}
+        {{- $weatherHasCoordinates := and $weatherEnabled (and (isset $weather "latitude") (isset $weather "longitude")) -}}
+        {{- $hasWeatherConfig := and $weatherEnabled (or (ne $weatherLocation "") $weatherHasCoordinates) -}}
+        {{- $navModuleShouldRender := or (gt (len $messages) 0) $hasWeatherConfig -}}
+        {{- if $navModuleShouldRender }}
         <div class="nav-module">
             <button
                 type="button"
@@ -113,7 +122,14 @@
                 data-rotation-interval="{{ $navModule.interval | default 10000 }}"
                 aria-live="polite"
                 aria-atomic="true"
-                aria-label="{{ $navModule.ariaLabel | default "Rotate status messages" }}">
+                aria-label="{{ $navModule.ariaLabel | default "Rotate status messages" }}"
+                {{- if $hasWeatherConfig }} data-weather-enabled="true"{{ end }}
+                {{- if and $hasWeatherConfig (ne $weatherLocation "") }} data-weather-location="{{ $weatherLocation | plainify | htmlEscape }}"{{ end }}
+                {{- if and $hasWeatherConfig (isset $weather "latitude") }} data-weather-latitude="{{ printf "%.6f" (index $weather "latitude") }}"{{ end }}
+                {{- if and $hasWeatherConfig (isset $weather "longitude") }} data-weather-longitude="{{ printf "%.6f" (index $weather "longitude") }}"{{ end }}
+                {{- if and $hasWeatherConfig (isset $weather "units") }} data-weather-units="{{ (index $weather "units") | plainify | htmlEscape }}"{{ end }}
+                {{- if and $hasWeatherConfig (isset $weather "label") }} data-weather-label="{{ (index $weather "label") | plainify | htmlEscape }}"{{ end }}
+            >
                 {{- range $index, $entry := $messages }}
                 {{- $isMap := reflect.IsMap $entry -}}
                 {{- $text := cond $isMap ($entry.text | default "") ($entry | printf "%v") -}}
