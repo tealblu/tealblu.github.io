@@ -4,7 +4,7 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
 body#top {
-    background-color: var(--tertiary);
+    background-color: var(--theme);
 }
 
 button#change-animation {
