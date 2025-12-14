@@ -35,7 +35,7 @@ params:
     ariaLabel: "Rotate status messages"
     weather:
       enabled: true
-      location: "Chicago, IL"
+      location: "Chicago"
       units: "imperial"
       label: ""
     messages:
