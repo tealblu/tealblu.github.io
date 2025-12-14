@@ -128,7 +128,6 @@
     display: inline;
     vertical-align: middle;
     pointer-events: none;
-    transform: translate(0, -10%);
     border-radius: 6px;
     margin-inline-end: 8px;
 }
@@ -141,6 +140,19 @@
 button#theme-toggle {
     font-size: 26px;
     margin: auto 4px auto 8px;
+}
+
+/* Prevent scaled SVG (sun/moon) from being clipped inside the header */
+button#theme-toggle {
+    overflow: visible;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+button#theme-toggle svg {
+    display: block;
 }
 
 #center,
@@ -213,6 +225,7 @@ body.dark #mask-center {
 .lang-switch {
     display: flex;
     flex-wrap: inherit;
+    align-items: center;
 }
 
 .lang-switch a {
@@ -223,6 +236,8 @@ body.dark #mask-center {
 
 .logo-switches {
     flex-wrap: inherit;
+    align-items: center;
+    line-height: normal;
 }
 
 @keyframes nav-module-marquee {
