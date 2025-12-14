@@ -80,7 +80,7 @@ params:
     messages:
       - text: "Status: Playing with my cat"
       - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in ipsum eget nisi convallis venenatis volutpat id nunc. Did you read this far? Congrats!"
-      - text: "Have a nice day! :)"
+      - text: "Have a nice day! 🌱"
 
     # GitHub activity module: client-side fetch of your public GitHub activity
     # - `enabled`: whether to enable this module
