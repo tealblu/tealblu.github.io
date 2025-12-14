@@ -246,6 +246,28 @@ const VANTA_ANIMATIONS = [
       size: 1.25
     })
   }
+  ,
+  {
+    key: "blank",
+    label: "Blank",
+    isSupported: () => true,
+    createEffect: (target /*, colors */) => {
+      // A no-op "animation" that satisfies the same lifecycle as Vanta effects.
+      const effect = {
+        // No rendering to start; provide destroy/pause/resume for compatibility.
+        destroy() {},
+        pause() {},
+        resume() {}
+      };
+      // Attach to target for parity with other effects
+      try {
+        target.__vantaEffect = effect;
+      } catch (e) {
+        // ignore
+      }
+      return effect;
+    }
+  }
 ];
 
 const getVantaState = () => {
@@ -264,11 +286,11 @@ const getVantaState = () => {
 };
 
 const getAvailableAnimations = () => {
-  if (typeof window === "undefined" || !window.VANTA) {
+  if (typeof window === "undefined") {
     return [];
   }
 
-  return VANTA_ANIMATIONS.filter((animation) => {
+  const available = VANTA_ANIMATIONS.filter((animation) => {
     try {
       return typeof animation.isSupported === "function" ? animation.isSupported() : true;
     } catch (error) {
@@ -276,6 +298,20 @@ const getAvailableAnimations = () => {
       return false;
     }
   });
+
+  // On mobile, prefer the blank animation first so we load a lightweight placeholder by default.
+  try {
+    if (isMobileDevice()) {
+      const idx = available.findIndex((a) => a.key === "blank");
+      if (idx > 0) {
+        available.unshift(available.splice(idx, 1)[0]);
+      }
+    }
+  } catch (e) {
+    // ignore any detection errors and return the filtered list
+  }
+
+  return available;
 };
 
 const initializeVanta = (options = {}) => {
@@ -303,9 +339,8 @@ const initializeVanta = (options = {}) => {
     target.__vantaEffect = null;
   }
 
-  if (typeof window === "undefined" || !window.VANTA) {
-    return false;
-  }
+  // Do not require window.VANTA here — the available animations list will include
+  // a no-op `blank` animation even when the Vanta CDN isn't loaded.
 
   const animations = getAvailableAnimations();
   if (!animations.length) {
@@ -313,7 +348,20 @@ const initializeVanta = (options = {}) => {
   }
 
   const state = getVantaState();
-  const requestedIndex = typeof options.animationIndex === "number" ? options.animationIndex : state.currentIndex;
+  // Prefer any explicit request, then any stored user choice, then on mobile
+  // default to the `blank` animation if present, otherwise fall back to state.
+  const storedIndex = readStoredAnimationIndex();
+  let requestedIndex;
+  if (typeof options.animationIndex === "number") {
+    requestedIndex = options.animationIndex;
+  } else if (typeof storedIndex === "number") {
+    requestedIndex = storedIndex;
+  } else if (isMobileDevice()) {
+    const blankIdx = animations.findIndex((a) => a.key === "blank");
+    requestedIndex = blankIdx >= 0 ? blankIdx : 0;
+  } else {
+    requestedIndex = state.currentIndex;
+  }
   const index = ((requestedIndex % animations.length) + animations.length) % animations.length;
   const animation = animations[index];
 
@@ -367,8 +415,8 @@ const bindVantaToThemeToggle = () => {
   if (typeof document === "undefined") {
     return;
   }
-  // Avoid auto-reloading the background on mobile; user should opt-in
-  if (isMobileDevice()) return;
+  // Allow theme toggle to trigger Vanta reloads on all devices (mobile will
+  // receive the lightweight `blank` animation by default).
 
   const toggle = document.getElementById("theme-toggle");
   if (!toggle || toggle.__vantaReloadAttached) {
@@ -440,12 +488,10 @@ document.addEventListener("DOMContentLoaded", () => {
   bindVantaToThemeToggle();
   bindRotationToChangeAnimation();
 
-  // On mobile we deliberately defer loading the Vanta background until
-  // the user explicitly requests it via the "change-animation" button.
-  if (!isMobileDevice()) {
-    const initialized = initializeVanta();
-    if (!initialized && typeof window !== "undefined") {
-      window.addEventListener("load", () => initializeVanta({ force: true }), { once: true });
-    }
+  // Attempt to initialize the Vanta background immediately. On mobile this
+  // will choose the lightweight `blank` animation first.
+  const initialized = initializeVanta();
+  if (!initialized && typeof window !== "undefined") {
+    window.addEventListener("load", () => initializeVanta({ force: true }), { once: true });
   }
 });
