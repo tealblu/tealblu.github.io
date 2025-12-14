@@ -2,6 +2,9 @@
     --gap: 24px;
     --content-gap: 20px;
     --nav-width: 1024px;
+    /* nav module hover variables (moved from header.css) */
+    --nav-module-hover-border: currentColor;
+    --nav-module-hover-bg: color-mix(in srgb, currentColor 10%, transparent);
     --main-width: 720px;
     --header-height: 60px;
     --footer-height: 60px;

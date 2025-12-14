@@ -11,6 +11,8 @@
     background-color: var(--background);
 }
 
+
+
 .nav a {
     display: block;
 }
@@ -59,8 +61,8 @@
 
 .nav-module-button:hover,
 .nav-module-button:focus-visible {
-    border-color: currentColor;
-    background-color: color-mix(in srgb, currentColor 10%, transparent);
+    border-color: var(--nav-module-hover-border);
+    background-color: var(--nav-module-hover-bg);
     outline: none;
 }
 

@@ -37,7 +37,7 @@
     position: relative;
     margin-bottom: var(--gap);
     padding: var(--gap);
-    background: color-mix(in srgb, var(--entry) 50%, transparent);
+    background-color: var(--code-block-bg);
     border-radius: var(--radius);
     transition: transform 0.1s;
     border: ar(--border);
@@ -79,9 +79,21 @@
     right: 0;
     top: 0;
     bottom: 0;
-    border: var(--border);
-    border-radius: var(--radius);
-    background-color: var(--code-block-bg);
+    inset: 0;
+    display: block;
+    padding: 0;
+    background: transparent;
+    border-radius: inherit;
+    border: none;
+    transition: transform 0.1s, background-color 0.12s;
+    color: inherit;
+    opacity: 1;
+    z-index: 1;
+}
+
+.entry-link:active {
+    background: color-mix(in srgb, var(--tertiary) 12%, transparent);
+    transform: scale(0.996);
 }
 
 .entry-cover,
