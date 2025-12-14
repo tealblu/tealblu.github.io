@@ -16,3 +16,10 @@
     background: var(--tertiary);
     transform: scale(0.96);
 }
+
+.terms-tags a:hover,
+.terms-tags a:focus-visible {
+    border-color: var(--nav-module-hover-border);
+    background-color: var(--nav-module-hover-bg);
+    outline: none;
+}

@@ -40,7 +40,7 @@
     background-color: var(--code-block-bg);
     border-radius: var(--radius);
     transition: transform 0.1s;
-    border: ar(--border);
+    border: var(--border);
     backdrop-filter: blur(5px);
 }
 
@@ -94,6 +94,17 @@
 .entry-link:active {
     background: color-mix(in srgb, var(--tertiary) 12%, transparent);
     transform: scale(0.996);
+}
+
+.entry-link:hover,
+.entry-link:focus-visible {
+    background-color: var(--nav-module-hover-bg);
+    outline: none;
+}
+
+.post-entry:hover,
+.post-entry:focus-within {
+    border-color: var(--nav-module-hover-border);
 }
 
 .entry-cover,
