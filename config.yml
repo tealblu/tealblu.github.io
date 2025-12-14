@@ -53,6 +53,19 @@ params:
       - text: "Status: Playing with my cat"
       - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in ipsum eget nisi convallis venenatis volutpat id nunc. Did you read this far? Congrats!"
 
+    # GitHub activity module: client-side fetch of your public GitHub activity
+    # - `enabled`: whether to enable this module
+    # - `username`: the GitHub username to query (required when enabled)
+    # - `eventsLimit`: number of recent events to fetch (default: 3)
+    # - `cacheTTLMinutes`: how long to cache results in localStorage (default: 15)
+    # Note: requests are made from the visitor's browser to GitHub's public API.
+    github:
+      enabled: true
+      username: "tealblu"
+      eventsLimit: 3
+      cacheTTLMinutes: 15
+      label: "my recent github activity:"
+
   googlefonts: "//fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans"
 
   cover:

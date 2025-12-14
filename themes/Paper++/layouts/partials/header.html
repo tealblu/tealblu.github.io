@@ -137,6 +137,17 @@
         {{- $navModuleShouldRender := or (gt (len $messages) 0) $hasWeatherConfig $coffeeEnabled -}}
         {{- if $navModuleShouldRender }}
         <div class="nav-module">
+            {{- /* github module config passthrough */ -}}
+            {{- $github := cond (and $navModule (isset $navModule "github")) $navModule.github nil -}}
+            {{- $githubEnabled := and $github (index $github "enabled") -}}
+            {{- $githubUsername := "" -}}
+            {{- $githubEventsLimit := 3 -}}
+            {{- $githubCacheTTL := 15 -}}
+            {{- if $githubEnabled }}
+                {{- with index $github "username" }}{{- $githubUsername = printf "%v" . -}}{{- end }}
+                {{- with index $github "eventsLimit" }}{{- $githubEventsLimit = printf "%v" . -}}{{- end }}
+                {{- with index $github "cacheTTLMinutes" }}{{- $githubCacheTTL = printf "%v" . -}}{{- end }}
+            {{- end }}
             <button
                 type="button"
                 class="nav-module-button"
@@ -161,6 +172,11 @@
                 {{- if $coffeeEnabled }} data-coffee-verb="{{ $coffeeVerb | htmlEscape }}"{{ end }}
                 {{- if and $coffeeEnabled (ne $coffeeFirstTime "") }} data-coffee-first-time="{{ $coffeeFirstTime | htmlEscape }}"{{ end }}
                 {{- if and $coffeeEnabled (ne $coffeeLastTime "") }} data-coffee-last-time="{{ $coffeeLastTime | htmlEscape }}"{{ end }}
+                {{- if $githubEnabled }} data-github-enabled="true"{{ end }}
+                {{- if and $githubEnabled (ne $githubUsername "") }} data-github-username="{{ $githubUsername | htmlEscape }}"{{ end }}
+                {{- if $githubEnabled }} data-github-events-limit="{{ $githubEventsLimit | htmlEscape }}"{{ end }}
+                {{- if $githubEnabled }} data-github-cache-ttl-minutes="{{ $githubCacheTTL | htmlEscape }}"{{ end }}
+                {{- if and $githubEnabled (isset $github "label") }} data-github-label="{{ (index $github "label") | htmlEscape }}"{{ end }}
             >
                 {{- range $index, $entry := $messages }}
                 {{- $isMap := reflect.IsMap $entry -}}
