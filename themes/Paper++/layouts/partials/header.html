@@ -43,7 +43,7 @@
 {{- end }}
 
 <header class="header">
-    <nav class="nav">
+    <nav id="site-nav" data-turbo-permanent class="nav">
         <div class="logo">
             {{- $label_text := (.Site.Params.label.text | default .Site.Title) }}
             {{- if .Site.Title }}

@@ -1,5 +1,3 @@
-const NAV_ROTATOR_STORAGE_KEY = "navMessageRotatorState";
-
 // Generic utilities shared across nav modules and other UI modules.
 const getLocalStorage = () => {
   if (typeof window === "undefined") {
@@ -71,55 +69,8 @@ const isMobileDevice = () => {
 
 (function () {
 
-  const readStoredNavRotatorState = () => {
-    const storage = getLocalStorage();
-    if (!storage) {
-      return null;
-    }
-
-    try {
-      const rawValue = storage.getItem(NAV_ROTATOR_STORAGE_KEY);
-      if (!rawValue) {
-        return null;
-      }
-
-      const parsed = JSON.parse(rawValue);
-      return parsed && typeof parsed === "object" ? parsed : null;
-    } catch (error) {
-      console.warn("Nav modules: nav rotator state read failed", error);
-    }
-
-    return null;
-  };
-
-  const persistNavRotatorState = (state) => {
-    const storage = getLocalStorage();
-    if (!storage) {
-      return;
-    }
-
-    const toNumeric = (value) => {
-      if (!Number.isFinite(value)) {
-        return null;
-      }
-
-      return Number(value);
-    };
-
-    const payload = {
-      activeIndex: toNumeric(state?.activeIndex),
-      lastRotationAt: toNumeric(state?.lastRotationAt),
-      nextRotationDueAt: toNumeric(state?.nextRotationDueAt),
-      rotationInterval: toNumeric(state?.rotationInterval),
-      autoRotateEnabled: state?.autoRotateEnabled === true
-    };
-
-    try {
-      storage.setItem(NAV_ROTATOR_STORAGE_KEY, JSON.stringify(payload));
-    } catch (error) {
-      console.warn("Nav modules: nav rotator state persist failed", error);
-    }
-  };
+  // Note: persistent storage for nav rotator state removed — rotator state
+  // is now ephemeral and lives only in-memory on the permanent navbar element.
 
   const initializeNavMessageRotator = () => {
     if (typeof document === "undefined") {
@@ -141,21 +92,10 @@ const isMobileDevice = () => {
       activeIndex = 0;
     }
 
-    const storedState = readStoredNavRotatorState();
-    if (storedState && Number.isFinite(storedState.activeIndex)) {
-      const normalizedIndex = Math.max(0, Math.min(messages.length - 1, Math.trunc(storedState.activeIndex)));
-      activeIndex = normalizedIndex;
-    }
-
-    let lastRotationAt = storedState && Number.isFinite(storedState.lastRotationAt)
-      ? Number(storedState.lastRotationAt)
-      : null;
-    let nextRotationDueAt = storedState && Number.isFinite(storedState.nextRotationDueAt)
-      ? Number(storedState.nextRotationDueAt)
-      : null;
-    const storedInterval = storedState && Number.isFinite(storedState.rotationInterval)
-      ? Number(storedState.rotationInterval)
-      : null;
+    // No persisted state — initialize rotation bookkeeping fresh per page load.
+    let lastRotationAt = null;
+    let nextRotationDueAt = null;
+    const storedInterval = null;
 
     // Overflow measurement + marquee helpers
     const clearOverflowState = (message) => {
@@ -279,13 +219,7 @@ const isMobileDevice = () => {
     let rotationTimer = null;
 
     const persistState = () => {
-      persistNavRotatorState({
-        activeIndex,
-        lastRotationAt,
-        nextRotationDueAt,
-        rotationInterval: hasInterval ? intervalValue : null,
-        autoRotateEnabled
-      });
+      // intentionally no-op: persistent storage has been removed
     };
 
     const now = Date.now();
@@ -329,7 +263,6 @@ const isMobileDevice = () => {
 
     const initialRotationAt = Number.isFinite(lastRotationAt) ? Number(lastRotationAt) : Date.now();
     updateActiveMessage(activeIndex, { rotationAt: initialRotationAt });
-    persistState();
     scheduleOverflowMeasurement();
 
     const clearRotationTimer = () => {
@@ -343,7 +276,6 @@ const isMobileDevice = () => {
       const nextIndex = (activeIndex + 1) % messages.length;
       updateActiveMessage(nextIndex);
       nextRotationDueAt = null;
-      persistState();
     };
 
     const scheduleRotation = (delayOverride) => {
@@ -356,7 +288,6 @@ const isMobileDevice = () => {
       const rawDelay = Number.isFinite(delayOverride) ? Number(delayOverride) : fallbackDelay;
       const delay = Math.max(rawDelay, 100);
       nextRotationDueAt = Date.now() + delay;
-      persistState();
       rotationTimer = window.setTimeout(() => {
         rotateToNext();
         scheduleRotation();
@@ -370,7 +301,6 @@ const isMobileDevice = () => {
 
       clearRotationTimer();
       nextRotationDueAt = null;
-      persistState();
     };
 
     const resumeRotation = () => {
@@ -396,7 +326,6 @@ const isMobileDevice = () => {
         } else {
           clearRotationTimer();
           nextRotationDueAt = null;
-          persistState();
         }
         // re-evaluate overflow when user changes reduced-motion preference
         scheduleOverflowMeasurement();
@@ -409,8 +338,6 @@ const isMobileDevice = () => {
       button.addEventListener("focus", pauseRotation);
       button.addEventListener("mouseleave", resumeRotation);
       button.addEventListener("blur", resumeRotation);
-    } else {
-      persistState();
     }
 
     if (typeof window !== "undefined") {
@@ -458,6 +385,14 @@ const isMobileDevice = () => {
 
   if (typeof document !== "undefined") {
     document.addEventListener("DOMContentLoaded", initializeNavModules);
+    // Also initialize on Turbo navigations so handlers reattach after partial page swaps
+    if (typeof window !== "undefined" && window.Turbo) {
+      document.addEventListener("turbo:load", initializeNavModules);
+      document.addEventListener("turbo:render", initializeNavModules);
+    } else {
+      // If Turbo isn't present yet, still listen for turbo:load in case it's added later
+      document.addEventListener("turbo:load", initializeNavModules);
+    }
   }
 })();
 
