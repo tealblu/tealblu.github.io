@@ -104,6 +104,8 @@
     margin-inline-end: 32px; /* trailing gap between copies */
 }
 
+
+
 .nav-module-message.is-overflowing .nav-module-track {
     /* duration then delay then iteration-count — allow JS to set --nav-scroll-delay */
     animation: nav-module-marquee var(--nav-scroll-duration, 12s) linear var(--nav-scroll-delay, 0s) infinite;
