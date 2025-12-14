@@ -39,20 +39,41 @@
 
 #theme-toggle svg {
     height: 18px;
+    width: 18px;
 }
 
 button#theme-toggle {
     font-size: 26px;
-    margin: auto 4px;
+    margin: auto 4px auto 8px;
 }
 
-body.dark #moon {
-    vertical-align: middle;
-    display: none;
+#center,
+#mask-rays,
+#mask-center {
+    transform-origin: center;
+    transition: transform 250ms ease-out;
 }
 
-body:not(.dark) #sun {
-    display: none;
+#center {
+    fill: currentColor;
+    transform: rotate(-35deg);
+}
+
+#rays {
+    stroke: currentColor;
+    stroke-width: 2px;
+}
+
+body.dark #center {
+    transform: rotate(-35deg) scale(2);
+}
+
+body.dark #mask-rays {
+    transform: scale(0.5);
+}
+
+body.dark #mask-center {
+    transform: translateX(-18px);
 }
 
 #menu {
