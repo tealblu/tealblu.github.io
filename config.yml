@@ -1,7 +1,7 @@
 baseURL: https://indi.bio
 languageCode: en-us
 title: indi.bio
-theme: "PaperMod"
+theme: "Paper++"
 
 params:
   homeInfoParams:

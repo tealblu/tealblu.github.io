@@ -232,21 +232,7 @@ const VANTA_ANIMATIONS = [
       yOffset: 0.00,
       size: 1.25
     })
-  },
-  // Example: copy and adjust this block to introduce more effects.
-  // {
-  //   key: "waves",
-  //   label: "Waves",
-  //   isSupported: () => Boolean(window?.VANTA?.WAVES),
-  //   createEffect: (target, colors) => window.VANTA.WAVES({
-  //     el: target,
-  //     color: colors.primary,
-  //     shininess: 150,
-  //     waveHeight: 20,
-  //     waveSpeed: 0.35,
-  //     zoom: 1
-  //   })
-  // }
+  }
 ];
 
 const getVantaState = () => {

@@ -28,7 +28,7 @@ lastMod: 2025-02-14
 
 ### Development
 
-  + `themes/PaperModlayouts/partials/home_info.html` is the template for my home page
+  + `themes/Paper++/layouts/partials/home_info.html` is the template for my home page
 
     + I need to figure out how to render a graph in this page
 
