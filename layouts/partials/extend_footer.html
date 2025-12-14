@@ -4,7 +4,6 @@
 {{- $navModulesBundle := resources.Get "js/nav-modules.js" | js.Build $opts | minify -}}
 {{- $githubBundle := resources.Get "js/github-module.js" | js.Build $opts | minify -}}
 {{- $vantaBundle := resources.Get "js/vanta-init.js" | js.Build $opts | minify -}}
-{{- $transitionBundle := resources.Get "js/page-transitions.js" | js.Build $opts | minify -}}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.birds.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.waves.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -19,18 +18,15 @@
   {{- $navModulesBundle = $navModulesBundle | fingerprint -}}
   {{- $githubBundle = $githubBundle | fingerprint -}}
   {{- $vantaBundle = $vantaBundle | fingerprint -}}
-  {{- $transitionBundle = $transitionBundle | fingerprint -}}
   <script defer src="{{ $coffeeBundle.RelPermalink }}" integrity="{{ $coffeeBundle.Data.Integrity }}" crossorigin="anonymous"></script>
   <script defer src="{{ $weatherBundle.RelPermalink }}" integrity="{{ $weatherBundle.Data.Integrity }}" crossorigin="anonymous"></script>
     <script defer src="{{ $githubBundle.RelPermalink }}" integrity="{{ $githubBundle.Data.Integrity }}" crossorigin="anonymous"></script>
   <script defer src="{{ $navModulesBundle.RelPermalink }}" integrity="{{ $navModulesBundle.Data.Integrity }}" crossorigin="anonymous"></script>
   <script defer src="{{ $vantaBundle.RelPermalink }}" integrity="{{ $vantaBundle.Data.Integrity }}" crossorigin="anonymous"></script>
-  <script defer src="{{ $transitionBundle.RelPermalink }}" integrity="{{ $transitionBundle.Data.Integrity }}" crossorigin="anonymous"></script>
 {{- else -}}
   <script defer src="{{ $coffeeBundle.RelPermalink }}" crossorigin="anonymous"></script>
   <script defer src="{{ $weatherBundle.RelPermalink }}" crossorigin="anonymous"></script>
   <script defer src="{{ $githubBundle.RelPermalink }}" crossorigin="anonymous"></script>
   <script defer src="{{ $navModulesBundle.RelPermalink }}" crossorigin="anonymous"></script>
   <script defer src="{{ $vantaBundle.RelPermalink }}" crossorigin="anonymous"></script>
-  <script defer src="{{ $transitionBundle.RelPermalink }}" crossorigin="anonymous"></script>
 {{- end -}}
