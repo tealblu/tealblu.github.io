@@ -63,7 +63,7 @@ params:
       enabled: true
       username: "tealblu"
       eventsLimit: 3
-      cacheTTLMinutes: 15
+      cacheTTLMinutes: 1
       label: "my recent github activity:"
 
   googlefonts: "//fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans"

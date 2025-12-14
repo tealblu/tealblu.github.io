@@ -1,44 +1,6 @@
-const cssColorToInt = (colorValue) => {
-  if (!colorValue) {
-    return null;
-  }
-
-  const value = colorValue.trim().toLowerCase();
-
-  if (value.startsWith("#")) {
-    const hex = value.slice(1);
-    const normalized = hex.length === 3
-      ? hex.split("").map((char) => `${char}${char}`).join("")
-      : hex;
-
-    const parsed = Number.parseInt(normalized, 16);
-    return Number.isNaN(parsed) ? null : parsed;
-  }
-
-  const rgbMatch = value.match(/^rgba?\((\d+),\s*(\d+),\s*(\d+)/);
-  if (rgbMatch) {
-    const [, r, g, b] = rgbMatch.map(Number);
-    return (r << 16) + (g << 8) + b;
-  }
-
-  return null;
-};
+import { getLocalStorage, getThemeColor, isMobileDevice } from "./nav-modules.js";
 
 const VANTA_STORAGE_KEY = "vantaAnimationIndex";
-
-const getLocalStorage = () => {
-  if (typeof window === "undefined") {
-    return null;
-  }
-
-  try {
-    return window.localStorage;
-  } catch (error) {
-    console.warn("Vanta localStorage access failed", error);
-  }
-
-  return null;
-};
 
 const readStoredAnimationIndex = () => {
   const storage = getLocalStorage();
@@ -74,33 +36,7 @@ const persistAnimationIndex = (index) => {
   }
 };
 
-const getThemeColor = (variableName) => {
-  if (typeof window === "undefined" || typeof document === "undefined") {
-    return null;
-  }
-
-  const elements = [document.body, document.documentElement].filter(Boolean);
-
-  for (const element of elements) {
-    const value = cssColorToInt(window.getComputedStyle(element).getPropertyValue(variableName));
-    if (value !== null) {
-      return value;
-    }
-  }
-
-  return null;
-};
-
-const isMobileDevice = () => {
-  if (typeof window === "undefined") return false;
-  try {
-    if (window.matchMedia && window.matchMedia('(pointer: coarse) and (hover: none)').matches) return true;
-    if ('ontouchstart' in window || (navigator.maxTouchPoints && navigator.maxTouchPoints > 0)) return true;
-    return window.innerWidth <= 768;
-  } catch (e) {
-    return false;
-  }
-};
+// `getThemeColor` and `isMobileDevice` are imported from `nav-modules.js`.
 
 const VANTA_ANIMATIONS = [
   {
