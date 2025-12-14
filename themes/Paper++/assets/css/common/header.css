@@ -94,8 +94,6 @@
     display: inline-flex;
     align-items: center;
     white-space: nowrap;
-    /* Use a 3D identity transform to encourage GPU compositing and reduce
-       paint jitter when animations start or resume. */
     transform: translate3d(0,0,0);
     will-change: transform;
 }

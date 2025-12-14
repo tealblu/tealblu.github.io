@@ -30,15 +30,39 @@ params:
   ShowReadingTime: true
   ShowCodeCopyButtons: true
 
+  # dynamic message module by tealblu
   navModule:
+    # Marquee module: displays a rotating list of messages
+    # - `interval`: how often to rotate messages (default: 30000ms)
+    # - `ariaLabel`: ARIA label for the marquee element
+    # - `marqueePauseMs`: how long to pause the marquee when overflowing (default: 2000ms)
     interval: 30000
     ariaLabel: "Rotate status messages"
     marqueePauseMs: 2000
+
+    # Weather module: fetches weather data from open-meteo
+    # - `enabled`: whether to enable this module
+    # - `location`: your location name, zip, etc (required when enabled)
+    #    - note: you can also specify latitude and longitude directly. check out https://open-meteo.com/en/docs for more info
+    # - `units`: the units to use for temperature (default: "metric")
+    # - `label`: optional label for the module
     weather:
       enabled: true
       location: "Chicago"
       units: "imperial"
       label: ""
+    
+    # Coffee module: roughly tracks your coffee consumption
+    # - `enabled`: whether to enable this module
+    # - `minCups`: minimum number of cups to display
+    # - `maxCups`: maximum number of cups to display
+    # - `unitSingular`: the singular unit of measurement (default: "cup")
+    # - `unitPlural`: the plural unit of measurement (default: "cups")
+    # - `beverage`: the name of the beverage (default: "coffee")
+    # - `verb`: the verb to use in the message (default: "consumed today")
+    # - `labelling`: optional label for the module
+    # - `firstCupTime`: the time of day you first have coffee (default: "07:00")
+    # - `lastCupTime`: the time of day you last have coffee (default: "19:00")
     coffee:
       enabled: true
       minCups: 1
@@ -50,6 +74,9 @@ params:
       label: ""
       firstCupTime: "07:30"
       lastCupTime: "14:30"
+    
+    # Generic messages
+    # - `text`: the message to display
     messages:
       - text: "Status: Playing with my cat"
       - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in ipsum eget nisi convallis venenatis volutpat id nunc. Did you read this far? Congrats!"
