@@ -157,6 +157,7 @@ const VANTA_ANIMATIONS = [
       zoom: 2.2
     })
   },
+/**
   {
     key: "cells",
     label: "Cells",
@@ -177,6 +178,7 @@ const VANTA_ANIMATIONS = [
       speed: 1
     })
   },
+*/
   {
     key: "net",
     label: "Net",
