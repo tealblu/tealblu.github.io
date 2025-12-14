@@ -158,6 +158,26 @@ const VANTA_ANIMATIONS = [
     })
   },
   {
+    key: "cells",
+    label: "Cells",
+    isSupported: () => Boolean(window?.VANTA?.CELLS),
+    createEffect: (target, colors) => window.VANTA.CELLS({
+      el: target,
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200,
+      minWidth: 200,
+      scale: 1,
+      scaleMobile: 3,
+      color1: colors.theme,
+      color2: colors.background,
+      backgroundColor: colors.theme,
+      size: 2,
+      speed: 1
+    })
+  },
+  {
     key: "net",
     label: "Net",
     isSupported: () => Boolean(window?.VANTA?.NET),
@@ -174,6 +194,43 @@ const VANTA_ANIMATIONS = [
       backgroundColor: colors.background,
       maxDistance: 25,
       spacing: 15
+    })
+  },
+  {
+    key: "rings",
+    label: "Rings",
+    isSupported: () => Boolean(window?.VANTA?.RINGS),
+    createEffect: (target, colors) => window.VANTA.RINGS({
+      el: target,
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200,
+      minWidth: 200,
+      scale: 1,
+      scaleMobile: 3,
+      backgroundColor: colors.theme,
+      color: colors.secondary,
+      backgroundAlpha: 0.5
+    })
+  },
+  {
+    key: "halo",
+    label: "Halo",
+    isSupported: () => Boolean(window?.VANTA?.HALO),
+    createEffect: (target, colors) => window.VANTA.HALO({
+      el: target,
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200,
+      minWidth: 200,
+      baseColor: colors.secondary,
+      backgroundColor: colors.theme,
+      amplitudeFactor: 2,
+      xOffset: 0.00,
+      yOffset: 0.00,
+      size: 1.25
     })
   },
   // Example: copy and adjust this block to introduce more effects.
@@ -261,10 +318,13 @@ const initializeVanta = (options = {}) => {
   const index = ((requestedIndex % animations.length) + animations.length) % animations.length;
   const animation = animations[index];
 
+  const themeColor = getThemeColor("--theme") ?? 0x6e8096;
+
   const colors = {
     primary: getThemeColor("--primary") ?? 0x642c2c,
     secondary: getThemeColor("--secondary") ?? 0x5b8a98,
-    background: getThemeColor("--theme") ?? 0x6e8096
+    background: themeColor,
+    theme: themeColor
   };
 
   // Requires VANTA and THREE from their respective CDN scripts loaded before this runs.
