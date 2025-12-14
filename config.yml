@@ -30,6 +30,14 @@ params:
   ShowReadingTime: true
   ShowCodeCopyButtons: true
 
+  navModule:
+    interval: 10000
+    ariaLabel: "Rotate status messages"
+    messages:
+      - text: "Tending the digital garden."
+      - text: "Sketching knowledge graphs."
+      - text: "Building new automations."
+
   googlefonts: "//fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans"
 
   cover:

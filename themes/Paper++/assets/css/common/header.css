@@ -2,9 +2,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     max-width: calc(var(--nav-width) + var(--gap) * 2);
     margin-inline-start: auto;
     margin-inline-end: auto;
+    padding-top: calc(var(--gap) / 2);
     line-height: var(--header-height);
     background-color: var(--background);
 }
@@ -21,6 +23,68 @@
 
 .logo {
     flex-wrap: inherit;
+}
+
+.nav-module {
+    flex: 1 1 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto var(--gap);
+    margin-bottom: calc(var(--gap) / 2);
+    min-width: 180px;
+    max-width: 100%;
+}
+
+.nav-module-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    width: 100%;
+    min-height: 32px;
+    padding: 0px 12px;
+    border: 1px solid color-mix(in srgb, currentColor 35%, transparent);
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--theme) 80%, transparent);
+    backdrop-filter: blur(10px);
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    text-align: center;
+    transition: border-color 160ms ease, background-color 160ms ease;
+}
+
+.nav-module-button:hover,
+.nav-module-button:focus-visible {
+    border-color: currentColor;
+    background-color: color-mix(in srgb, currentColor 10%, transparent);
+    outline: none;
+}
+
+.nav-module-message {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    opacity: 0;
+    transform: translateY(4px);
+    transition: opacity 200ms ease, transform 200ms ease;
+    white-space: nowrap;
+}
+
+.nav-module-message.is-active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.nav-module-button .nav-module-message:not(.is-active) {
+    position: absolute;
+    visibility: hidden;
+}
+
+.nav-module-label {
+    font-weight: 600;
 }
 
 .logo a {

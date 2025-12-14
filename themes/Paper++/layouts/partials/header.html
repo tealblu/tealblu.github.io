@@ -102,6 +102,31 @@
                 {{- end }}
             </span>
         </div>
+        {{- $navModule := .Site.Params.navModule -}}
+        {{- $messages := cond (and $navModule (isset $navModule "messages")) $navModule.messages nil -}}
+        {{- if gt (len $messages) 0 }}
+        <div class="nav-module">
+            <button
+                type="button"
+                class="nav-module-button"
+                id="nav-message-rotator"
+                data-rotation-interval="{{ $navModule.interval | default 10000 }}"
+                aria-live="polite"
+                aria-atomic="true"
+                aria-label="{{ $navModule.ariaLabel | default "Rotate status messages" }}">
+                {{- range $index, $entry := $messages }}
+                {{- $isMap := reflect.IsMap $entry -}}
+                {{- $text := cond $isMap ($entry.text | default "") ($entry | printf "%v") -}}
+                {{- $label := cond $isMap ($entry.label | default "") "" -}}
+                <span class="nav-module-message{{ if eq $index 0 }} is-active{{ end }}" data-index="{{ $index }}"
+                    {{- with $label }} data-label="{{ . | plainify | htmlEscape }}"{{ end }}>
+                    {{- with $label }}<span class="nav-module-label">{{ . }}</span>{{ end -}}
+                    {{- if ne (strings.TrimSpace $text) "" }}<span class="nav-module-text">{{ $text }}</span>{{ end -}}
+                </span>
+                {{- end }}
+            </button>
+        </div>
+        {{- end }}
         {{- $currentPage := . }}
         <ul id="menu">
             {{- range .Site.Menus.main }}
