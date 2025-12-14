@@ -1,0 +1,1 @@
+(()=>{(()=>{const e=(e,t)=>{if(!e||typeof e[t]!="function")return;try{e[t]()}catch(e){console.warn(`Nav modules: ${t} failed`,e)}},t=()=>{if(typeof window=="undefined")return;e(window.coffeeModule,"initializeCoffeeMessage"),e(window.weatherModule,"initializeWeatherMessage")};typeof document!="undefined"&&document.addEventListener("DOMContentLoaded",t)})()})()
