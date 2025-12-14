@@ -11,7 +11,7 @@ button#change-animation {
     font-size: 26px;
     margin: auto 4px;
     color: inherit;
-    transition: transform 0.4s ease-in-out;
+    transition: transform 0.1s ease-in-out;
 }
 
 #change-animation svg {
