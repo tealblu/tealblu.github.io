@@ -131,7 +131,7 @@ const VANTA_ANIMATIONS = [
       scaleMobile: 3,
       shininess: 50,
       waveHeight: 50,
-      waveSpeed: 0.25,
+      waveSpeed: 0.1,
       zoom: 1,
       color: colors.background,
       backgroundColor: colors.primary

@@ -31,7 +31,7 @@ params:
   ShowCodeCopyButtons: true
 
   navModule:
-    interval: 10000
+    interval: 30000
     ariaLabel: "Rotate status messages"
     weather:
       enabled: true
@@ -51,7 +51,7 @@ params:
       lastCupTime: "14:30"
     messages:
       - text: "Status: Playing with my cat"
-      - text: "<- Try the buttons to the left!"
+      - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in ipsum eget nisi convallis venenatis volutpat id nunc. Did you read this far? Congrats!"
 
   googlefonts: "//fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans"
 

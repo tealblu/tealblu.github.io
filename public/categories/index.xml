@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on indi.bio</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>http://192.168.0.225:1313/categories/</link>
     <description>Recent content in Categories on indi.bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.0.225:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Projects</title>
-      <link>http://localhost:1313/categories/projects/</link>
+      <link>http://192.168.0.225:1313/categories/projects/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/projects/</guid>
+      <guid>http://192.168.0.225:1313/categories/projects/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/categories/blog/</link>
+      <link>http://192.168.0.225:1313/categories/blog/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/blog/</guid>
+      <guid>http://192.168.0.225:1313/categories/blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>List, Blog</title>
-      <link>http://localhost:1313/categories/list-blog/</link>
+      <link>http://192.168.0.225:1313/categories/list-blog/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/list-blog/</guid>
+      <guid>http://192.168.0.225:1313/categories/list-blog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Diary</title>
-      <link>http://localhost:1313/categories/diary/</link>
+      <link>http://192.168.0.225:1313/categories/diary/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/diary/</guid>
+      <guid>http://192.168.0.225:1313/categories/diary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Meta</title>
-      <link>http://localhost:1313/categories/meta/</link>
+      <link>http://192.168.0.225:1313/categories/meta/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/meta/</guid>
+      <guid>http://192.168.0.225:1313/categories/meta/</guid>
       <description></description>
     </item>
     

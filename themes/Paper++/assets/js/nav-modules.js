@@ -101,6 +101,83 @@
       ? Number(storedState.rotationInterval)
       : null;
 
+    // Overflow measurement + marquee helpers
+    const clearOverflowState = (message) => {
+      if (!message) return;
+      message.classList.remove("is-overflowing");
+      const textElement = message.querySelector(".nav-module-text");
+      if (!textElement) return;
+
+      // restore original content if we replaced it with a track
+      if (message.dataset.navOriginalHtml) {
+        textElement.innerHTML = message.dataset.navOriginalHtml;
+        delete message.dataset.navOriginalHtml;
+      }
+
+      const track = textElement.querySelector(".nav-module-track");
+      if (track) {
+        track.style.removeProperty("--nav-scroll-distance");
+        track.style.removeProperty("--nav-scroll-duration");
+      }
+    };
+
+    let overflowFrameId = null;
+
+    const applyOverflowState = () => {
+      overflowFrameId = null;
+      const activeMessage = messages[activeIndex];
+      messages.forEach((m, i) => { if (i !== activeIndex) clearOverflowState(m); });
+      if (!activeMessage) return;
+      const textElement = activeMessage.querySelector(".nav-module-text");
+      if (!textElement) { clearOverflowState(activeMessage); return; }
+
+      const availableWidth = activeMessage.clientWidth;
+      const originalContentWidth = textElement.scrollWidth;
+      const prefersReduced = (typeof window !== "undefined" && typeof window.matchMedia === "function")
+        ? window.matchMedia("(prefers-reduced-motion: reduce)").matches
+        : false;
+
+      // If content fits, don't animate
+      if (!Number.isFinite(availableWidth) || availableWidth <= 0 || originalContentWidth <= availableWidth || prefersReduced) {
+        clearOverflowState(activeMessage);
+        return;
+      }
+
+      // create a seamless track if not present
+      let track = textElement.querySelector(".nav-module-track");
+      if (!track) {
+        // save original inner HTML so we can restore later
+        activeMessage.dataset.navOriginalHtml = textElement.innerHTML;
+        const originalHtml = textElement.innerHTML;
+        textElement.innerHTML = "";
+        track = document.createElement("span");
+        track.className = "nav-module-track";
+        const itemA = document.createElement("span");
+        itemA.className = "nav-module-track-item";
+        itemA.innerHTML = originalHtml;
+        const itemB = itemA.cloneNode(true);
+        track.appendChild(itemA);
+        track.appendChild(itemB);
+        textElement.appendChild(track);
+      }
+
+      // measure single-item width (first child)
+      const singleWidth = track.firstElementChild ? track.firstElementChild.scrollWidth : originalContentWidth;
+      const trailingGap = 32; // must match CSS margin-inline-end on .nav-module-track-item
+      const scrollDistance = Math.max(0, Math.round(singleWidth + trailingGap));
+
+      const durationMs = Math.max(6000, Math.min(20000, Math.round((singleWidth / 40) * 1000)));
+      activeMessage.classList.add("is-overflowing");
+      track.style.setProperty("--nav-scroll-distance", `${scrollDistance}px`);
+      track.style.setProperty("--nav-scroll-duration", `${durationMs}ms`);
+    };
+
+    const scheduleOverflowMeasurement = () => {
+      if (typeof window === "undefined") return;
+      if (overflowFrameId !== null) window.cancelAnimationFrame(overflowFrameId);
+      overflowFrameId = window.requestAnimationFrame(applyOverflowState);
+    };
+
     const updateActiveMessage = (nextIndex, options = {}) => {
       const normalizedIndex = ((Number(nextIndex) % messages.length) + messages.length) % messages.length;
 
@@ -125,6 +202,8 @@
       activeIndex = normalizedIndex;
       const rotationAt = Number.isFinite(options?.rotationAt) ? Number(options.rotationAt) : Date.now();
       lastRotationAt = rotationAt;
+      // measure if active message overflows and enable marquee if needed
+      scheduleOverflowMeasurement();
     };
 
     let intervalValue = Number.parseInt(button.dataset.rotationInterval || "", 10);
@@ -195,6 +274,7 @@
     const initialRotationAt = Number.isFinite(lastRotationAt) ? Number(lastRotationAt) : Date.now();
     updateActiveMessage(activeIndex, { rotationAt: initialRotationAt });
     persistState();
+    scheduleOverflowMeasurement();
 
     const clearRotationTimer = () => {
       if (rotationTimer !== null) {
@@ -262,6 +342,8 @@
           nextRotationDueAt = null;
           persistState();
         }
+        // re-evaluate overflow when user changes reduced-motion preference
+        scheduleOverflowMeasurement();
       });
     }
 
@@ -274,6 +356,21 @@
     } else {
       persistState();
     }
+
+    if (typeof window !== "undefined") {
+      window.addEventListener("resize", scheduleOverflowMeasurement, { passive: true });
+    }
+
+    const mutationObserver = new MutationObserver((mutations) => {
+      for (const mutation of mutations) {
+        if (mutation.type === "characterData" || mutation.type === "childList") {
+          scheduleOverflowMeasurement();
+          break;
+        }
+      }
+    });
+
+    mutationObserver.observe(button, { childList: true, subtree: true, characterData: true });
 
     button.__navMessageRotatorAttached = true;
   };

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on indi.bio</title>
-    <link>http://localhost:1313/categories/projects/</link>
+    <link>http://192.168.0.225:1313/categories/projects/</link>
     <description>Recent content in Projects on indi.bio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.0.225:1313/categories/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DIY Electrolysis Machine</title>
-      <link>http://localhost:1313/pages/diy-electrolysis/</link>
+      <link>http://192.168.0.225:1313/pages/diy-electrolysis/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/diy-electrolysis/</guid>
+      <guid>http://192.168.0.225:1313/pages/diy-electrolysis/</guid>
       <description>&lt;h3 id=&#34;description&#34;&gt;Description:&lt;/h3&gt;
 &lt;p&gt;This project explores the design and construction of a DIY electrolysis machine using constant-current control circuitry. The system automatically maintains precise current levels (typically 0.7 mA) for safe galvanic electrolysis applications, eliminating the need for manual voltage adjustments during treatment.&lt;/p&gt;
 &lt;h3 id=&#34;research-background&#34;&gt;Research Background:&lt;/h3&gt;
@@ -21,30 +21,30 @@
     
     <item>
       <title>Ada</title>
-      <link>http://localhost:1313/pages/ada/</link>
+      <link>http://192.168.0.225:1313/pages/ada/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/ada/</guid>
+      <guid>http://192.168.0.225:1313/pages/ada/</guid>
       <description>&lt;h1 id=&#34;teleology&#34;&gt;Teleology&lt;/h1&gt;
-&lt;p&gt;After 5+ years of using Amazon&amp;rsquo;s Alexa and Google&amp;rsquo;s Assistant, I was left unsatisfied. Alexa is annoying at best. Google is constantly removing features from their Assistant. Enter &lt;a href=&#34;http://localhost:1313/pages/home-assistant/&#34;&gt;Home Assistant&lt;/a&gt; - with its built-in Assist platform, I set out to create a custom, local voice assistant. It is worth noting that HASS announced this year that they are working on their own local/cloud-integrated LLM system. I decided to do this project long before that was announced.&lt;/p&gt;</description>
+&lt;p&gt;After 5+ years of using Amazon&amp;rsquo;s Alexa and Google&amp;rsquo;s Assistant, I was left unsatisfied. Alexa is annoying at best. Google is constantly removing features from their Assistant. Enter &lt;a href=&#34;http://192.168.0.225:1313/pages/home-assistant/&#34;&gt;Home Assistant&lt;/a&gt; - with its built-in Assist platform, I set out to create a custom, local voice assistant. It is worth noting that HASS announced this year that they are working on their own local/cloud-integrated LLM system. I decided to do this project long before that was announced.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Home Assistant</title>
-      <link>http://localhost:1313/pages/home-assistant/</link>
+      <link>http://192.168.0.225:1313/pages/home-assistant/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/home-assistant/</guid>
+      <guid>http://192.168.0.225:1313/pages/home-assistant/</guid>
       <description>&lt;h1 id=&#34;overview&#34;&gt;overview&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.home-assistant.io/&#34;&gt;Home Assistant&lt;/a&gt; is essentially a home automation platform designed to be both accessible to users and powerful for enthusiasts. It is hosted on local hardware using software created by &lt;a href=&#34;https://www.nabucasa.com/&#34;&gt;Nabu Casa&lt;/a&gt; (who also maintain &lt;a href=&#34;https://esphome.io/index.html&#34;&gt;ESPHome&lt;/a&gt;, a project I fully intend to utilize in the future). Home Assistant boasts a dedicated enterprise community that have developed a robust ecosystem of hardware and software compatible with Home Assistant right out of the box. Furthermore, through the &lt;a href=&#34;https://hacs.xyz/&#34;&gt;Home Assistant Community Store&lt;/a&gt; (colloquially HACS), users can install and run custom integrations, add-ons, and UI components created and maintained by Home Assistant&amp;rsquo;s passionate user community.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Graph Rendering</title>
-      <link>http://localhost:1313/pages/graph-rendering/</link>
+      <link>http://192.168.0.225:1313/pages/graph-rendering/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/graph-rendering/</guid>
+      <guid>http://192.168.0.225:1313/pages/graph-rendering/</guid>
       <description>&lt;h3 id=&#34;project-goals&#34;&gt;Project goals:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -86,30 +86,30 @@
     
     <item>
       <title>Code Projects</title>
-      <link>http://localhost:1313/pages/code-projects/</link>
+      <link>http://192.168.0.225:1313/pages/code-projects/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/code-projects/</guid>
+      <guid>http://192.168.0.225:1313/pages/code-projects/</guid>
       <description>&lt;h3 id=&#34;description&#34;&gt;Description:&lt;/h3&gt;
 &lt;p&gt;This is the collection of my code projects that I&amp;rsquo;ve done over the years.&lt;/p&gt;
 &lt;h3 id=&#34;project-list&#34;&gt;Project List:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;PDP-11 Instruction Set Simulator: &lt;a href=&#34;http://localhost:1313/pages/pdp-11-instruction-set-simulator/&#34;&gt;PDP-11 Instruction Set Simulator&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;PDP-11 Instruction Set Simulator: &lt;a href=&#34;http://192.168.0.225:1313/pages/pdp-11-instruction-set-simulator/&#34;&gt;PDP-11 Instruction Set Simulator&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;DriveTime: &lt;a href=&#34;http://localhost:1313/pages/drivetime/&#34;&gt;DriveTime&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DriveTime: &lt;a href=&#34;http://192.168.0.225:1313/pages/drivetime/&#34;&gt;DriveTime&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Image Classification AI: &lt;a href=&#34;http://localhost:1313/pages/image-classification-ai/&#34;&gt;Image Classification AI&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Image Classification AI: &lt;a href=&#34;http://192.168.0.225:1313/pages/image-classification-ai/&#34;&gt;Image Classification AI&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Low-Cost Universal Camera Array: &lt;a href=&#34;http://localhost:1313/pages/luca/&#34;&gt;LUCA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Low-Cost Universal Camera Array: &lt;a href=&#34;http://192.168.0.225:1313/pages/luca/&#34;&gt;LUCA&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Archive website (the website you&amp;rsquo;re on)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Homepage graph view: &lt;a href=&#34;http://localhost:1313/pages/graph-rendering/&#34;&gt;Graph Rendering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Homepage graph view: &lt;a href=&#34;http://192.168.0.225:1313/pages/graph-rendering/&#34;&gt;Graph Rendering&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</description>
@@ -117,38 +117,38 @@
     
     <item>
       <title>DriveTime</title>
-      <link>http://localhost:1313/pages/drivetime/</link>
+      <link>http://192.168.0.225:1313/pages/drivetime/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/drivetime/</guid>
+      <guid>http://192.168.0.225:1313/pages/drivetime/</guid>
       <description>&lt;p&gt;DriveTime is a web application intended to incentivize truck drivers to drive more safely. It is built with C#, CSHMTL, Entity Framework Core, Ebay API, iTunes API, AWS Elastic Beanstalk, AWS EC2, and AWS RDS.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Image Classification AI</title>
-      <link>http://localhost:1313/pages/image-classification-ai/</link>
+      <link>http://192.168.0.225:1313/pages/image-classification-ai/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/image-classification-ai/</guid>
+      <guid>http://192.168.0.225:1313/pages/image-classification-ai/</guid>
       <description>&lt;p&gt;I created an AI for automated classification of production line quality control images on Stratus Vision AOI systems. I identified key areas of application and improvement, and performed ongoing fine-tuning and maintenance to the model based on various metrics.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>LUCA</title>
-      <link>http://localhost:1313/pages/luca/</link>
+      <link>http://192.168.0.225:1313/pages/luca/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/luca/</guid>
+      <guid>http://192.168.0.225:1313/pages/luca/</guid>
       <description>&lt;p&gt;Helped develop and maintain Bosch’s in-house computer vision system. Gradually took ownership of the project and became the sole developer and maintainer of the project.&lt;/p&gt;
 &lt;p&gt;The system is built from a raspberry pi, 8 NVidia Jetson Nano boards, and 16 high-resolution cameras. The cameras are attached to a 3-axis mount controlled by 3 servo motors. LED lighting strips were added later to the inside of the machine in order to add the ability to customize lighting.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>PDP-11 Instruction Set Simulator</title>
-      <link>http://localhost:1313/pages/pdp-11-instruction-set-simulator/</link>
+      <link>http://192.168.0.225:1313/pages/pdp-11-instruction-set-simulator/</link>
       <pubDate>Sun, 21 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/pdp-11-instruction-set-simulator/</guid>
+      <guid>http://192.168.0.225:1313/pages/pdp-11-instruction-set-simulator/</guid>
       <description>&lt;h3 id=&#34;description&#34;&gt;Description:&lt;/h3&gt;
 &lt;p&gt;This is a C program that accurately simulates the PDP-11 computer&amp;rsquo;s assembly language, complete with virtual memory, CPU registers, and a caching system. Input and output are performed through the command line or through files.
 &lt;img loading=&#34;lazy&#34; src=&#34;https://cdn.arstechnica.net/wp-content/uploads/2013/10/unix-creators.jpg&#34; alt=&#34;A brief tour of the PDP-11, the most influential minicomputer of all time |  Ars Technica&#34;  /&gt;
@@ -159,15 +159,15 @@
     
     <item>
       <title>Projects Homepage</title>
-      <link>http://localhost:1313/pages/projects-homepage/</link>
+      <link>http://192.168.0.225:1313/pages/projects-homepage/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/pages/projects-homepage/</guid>
+      <guid>http://192.168.0.225:1313/pages/projects-homepage/</guid>
       <description>&lt;h3 id=&#34;what-kind-of-projects-do-i-do&#34;&gt;What kind of projects do I do?&lt;/h3&gt;
 &lt;p&gt;I&amp;rsquo;m interested in a lot of different stuff! This collection will hopefully become an archive of my various projects, both for my personal reference and to document for future employment purposes. The types of projects here will include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Code, programming, and related projects -&amp;gt; &lt;a href=&#34;http://localhost:1313/pages/code-projects/&#34;&gt;Code Projects&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Code, programming, and related projects -&amp;gt; &lt;a href=&#34;http://192.168.0.225:1313/pages/code-projects/&#34;&gt;Code Projects&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;DIY stuff&lt;/p&gt;
