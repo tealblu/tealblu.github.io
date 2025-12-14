@@ -263,6 +263,7 @@
     background: var(--code-block-bg);
     border-radius: var(--radius);
     padding: 0.4em;
+    transition: border-color 160ms ease, background-color 160ms ease;
 }
 
 .dark .toc {
@@ -294,6 +295,11 @@
 
 .toc summary:focus {
     outline: 0;
+}
+
+.toc:hover {
+    border-color: var(--nav-module-hover-border);
+    background-color: var(--nav-module-hover-bg);
 }
 
 .post-footer {
