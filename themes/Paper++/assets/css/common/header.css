@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    max-width: calc(var(--nav-width) + var(--gap) * 2);
+
     margin-inline-start: auto;
     margin-inline-end: auto;
     padding: calc(var(--gap) / 2);
@@ -34,7 +34,6 @@
     align-items: center;
     justify-content: center;
     margin: auto var(--gap);
-    margin-bottom: calc(var(--gap) / 2);
     min-width: 180px;
     max-width: 100%;
 }
