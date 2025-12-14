@@ -11,7 +11,7 @@
 After 5&#43; years of using Amazon&rsquo;s Alexa and Google&rsquo;s Assistant, I was left unsatisfied. Alexa is annoying at best. Google is constantly removing features from their Assistant. Enter Home Assistant - with its built-in Assist platform, I set out to create a custom, local voice assistant. It is worth noting that HASS announced this year that they are working on their own local/cloud-integrated LLM system. I decided to do this project long before that was announced.">
 <meta name="author" content="indigo hartsell">
 <link rel="canonical" href="http://192.168.0.225:1313/pages/ada/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.fa0dadc87e60d7cbc672e8da03402d9cc469ae35927c1f70c963ad3e1cf20e9c.css" integrity="sha256-&#43;g2tyH5g18vGcujaA0AtnMRprjWSfB9wyWOtPhzyDpw=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.fd2a6220153654b436982e521d9651d29f10e7a198f1385b778147542a5fd7cb.css" integrity="sha256-/SpiIBU2VLQ2mC5SHZZR0p8Q56GY8Thbd4FHVCpf18s=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.555af97124d54bb1457985dd081b8f5616a48103aafeb30ac89fde835d65aa6c.js" integrity="sha256-VVr5cSTVS7FFeYXdCBuPVhakgQOq/rMKyJ/eg11lqmw="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="http://192.168.0.225:1313/favicon.ico">
@@ -116,7 +116,9 @@ After 5&#43; years of using Amazon&rsquo;s Alexa and Google&rsquo;s Assistant, I
                 type="button"
                 class="nav-module-button"
                 id="nav-message-rotator"
+                data-turbo-permanent
                 data-rotation-interval="30000"
+                data-nav-scroll-delay-ms="2000"
                 aria-live="polite"
                 aria-atomic="true"
                 aria-label="Rotate status messages" data-weather-enabled="true" data-weather-location="Chicago" data-weather-units="imperial" data-weather-label="" data-coffee-enabled="true" data-coffee-min="1" data-coffee-max="5" data-coffee-unit-singular="cup" data-coffee-unit-plural="cups" data-coffee-beverage="coffee" data-coffee-verb="consumed today" data-coffee-first-time="07:30" data-coffee-last-time="14:30" data-github-enabled="true" data-github-username="tealblu" data-github-events-limit="3" data-github-cache-ttl-minutes="1" data-github-label="my recent github activity:"
@@ -322,9 +324,9 @@ After 5&#43; years of using Amazon&rsquo;s Alexa and Google&rsquo;s Assistant, I
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.rings.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.halo.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script defer src="/js/coffee-module.min.61b1297e9857a49a3a380cbef648313945c63cde8663adefd6507d920a8a5115.js" integrity="sha256-YbEpfphXpJo6OAy&#43;9kgxOUXGPN6GY63v1lB9kgqKURU=" crossorigin="anonymous"></script>
   <script defer src="/js/weather-module.min.5e5358cad88ef549cd09fdad2290aec3eb6d0db4bfa6161b31ab2f63dc48efb6.js" integrity="sha256-XlNYytiO9UnNCf2tIpCuw&#43;ttDbS/phYbMasvY9xI77Y=" crossorigin="anonymous"></script>
-    <script defer src="/js/github-module.min.41a677e776be16a0b7eed8a2b218613fcf8d14a16a685e9f14020bcefa206c3f.js" integrity="sha256-QaZ353a&#43;FqC37tiishhhP8&#43;NFKFqaF6fFAILzvogbD8=" crossorigin="anonymous"></script>
-  <script defer src="/js/nav-modules.min.655de62fdae00c30f908c5ebcd8d4fae4498d3b676883cdda2e33d4092ffed83.js" integrity="sha256-ZV3mL9rgDDD5CMXrzY1PrkSY07Z2iDzdouM9QJL/7YM=" crossorigin="anonymous"></script>
-  <script defer src="/js/vanta-init.min.4bf5ce9448759fa2a25abc557e662d0e983774002e53b867d751ae43c0559771.js" integrity="sha256-S/XOlEh1n6KiWrxVfmYtDpg3dAAuU7hn11GuQ8BVl3E=" crossorigin="anonymous"></script>
+    <script defer src="/js/github-module.min.3e72df3faf35b5101f11a8e6ef36b0d23f30ff4d9ec1d80a9b3cbea4363f95b3.js" integrity="sha256-PnLfP681tRAfEajm7zaw0j8w/02ewdgKmzy&#43;pDY/lbM=" crossorigin="anonymous"></script>
+  <script defer src="/js/nav-modules.min.2b72c88e0396f152dd19f3c64bc7bb9b61a465ab900a429675a0d9af9caa25a9.js" integrity="sha256-K3LIjgOW8VLdGfPGS8e7m2GkZauQCkKWdaDZr5yqJak=" crossorigin="anonymous"></script>
+  <script defer src="/js/vanta-init.min.98cdbe517dc6f74e029011af514de6925ecef374d714eac453cc71de973f600e.js" integrity="sha256-mM2&#43;UX3G904CkBGvUU3mkl7O83TXFOrEU8xx3pc/YA4=" crossorigin="anonymous"></script>
 
 <script>
     (function () {

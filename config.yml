@@ -33,6 +33,7 @@ params:
   navModule:
     interval: 30000
     ariaLabel: "Rotate status messages"
+    marqueePauseMs: 2000
     weather:
       enabled: true
       location: "Chicago"

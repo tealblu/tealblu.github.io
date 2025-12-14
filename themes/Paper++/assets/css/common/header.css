@@ -94,7 +94,10 @@
     display: inline-flex;
     align-items: center;
     white-space: nowrap;
-    transform: translateX(0);
+    /* Use a 3D identity transform to encourage GPU compositing and reduce
+       paint jitter when animations start or resume. */
+    transform: translate3d(0,0,0);
+    will-change: transform;
 }
 
 .nav-module-track-item {
@@ -104,7 +107,8 @@
 }
 
 .nav-module-message.is-overflowing .nav-module-track {
-    animation: nav-module-marquee var(--nav-scroll-duration, 12s) linear infinite;
+    /* duration then delay then iteration-count — allow JS to set --nav-scroll-delay */
+    animation: nav-module-marquee var(--nav-scroll-duration, 12s) linear var(--nav-scroll-delay, 0s) infinite;
     will-change: transform;
 }
 

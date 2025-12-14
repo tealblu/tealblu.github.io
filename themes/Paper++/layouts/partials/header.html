@@ -152,7 +152,9 @@
                 type="button"
                 class="nav-module-button"
                 id="nav-message-rotator"
+                data-turbo-permanent
                 data-rotation-interval="{{ $navModule.interval | default 10000 }}"
+                data-nav-scroll-delay-ms="{{ $navModule.marqueePauseMs | default 0 }}"
                 aria-live="polite"
                 aria-atomic="true"
                 aria-label="{{ $navModule.ariaLabel | default "Rotate status messages" }}"

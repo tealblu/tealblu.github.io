@@ -78,6 +78,13 @@
 
       if (!cfg.enabled || !cfg.username) return;
 
+      // If a GitHub message is already present, bail out to avoid duplicates.
+      if (button.querySelector('.nav-module-message[data-github-message="true"]')) {
+        // still mark to prevent concurrent runs
+        button.__githubMessageInserted = true;
+        return;
+      }
+
       // mark early to prevent concurrent runs adding multiple nodes
       button.__githubMessageInserted = true;
 
@@ -121,8 +128,7 @@
     }
   };
 
-  if (typeof document !== 'undefined') {
-    const run = () => { try { window.githubModule.initializeGithubMessage(); } catch (e) { /* ignore */ } };
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
-  }
+  // Module registers its initializer on `window.githubModule` only. The
+  // central `nav-modules.js` file is responsible for invoking it so that
+  // initialization is consistent across all submodules.
 })();
