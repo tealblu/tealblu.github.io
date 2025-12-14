@@ -18,6 +18,7 @@
 .logo,
 #menu {
     display: flex;
+    align-items: center;
     margin: auto var(--gap);
 }
 
@@ -142,9 +143,16 @@ body.dark #mask-center {
 
 #menu {
     list-style: none;
+    display: flex;
+    align-items: center;
     word-break: keep-all;
     overflow-x: auto;
     white-space: nowrap;
+}
+
+#menu li {
+    display: flex;
+    align-items: center;
 }
 
 #menu li + li {
@@ -152,6 +160,9 @@ body.dark #mask-center {
 }
 
 #menu a {
+    display: flex;
+    align-items: center;
+    line-height: var(--gap);
     font-size: 16px;
 }
 
