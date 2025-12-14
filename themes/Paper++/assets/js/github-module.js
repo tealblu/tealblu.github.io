@@ -8,39 +8,43 @@
     return null;
   };
 
-  const createMessageElement = (label, text, href, timeText) => {
+  const createMessageElement = (label, text, timeText) => {
     const button = document.getElementById("nav-message-rotator");
     if (!button) return null;
     const span = document.createElement("span");
     span.className = "nav-module-message";
     if (label) span.dataset.label = label;
     span.setAttribute("aria-hidden", "true");
-    if (label) {
-      const labelSpan = document.createElement("span");
-      labelSpan.className = "nav-module-label";
-      labelSpan.textContent = label;
-      span.appendChild(labelSpan);
-    }
+
+    // Put the entire visible string into `.nav-module-text` (label +
+    // optional time + body) so there's a single element for measurement
+    // and marquee handling.
     const textSpan = document.createElement("span");
     textSpan.className = "nav-module-text";
-    if (href) {
-      const a = document.createElement("a");
-      a.href = href;
-      a.rel = "noopener noreferrer";
-      a.textContent = text;
-      textSpan.appendChild(a);
-    } else {
-      textSpan.textContent = text;
-    }
+    // Compose full visible string as: "<label> <text> <time>" (time last).
+    const full = (label ? label + ' ' : '') + (text || '') + (timeText ? ` ${timeText}` : '');
+    textSpan.appendChild(document.createTextNode(full));
     span.appendChild(textSpan);
-    if (timeText) {
-      const timeSpan = document.createElement("span");
-      timeSpan.className = "nav-module-time";
-      timeSpan.textContent = timeText;
-      span.appendChild(timeSpan);
-    }
+
     button.appendChild(span);
     return span;
+  };
+
+  // Safely update the `.nav-module-text` content while preserving any label
+  // so that the label and text remain inside the same scrolling container.
+  const updateMessageText = (messageElement, newText) => {
+    if (!messageElement) return;
+    const textContainer = messageElement.querySelector('.nav-module-text');
+    if (textContainer) {
+      textContainer.textContent = newText || '';
+      return;
+    }
+
+    // If missing, create the text container (fallback)
+    const fallback = document.createElement('span');
+    fallback.className = 'nav-module-text';
+    fallback.textContent = newText || '';
+    messageElement.appendChild(fallback);
   };
 
   const timeAgo = (iso) => {
@@ -114,6 +118,7 @@
       const button = document.getElementById("nav-message-rotator");
       if (!button) return;
       const cfg = guessConfigFromButton(button);
+      console.debug && console.debug('github-module: init', { cfg });
 
       if ((!cfg.username || cfg.enabled === false) && window?.siteParams?.navModule?.github) {
         const g = window.siteParams.navModule.github;
@@ -125,7 +130,19 @@
       }
 
       if (!cfg.label) cfg.label = "GitHub:";
-      if (!cfg.enabled || !cfg.username) return;
+      if (!cfg.enabled || !cfg.username) {
+        console.debug && console.debug('github-module: disabled or missing username', { enabled: cfg.enabled, username: cfg.username });
+        return;
+      }
+
+      // Prevent duplicate insertion: if a github message was already added,
+      // bail out. This mirrors other nav modules which set a message flag.
+      if (button.querySelector('[data-github-message="true"]')) {
+        console.debug && console.debug('github-module: message already present, skipping insertion');
+        return;
+      }
+
+      const existingMessages = Array.from(button.querySelectorAll('.nav-module-message'));
 
       const storage = getLocalStorage();
       const key = `${STORAGE_KEY_PREFIX}${cfg.username}`;
@@ -138,34 +155,70 @@
               const ev = parsed.events[0];
               const text = formatEvent(ev);
               const when = timeAgo(ev.created_at);
-              createMessageElement(cfg.label, text, `https://github.com/${cfg.username}`, when);
+              console.debug && console.debug('github-module: using cached events', { ev });
+              const el = createMessageElement(cfg.label, text, when);
+              if (el) {
+                el.dataset.index = String(existingMessages.length);
+                el.dataset.githubMessage = 'true';
+                if (!existingMessages.length) el.classList.add('is-active');
+              }
               return;
             }
           }
         } catch (e) { /* ignore cache parse errors */ }
       }
 
-      const placeholder = createMessageElement(cfg.label, "Loading GitHub…", `https://github.com/${cfg.username}`);
+      const placeholder = createMessageElement(cfg.label, "Loading GitHub…");
+      if (placeholder) {
+        placeholder.dataset.index = String(existingMessages.length);
+        placeholder.dataset.githubMessage = 'true';
+        if (!existingMessages.length) placeholder.classList.add('is-active');
+      }
+      console.debug && console.debug('github-module: created placeholder', { placeholder });
+
+      // If the nav rotator already initialized, newly appended messages may
+      // be hidden (not part of the rotator's internal `messages` list).
+      // Make the placeholder visible immediately by toggling `.is-active`
+      // so the GitHub text shows up even if the rotator hasn't picked it up.
+      try {
+        const buttonEl = document.getElementById('nav-message-rotator');
+        if (buttonEl && placeholder) {
+          const alreadyAttached = Boolean(buttonEl.__navMessageRotatorAttached);
+          if (alreadyAttached) {
+            const current = buttonEl.querySelector('.nav-module-message.is-active');
+            if (current && current !== placeholder) {
+              current.classList.remove('is-active');
+              current.setAttribute('aria-hidden', 'true');
+            }
+            placeholder.classList.add('is-active');
+            placeholder.setAttribute('aria-hidden', 'false');
+            // update button title for accessibility
+            const label = typeof placeholder.dataset.label === 'string' ? placeholder.dataset.label : '';
+            const textContent = (placeholder.textContent || '').trim();
+            if (label) buttonEl.title = label;
+            else if (textContent) buttonEl.title = textContent;
+          }
+        }
+      } catch (e) {
+        console.warn && console.warn('github-module: show placeholder failed', e);
+      }
       try {
         const events = await fetchEvents(cfg.username, cfg.eventsLimit || 3);
         if (!events || !events.length) {
-          if (placeholder) placeholder.querySelector('.nav-module-text').textContent = 'No recent GitHub activity';
+          if (placeholder) {
+            const base = placeholder.dataset.label || cfg.label || '';
+            const combined = (base ? base + ' ' : '') + 'No recent GitHub activity';
+            updateMessageText(placeholder, combined);
+          }
           return;
         }
         const ev = events[0];
         const text = formatEvent(ev);
         const when = timeAgo(ev.created_at);
         if (placeholder) {
-          const t = placeholder.querySelector('.nav-module-text');
-          t.textContent = text;
-          const timeEl = placeholder.querySelector('.nav-module-time');
-          if (timeEl) timeEl.textContent = when || '';
-          else if (when) {
-            const ts = document.createElement('span');
-            ts.className = 'nav-module-time';
-            ts.textContent = when;
-            placeholder.appendChild(ts);
-          }
+          const base = placeholder.dataset.label || cfg.label || '';
+          const combined = (base ? base + (when ? ` ${when}` : '') + ' ' : '') + text;
+          updateMessageText(placeholder, combined);
         }
         if (storage) {
           try {
@@ -173,7 +226,7 @@
           } catch (e) { /* ignore write errors */ }
         }
       } catch (err) {
-        if (placeholder) placeholder.querySelector('.nav-module-text').textContent = 'GitHub unavailable';
+        if (placeholder) updateMessageText(placeholder, 'GitHub unavailable');
         console.warn('nav github module fetch failed', err);
       }
     };
@@ -182,6 +235,23 @@
   })();
 
   if (typeof document !== "undefined") {
-    document.addEventListener("DOMContentLoaded", () => {});
+    // Ensure the module initializes even if script execution order means
+    // `nav-modules.js` missed calling it. Call `initializeGithubMessage`
+    // on DOMContentLoaded or immediately if the document is already loaded.
+    const _run = () => {
+      try {
+        if (window?.githubModule && typeof window.githubModule.initializeGithubMessage === 'function') {
+          window.githubModule.initializeGithubMessage();
+        }
+      } catch (e) {
+        console.warn && console.warn('github-module: init failed', e);
+      }
+    };
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', _run);
+    } else {
+      _run();
+    }
   }
 })();
