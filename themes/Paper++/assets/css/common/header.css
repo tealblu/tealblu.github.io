@@ -46,7 +46,7 @@
     width: 100%;
     min-height: 32px;
     padding: 0px 12px;
-    border: 1px solid color-mix(in srgb, currentColor 35%, transparent);
+    border: var(--border);
     border-radius: 999px;
     background: color-mix(in srgb, var(--theme) 80%, transparent);
     backdrop-filter: blur(10px);
