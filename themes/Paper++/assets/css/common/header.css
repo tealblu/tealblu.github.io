@@ -178,6 +178,7 @@ body.dark #mask-center {
     word-break: keep-all;
     overflow-x: auto;
     white-space: nowrap;
+    padding: calc(var(--gap) / 2);
 }
 
 #menu li {
@@ -205,7 +206,7 @@ body.dark #mask-center {
 .lang-switch ul,
 .logo-switches {
     display: inline-flex;
-    margin: auto 4px;
+    margin: auto 5px;
 }
 
 .lang-switch {
