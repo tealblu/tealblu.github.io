@@ -38,10 +38,18 @@ params:
       location: "Chicago"
       units: "imperial"
       label: ""
+    coffee:
+      enabled: true
+      minCups: 2
+      maxCups: 5
+      unitSingular: "cup"
+      unitPlural: "cups"
+      beverage: "coffee"
+      verb: "consumed today"
+      label: ""
     messages:
-      - text: "Tending the digital garden."
-      - text: "Cracking anti-repair code."
-      - text: "Playing with my cat."
+      - text: "Status: Playing with my cat."
+      - text: "Try the buttons to the left :)"
 
   googlefonts: "//fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans"
 

@@ -549,9 +549,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const initialized = initializeVanta();
   bindVantaToThemeToggle();
   bindRotationToChangeAnimation();
-  if (typeof window !== "undefined" && window.weatherModule && typeof window.weatherModule.initializeWeatherMessage === "function") {
-    window.weatherModule.initializeWeatherMessage();
-  }
   initializeNavMessageRotator();
 
   if (!initialized && typeof window !== "undefined") {
