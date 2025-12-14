@@ -16,6 +16,11 @@
 {{- print " dark" }}
 {{- end -}}
 " id="top">
+    <!-- Persistent Vanta target: stays outside page content swaps so animation persists across navigations -->
+    <div id="vanta-root" data-turbo-permanent aria-hidden="true" style="position:fixed;inset:0;z-index:-1;pointer-events:none;"></div>
+
+    <!-- Hotwire Turbo Drive is loaded from the head to avoid re-evaluation on each page swap -->
+
     {{- partialCached "header.html" . .Page -}}
     <main class="main">
         {{- block "main" . }}{{ end }}

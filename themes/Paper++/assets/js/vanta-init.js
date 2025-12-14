@@ -255,7 +255,9 @@ const initializeVanta = (options = {}) => {
     return false;
   }
 
-  const target = document.querySelector("#top");
+  // Prefer a persistent Vanta root that lives outside content swaps so the
+  // animation can survive navigation. Fall back to `#top` for compatibility.
+  const target = document.querySelector("#vanta-root") || document.querySelector("#top");
   if (!target) {
     return false;
   }
@@ -420,7 +422,7 @@ const bindRotationToChangeAnimation = () => {
 };
 
 
-document.addEventListener("DOMContentLoaded", () => {
+const initializeForCurrentPage = () => {
   bindVantaToThemeToggle();
   bindRotationToChangeAnimation();
 
@@ -429,5 +431,34 @@ document.addEventListener("DOMContentLoaded", () => {
   const initialized = initializeVanta();
   if (!initialized && typeof window !== "undefined") {
     window.addEventListener("load", () => initializeVanta({ force: true }), { once: true });
+  }
+};
+
+// Initialize on first load and on Turbo navigation events so the persistent
+// `#vanta-root` is preserved across page changes.
+document.addEventListener("DOMContentLoaded", initializeForCurrentPage);
+document.addEventListener("turbo:load", initializeForCurrentPage);
+
+// When Turbo caches the page, pause the Vanta effect to avoid WebGL/context
+// issues; resume after render.
+document.addEventListener("turbo:before-cache", () => {
+  try {
+    const target = document.querySelector("#vanta-root");
+    if (target && target.__vantaEffect && typeof target.__vantaEffect.pause === "function") {
+      target.__vantaEffect.pause();
+    }
+  } catch (e) {
+    // ignore
+  }
+});
+
+document.addEventListener("turbo:render", () => {
+  try {
+    const target = document.querySelector("#vanta-root");
+    if (target && target.__vantaEffect && typeof target.__vantaEffect.resume === "function") {
+      target.__vantaEffect.resume();
+    }
+  } catch (e) {
+    // ignore
   }
 });

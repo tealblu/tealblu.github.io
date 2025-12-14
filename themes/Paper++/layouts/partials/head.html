@@ -157,6 +157,9 @@
 
 {{- partial "extend_head.html" . -}}
 
+<!-- Load Turbo early from local vendor to persist between navigations -->
+<script src="/js/turbo.min.js" data-turbo-track="reload" defer></script>
+
 {{- /* Misc */}}
 {{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
 {{- template "_internal/google_analytics.html" . }}
