@@ -1,69 +1,5 @@
 (() => {
-  const STORAGE_KEY = "coffeeModuleState";
-
-  const getLocalStorage = () => {
-    if (typeof window === "undefined") {
-      return null;
-    }
-
-    try {
-      return window.localStorage;
-    } catch (error) {
-      console.warn("Coffee tracker localStorage access failed", error);
-    }
-
-    return null;
-  };
-
-  const readStoredState = () => {
-    const storage = getLocalStorage();
-    if (!storage) {
-      return null;
-    }
-
-    try {
-      const raw = storage.getItem(STORAGE_KEY);
-      if (typeof raw !== "string" || raw.length === 0) {
-        return null;
-      }
-
-      const parsed = JSON.parse(raw);
-      if (!parsed || typeof parsed !== "object") {
-        return null;
-      }
-
-      const { date, count } = parsed;
-      if (typeof date !== "string" || !Number.isFinite(count)) {
-        return null;
-      }
-
-      return { date, count: Math.round(count) };
-    } catch (error) {
-      console.warn("Coffee tracker state parse failed", error);
-    }
-
-    return null;
-  };
-
-  const persistState = (state) => {
-    const storage = getLocalStorage();
-    if (!storage) {
-      return;
-    }
-
-    try {
-      storage.setItem(STORAGE_KEY, JSON.stringify(state));
-    } catch (error) {
-      console.warn("Coffee tracker state persist failed", error);
-    }
-  };
-
-  const padNumber = (value) => String(value).padStart(2, "0");
-
-  const getTodayKey = () => {
-    const now = new Date();
-    return `${now.getFullYear()}-${padNumber(now.getMonth() + 1)}-${padNumber(now.getDate())}`;
-  };
+  const MINUTES_IN_DAY = 1440;
 
   const parseInteger = (value, fallback) => {
     if (typeof value === "number" && Number.isFinite(value)) {
@@ -80,25 +16,96 @@
     return fallback;
   };
 
-  const generateCount = (min, max) => {
-    const span = max - min + 1;
-    if (span <= 0) {
-      return min;
+  const parseTimeToMinutes = (value) => {
+    if (typeof value !== "string") {
+      return null;
     }
 
-    return min + Math.floor(Math.random() * span);
+    const trimmed = value.trim();
+    if (trimmed.length === 0) {
+      return null;
+    }
+
+    const match = trimmed.match(/^(\d{1,2})(?::(\d{2}))?\s*(am|pm)?$/i);
+    if (!match) {
+      return null;
+    }
+
+    let hours = Number.parseInt(match[1], 10);
+    const minutes = match[2] === undefined ? 0 : Number.parseInt(match[2], 10);
+
+    if (!Number.isFinite(hours) || !Number.isFinite(minutes)) {
+      return null;
+    }
+
+    if (minutes < 0 || minutes > 59) {
+      return null;
+    }
+
+    const meridiem = typeof match[3] === "string" ? match[3].toLowerCase() : "";
+
+    if (meridiem) {
+      if (hours < 1 || hours > 12) {
+        return null;
+      }
+
+      if (hours === 12) {
+        hours = 0;
+      }
+
+      if (meridiem === "pm") {
+        hours += 12;
+      }
+    } else if (hours < 0 || hours > 23) {
+      return null;
+    }
+
+    return hours * 60 + minutes;
   };
 
-  const resolveDailyCount = (min, max) => {
-    const todayKey = getTodayKey();
-    const stored = readStoredState();
-    if (stored && stored.date === todayKey && stored.count >= min && stored.count <= max) {
-      return stored.count;
+  const getCurrentMinutes = () => {
+    const now = new Date();
+    return now.getHours() * 60 + now.getMinutes() + now.getSeconds() / 60;
+  };
+
+  // Supports windows that cross midnight by mapping daily progress to a circular timeline.
+  const computeProgress = (nowMinutes, startMinutes, endMinutes) => {
+    if (!Number.isFinite(nowMinutes) || !Number.isFinite(startMinutes) || !Number.isFinite(endMinutes)) {
+      return null;
     }
 
-    const count = generateCount(min, max);
-    persistState({ date: todayKey, count });
-    return count;
+    const normalize = (value) => {
+      const normalized = value % MINUTES_IN_DAY;
+      return normalized < 0 ? normalized + MINUTES_IN_DAY : normalized;
+    };
+
+    const now = normalize(nowMinutes);
+    const start = normalize(startMinutes);
+    const end = normalize(endMinutes);
+    const span = (end - start + MINUTES_IN_DAY) % MINUTES_IN_DAY;
+
+    if (span === 0) {
+      return null;
+    }
+
+    if (end > start) {
+      if (now <= start) {
+        return 0;
+      }
+
+      if (now >= end) {
+        return 1;
+      }
+
+      return (now - start) / (end - start);
+    }
+
+    if (now >= start || now <= end) {
+      const distance = now >= start ? now - start : now + MINUTES_IN_DAY - start;
+      return distance / span;
+    }
+
+    return 0;
   };
 
   const formatFallbackLabel = (beverage) => {
@@ -171,7 +178,22 @@
     const fallbackLabel = configuredLabel || formatFallbackLabel(beverage);
 
     try {
-      const count = resolveDailyCount(min, max);
+      const firstTimeMinutes = parseTimeToMinutes(button.dataset.coffeeFirstTime);
+      const lastTimeMinutes = parseTimeToMinutes(button.dataset.coffeeLastTime);
+      const range = max - min;
+      let count = min;
+
+      if (firstTimeMinutes !== null && lastTimeMinutes !== null) {
+        const progress = computeProgress(getCurrentMinutes(), firstTimeMinutes, lastTimeMinutes);
+        if (progress !== null) {
+          const normalizedProgress = Math.min(1, Math.max(0, progress));
+          const resolved = min + normalizedProgress * range;
+          count = Math.round(resolved);
+        }
+      }
+
+      count = Math.min(max, Math.max(min, count));
+
       const unitLabel = count === 1 ? unitSingular : unitPlural;
       const segments = [`${count} ${unitLabel}`];
 

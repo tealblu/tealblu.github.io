@@ -114,6 +114,26 @@
         {{- $hasWeatherConfig := and $weatherEnabled (or (ne $weatherLocation "") $weatherHasCoordinates) -}}
         {{- $coffee := cond (and $navModule (isset $navModule "coffee")) $navModule.coffee nil -}}
         {{- $coffeeEnabled := and $coffee (or (not (isset $coffee "enabled")) (index $coffee "enabled")) -}}
+        {{- $coffeeLabel := "" -}}
+        {{- $coffeeMin := "0" -}}
+        {{- $coffeeMax := "5" -}}
+        {{- $coffeeUnitSingular := "cup" -}}
+        {{- $coffeeUnitPlural := "cups" -}}
+        {{- $coffeeBeverage := "coffee" -}}
+        {{- $coffeeVerb := "consumed today" -}}
+        {{- $coffeeFirstTime := "" -}}
+        {{- $coffeeLastTime := "" -}}
+        {{- if $coffeeEnabled }}
+            {{- with index $coffee "label" }}{{- $coffeeLabel = strings.TrimSpace ((printf "%v" .)) -}}{{- end }}
+            {{- with index $coffee "minCups" }}{{- $coffeeMin = printf "%v" . -}}{{- end }}
+            {{- with index $coffee "maxCups" }}{{- $coffeeMax = printf "%v" . -}}{{- end }}
+            {{- with index $coffee "unitSingular" }}{{- $coffeeUnitSingular = strings.TrimSpace ((printf "%v" .)) -}}{{- end }}
+            {{- with index $coffee "unitPlural" }}{{- $coffeeUnitPlural = strings.TrimSpace ((printf "%v" .)) -}}{{- end }}
+            {{- with index $coffee "beverage" }}{{- $coffeeBeverage = strings.TrimSpace ((printf "%v" .)) -}}{{- end }}
+            {{- with index $coffee "verb" }}{{- $coffeeVerb = strings.TrimSpace ((printf "%v" .)) -}}{{- end }}
+            {{- with index $coffee "firstCupTime" }}{{- $coffeeFirstTime = strings.TrimSpace ((printf "%v" .)) -}}{{- end }}
+            {{- with index $coffee "lastCupTime" }}{{- $coffeeLastTime = strings.TrimSpace ((printf "%v" .)) -}}{{- end }}
+        {{- end }}
         {{- $navModuleShouldRender := or (gt (len $messages) 0) $hasWeatherConfig $coffeeEnabled -}}
         {{- if $navModuleShouldRender }}
         <div class="nav-module">
@@ -132,13 +152,15 @@
                 {{- if and $hasWeatherConfig (isset $weather "units") }} data-weather-units="{{ (index $weather "units") | plainify | htmlEscape }}"{{ end }}
                 {{- if and $hasWeatherConfig (isset $weather "label") }} data-weather-label="{{ (index $weather "label") | plainify | htmlEscape }}"{{ end }}
                 {{- if $coffeeEnabled }} data-coffee-enabled="true"{{ end }}
-                {{- if and $coffeeEnabled (isset $coffee "label") }} data-coffee-label="{{ (index $coffee "label") | plainify | htmlEscape }}"{{ end }}
-                {{- if and $coffeeEnabled (isset $coffee "minCups") }} data-coffee-min="{{ printf "%v" (index $coffee "minCups") | htmlEscape }}"{{ end }}
-                {{- if and $coffeeEnabled (isset $coffee "maxCups") }} data-coffee-max="{{ printf "%v" (index $coffee "maxCups") | htmlEscape }}"{{ end }}
-                {{- if and $coffeeEnabled (isset $coffee "unitSingular") }} data-coffee-unit-singular="{{ (index $coffee "unitSingular") | plainify | htmlEscape }}"{{ end }}
-                {{- if and $coffeeEnabled (isset $coffee "unitPlural") }} data-coffee-unit-plural="{{ (index $coffee "unitPlural") | plainify | htmlEscape }}"{{ end }}
-                {{- if and $coffeeEnabled (isset $coffee "beverage") }} data-coffee-beverage="{{ (index $coffee "beverage") | plainify | htmlEscape }}"{{ end }}
-                {{- if and $coffeeEnabled (isset $coffee "verb") }} data-coffee-verb="{{ (index $coffee "verb") | plainify | htmlEscape }}"{{ end }}
+                {{- if and $coffeeEnabled (ne $coffeeLabel "") }} data-coffee-label="{{ $coffeeLabel | htmlEscape }}"{{ end }}
+                {{- if $coffeeEnabled }} data-coffee-min="{{ $coffeeMin | htmlEscape }}"{{ end }}
+                {{- if $coffeeEnabled }} data-coffee-max="{{ $coffeeMax | htmlEscape }}"{{ end }}
+                {{- if $coffeeEnabled }} data-coffee-unit-singular="{{ $coffeeUnitSingular | htmlEscape }}"{{ end }}
+                {{- if $coffeeEnabled }} data-coffee-unit-plural="{{ $coffeeUnitPlural | htmlEscape }}"{{ end }}
+                {{- if $coffeeEnabled }} data-coffee-beverage="{{ $coffeeBeverage | htmlEscape }}"{{ end }}
+                {{- if $coffeeEnabled }} data-coffee-verb="{{ $coffeeVerb | htmlEscape }}"{{ end }}
+                {{- if and $coffeeEnabled (ne $coffeeFirstTime "") }} data-coffee-first-time="{{ $coffeeFirstTime | htmlEscape }}"{{ end }}
+                {{- if and $coffeeEnabled (ne $coffeeLastTime "") }} data-coffee-last-time="{{ $coffeeLastTime | htmlEscape }}"{{ end }}
             >
                 {{- range $index, $entry := $messages }}
                 {{- $isMap := reflect.IsMap $entry -}}
