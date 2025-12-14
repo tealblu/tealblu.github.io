@@ -23,7 +23,7 @@
 
 ## Description
 
-This is a [HUGO](https://gohugo.io/) website, using [GitHub Pages](https://pages.github.com/) to host the website. Animations courtesy of [Vanta.js][https://github.com/tengbao/vanta]. Theme is a customized version of [PaperMod](https://github.com/adityatelange/hugo-PaperMod), which I intend to fork and make public in the future.
+This is a [HUGO](https://gohugo.io/) website, using [GitHub Pages](https://pages.github.com/) to host the website. Animations courtesy of [Vanta.js](https://github.com/tengbao/vanta). Theme is a customized version of [PaperMod](https://github.com/adityatelange/hugo-PaperMod), which I intend to fork and make public in the future.
 
 ## 🧱 Project Structure
 
