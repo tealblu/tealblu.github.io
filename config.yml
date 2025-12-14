@@ -35,13 +35,13 @@ params:
     ariaLabel: "Rotate status messages"
     weather:
       enabled: true
-      location: "Portland, OR"
+      location: "Chicago, IL"
       units: "imperial"
-      label: "Portland weather"
+      label: ""
     messages:
       - text: "Tending the digital garden."
-      - text: "Sketching knowledge graphs."
-      - text: "Building new automations."
+      - text: "Cracking anti-repair code."
+      - text: "Playing with my cat."
 
   googlefonts: "//fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans"
 

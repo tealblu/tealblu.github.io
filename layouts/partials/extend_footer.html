@@ -1,4 +1,5 @@
 {{- $opts := dict "target" "es2018" "external" (slice) -}}
+{{- $weatherBundle := resources.Get "js/weather-module.js" | js.Build $opts | minify -}}
 {{- $vantaBundle := resources.Get "js/vanta-init.js" | js.Build $opts | minify -}}
 {{- $transitionBundle := resources.Get "js/page-transitions.js" | js.Build $opts | minify -}}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -10,11 +11,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.rings.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.halo.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 {{- if not .Site.Params.assets.disableFingerprinting -}}
+  {{- $weatherBundle = $weatherBundle | fingerprint -}}
   {{- $vantaBundle = $vantaBundle | fingerprint -}}
   {{- $transitionBundle = $transitionBundle | fingerprint -}}
+  <script defer src="{{ $weatherBundle.RelPermalink }}" integrity="{{ $weatherBundle.Data.Integrity }}" crossorigin="anonymous"></script>
   <script defer src="{{ $vantaBundle.RelPermalink }}" integrity="{{ $vantaBundle.Data.Integrity }}" crossorigin="anonymous"></script>
   <script defer src="{{ $transitionBundle.RelPermalink }}" integrity="{{ $transitionBundle.Data.Integrity }}" crossorigin="anonymous"></script>
 {{- else -}}
+  <script defer src="{{ $weatherBundle.RelPermalink }}" crossorigin="anonymous"></script>
   <script defer src="{{ $vantaBundle.RelPermalink }}" crossorigin="anonymous"></script>
   <script defer src="{{ $transitionBundle.RelPermalink }}" crossorigin="anonymous"></script>
 {{- end -}}
