@@ -91,6 +91,17 @@ const getThemeColor = (variableName) => {
   return null;
 };
 
+const isMobileDevice = () => {
+  if (typeof window === "undefined") return false;
+  try {
+    if (window.matchMedia && window.matchMedia('(pointer: coarse) and (hover: none)').matches) return true;
+    if ('ontouchstart' in window || (navigator.maxTouchPoints && navigator.maxTouchPoints > 0)) return true;
+    return window.innerWidth <= 768;
+  } catch (e) {
+    return false;
+  }
+};
+
 const VANTA_ANIMATIONS = [
   {
     key: "birds",
@@ -356,6 +367,8 @@ const bindVantaToThemeToggle = () => {
   if (typeof document === "undefined") {
     return;
   }
+  // Avoid auto-reloading the background on mobile; user should opt-in
+  if (isMobileDevice()) return;
 
   const toggle = document.getElementById("theme-toggle");
   if (!toggle || toggle.__vantaReloadAttached) {
@@ -424,11 +437,15 @@ const bindRotationToChangeAnimation = () => {
 
 
 document.addEventListener("DOMContentLoaded", () => {
-  const initialized = initializeVanta();
   bindVantaToThemeToggle();
   bindRotationToChangeAnimation();
 
-  if (!initialized && typeof window !== "undefined") {
-    window.addEventListener("load", () => initializeVanta({ force: true }), { once: true });
+  // On mobile we deliberately defer loading the Vanta background until
+  // the user explicitly requests it via the "change-animation" button.
+  if (!isMobileDevice()) {
+    const initialized = initializeVanta();
+    if (!initialized && typeof window !== "undefined") {
+      window.addEventListener("load", () => initializeVanta({ force: true }), { once: true });
+    }
   }
 });
