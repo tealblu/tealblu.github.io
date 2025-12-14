@@ -6,3 +6,18 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 body#top {
     background-color: var(--tertiary);
 }
+
+button#change-animation {
+    font-size: 26px;
+    margin: auto 4px;
+    color: inherit;
+    transition: transform 0.4s ease-in-out;
+}
+
+#change-animation svg {
+    height: 18px;
+}
+
+button#change-animation.is-rotating {
+    transform: rotate(360deg);
+}
