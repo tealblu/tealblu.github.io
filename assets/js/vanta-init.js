@@ -132,9 +132,48 @@ const VANTA_ANIMATIONS = [
       shininess: 50,
       waveHeight: 50,
       waveSpeed: 0.25,
-      zoom: 1.07,
+      zoom: 1,
       color: colors.background,
       backgroundColor: colors.primary
+    })
+  },
+  {
+    key: "fog",
+    label: "Fog",
+    isSupported: () => Boolean(window?.VANTA?.FOG),
+    createEffect: (target, colors) => window.VANTA.FOG({
+      el: target,
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200,
+      minWidth: 200,
+      highlightColor: colors.primary,
+      midtoneColor: colors.secondary,
+      lowlightColor: colors.background,
+      baseColor: colors.background,
+      blurFactor: 1,
+      speed: 2,
+      zoom: 2.2
+    })
+  },
+  {
+    key: "net",
+    label: "Net",
+    isSupported: () => Boolean(window?.VANTA?.NET),
+    createEffect: (target, colors) => window.VANTA.NET({
+      el: target,
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200,
+      minWidth: 200,
+      scale: 1,
+      scaleMobile: 3,
+      color: colors.primary,
+      backgroundColor: colors.background,
+      maxDistance: 25,
+      spacing: 15
     })
   },
   // Example: copy and adjust this block to introduce more effects.
