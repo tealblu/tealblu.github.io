@@ -69,4 +69,4 @@ This is a [HUGO](https://gohugo.io/) website, using [GitHub Pages](https://pages
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See `LICENSE` for more information. Have a nice day!
