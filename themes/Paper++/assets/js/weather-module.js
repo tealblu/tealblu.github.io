@@ -68,7 +68,7 @@
         return null;
       }
 
-      const formattedName = [firstMatch.name, firstMatch.admin1, firstMatch.country_code]
+      const formattedName = [firstMatch.name, firstMatch.admin1]
         .filter((part) => typeof part === "string" && part.trim().length > 0)
         .join(", ");
 
