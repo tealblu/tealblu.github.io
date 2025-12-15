@@ -88,19 +88,31 @@
 {{- if (not .Site.Params.disableThemeToggle) }}
 <script>
     (function () {
-        const tt = document.getElementById("theme-toggle");
-        if (!tt) return;
-        if (tt.dataset.themeToggled) return;
-        tt.addEventListener("click", () => {
-            if (document.body.className.includes("dark")) {
-                document.body.classList.remove('dark');
-                localStorage.setItem("pref-theme", 'light');
-            } else {
-                document.body.classList.add('dark');
-                localStorage.setItem("pref-theme", 'dark');
-            }
-        });
-        tt.dataset.themeToggled = '1';
+        const initThemeToggle = () => {
+            const tt = document.getElementById("theme-toggle");
+            if (!tt) return;
+            if (tt.dataset.themeToggled) return;
+
+            tt.addEventListener("click", () => {
+                if (document.body.className.includes("dark")) {
+                    document.body.classList.remove('dark');
+                    localStorage.setItem("pref-theme", 'light');
+                } else {
+                    document.body.classList.add('dark');
+                    localStorage.setItem("pref-theme", 'dark');
+                }
+            });
+            tt.dataset.themeToggled = '1';
+        };
+
+        if (document.readyState === "loading") {
+            document.addEventListener("DOMContentLoaded", initThemeToggle, { once: true });
+        } else {
+            initThemeToggle();
+        }
+
+        // Hotwire Turbo replaces body on navigation; re-bind handlers.
+        document.addEventListener("turbo:load", initThemeToggle);
     })();
 
 </script>

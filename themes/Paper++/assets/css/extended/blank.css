@@ -5,6 +5,8 @@ Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-cs
 */
 body#top {
     background-color: var(--theme);
+    position: relative;
+    z-index: 0;
 }
 
 button#change-animation {

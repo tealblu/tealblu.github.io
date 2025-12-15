@@ -1,21 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Tealblu.github.io on indi.bio</title>
-    <link>http://192.168.0.225:1313/tags/tealblu.github.io/</link>
-    <description>Recent content in Tealblu.github.io on indi.bio</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.0.225:1313/tags/tealblu.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Site Documentation</title>
-      <link>http://192.168.0.225:1313/pages/site-documentation/</link>
-      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://192.168.0.225:1313/pages/site-documentation/</guid>
-      <description>&lt;p&gt;&lt;em&gt;documentation for &lt;a href=&#34;https://indi.bio/&#34;&gt;https://indi.bio/&lt;/a&gt; (and &lt;a href=&#34;https://tealblu.github.io/&#34;&gt;https://tealblu.github.io/&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-&lt;h1 id=&#34;tldr&#34;&gt;TLDR&lt;/h1&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Tealblu.github.io on indi.bio</title><link>https://indi.bio/tags/tealblu.github.io/</link><description>Recent content in Tealblu.github.io on indi.bio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/tags/tealblu.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Site Documentation</title><link>https://indi.bio/pages/site-documentation/</link><pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/site-documentation/</guid><description>&lt;p&gt;&lt;em&gt;documentation for &lt;a href="https://indi.bio/"&gt;https://indi.bio/&lt;/a&gt; (and &lt;a href="https://tealblu.github.io/"&gt;https://tealblu.github.io/&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id="tldr"&gt;TLDR&lt;/h1&gt;</description></item></channel></rss>
