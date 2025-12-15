@@ -158,6 +158,9 @@
 {{- partial "extend_head.html" . -}}
 
 <!-- Load Turbo early from local vendor to persist between navigations -->
+{{- if hugo.IsServer }}
+<meta name="turbo-prefetch" content="false">
+{{- end }}
 <script src="/js/turbo.min.js" data-turbo-track="reload" defer></script>
 
 {{- /* Misc */}}
