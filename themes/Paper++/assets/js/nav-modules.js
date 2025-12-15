@@ -191,9 +191,7 @@ const isMobileDevice = () => (typeof window !== 'undefined') ? window.innerWidth
     const button = document.getElementById('nav-message-rotator');
     if (!button) return;
     const raw = button.getAttribute('data-messages') || button.dataset.messages;
-    console.debug('nav-modules: buildInitialMessages start', { hasButton: !!button, rawPresent: raw != null });
-    if (!raw) { console.debug('nav-modules: no data-messages attribute present'); return; }
-    console.debug('nav-modules: raw data-messages (first 400 chars)', String(raw).slice(0, 400));
+    if (!raw) return;
 
     const htmlEntityDecode = (s) => {
       const str = String(s || '');
@@ -210,38 +208,15 @@ const isMobileDevice = () => (typeof window !== 'undefined') ? window.innerWidth
     let parsed = null;
     try {
       parsed = JSON.parse(raw);
-      console.debug('nav-modules: parsed with raw JSON.parse', { parsedType: typeof parsed, parsedLen: Array.isArray(parsed) ? parsed.length : undefined });
     } catch (e1) {
-      console.debug('nav-modules: raw JSON.parse failed', e1 && e1.message);
-      try {
-        const decoded = htmlEntityDecode(raw);
-        console.debug('nav-modules: trying htmlEntityDecode (first 400 chars)', decoded.slice(0, 400));
-        parsed = JSON.parse(decoded);
-        console.debug('nav-modules: parsed with htmlEntityDecode', { parsedType: typeof parsed, parsedLen: Array.isArray(parsed) ? parsed.length : undefined });
-      } catch (e2) {
-        console.debug('nav-modules: htmlEntityDecode parse failed', e2 && e2.message);
-        try {
-          const uri = decodeURIComponent(raw);
-          console.debug('nav-modules: trying decodeURIComponent (first 400 chars)', uri.slice(0, 400));
-          parsed = JSON.parse(uri);
-          console.debug('nav-modules: parsed with decodeURIComponent', { parsedType: typeof parsed, parsedLen: Array.isArray(parsed) ? parsed.length : undefined });
-        } catch (e3) {
-          console.debug('nav-modules: decodeURIComponent parse failed', e3 && e3.message);
-          try {
-            const both = htmlEntityDecode(decodeURIComponent(raw));
-            console.debug('nav-modules: trying decodeURIComponent + htmlEntityDecode (first 400 chars)', both.slice(0, 400));
-            parsed = JSON.parse(both);
-            console.debug('nav-modules: parsed with decodeURIComponent+htmlEntityDecode', { parsedType: typeof parsed, parsedLen: Array.isArray(parsed) ? parsed.length : undefined });
-          } catch (e4) {
-            console.warn('nav-modules: failed to parse data-messages after all strategies', e1 && e1.message, e2 && e2.message, e3 && e3.message, e4 && e4.message);
-            return;
-          }
+      try { parsed = JSON.parse(htmlEntityDecode(raw)); } catch (e2) {
+        try { parsed = JSON.parse(decodeURIComponent(raw)); } catch (e3) {
+          try { parsed = JSON.parse(htmlEntityDecode(decodeURIComponent(raw))); } catch (e4) { return; }
         }
       }
     }
 
-    if (!Array.isArray(parsed)) { console.debug('nav-modules: parsed data is not an array', typeof parsed); return; }
-    console.debug('nav-modules: will create DOM messages', { count: parsed.length });
+    if (!Array.isArray(parsed)) return;
     parsed.forEach((entry, idx) => {
       try {
         const span = document.createElement('span');
@@ -265,10 +240,8 @@ const isMobileDevice = () => (typeof window !== 'undefined') ? window.innerWidth
         }
 
         button.appendChild(span);
-        console.debug('nav-modules: appended message', { idx, label: entry && entry.label, text: (text && String(text).slice(0, 120)) });
-      } catch (e) { console.warn('nav-modules: error building message', e); }
+      } catch (e) { /* ignore per-message errors */ }
     });
-    console.debug('nav-modules: buildInitialMessages complete, total children in button:', button.children.length);
   };
 
   const safeInvoke = (mod, method) => { if (!mod || typeof mod[method] !== 'function') return; try { mod[method](); } catch (e) { console.warn('nav-modules safeInvoke failed', e); } };
