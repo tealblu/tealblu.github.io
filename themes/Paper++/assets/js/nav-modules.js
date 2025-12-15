@@ -8,10 +8,94 @@
     complexity. No ES module exports (safe for Hugo js.Build).
 */
 
-const getLocalStorage = () => { try { return (typeof window !== 'undefined') ? window.localStorage : null; } catch (e) { return null; } };
-const cssColorToInt = () => null;
-const getThemeColor = () => null;
-const isMobileDevice = () => (typeof window !== 'undefined') ? window.innerWidth <= 768 : false;
+const getLocalStorage = () => {
+  if (typeof window === 'undefined') {
+    return null;
+  }
+
+  try {
+    return window.localStorage;
+  } catch (error) {
+    return null;
+  }
+};
+
+const cssColorToInt = (colorValue) => {
+  if (!colorValue && colorValue !== 0) {
+    return null;
+  }
+
+  const value = String(colorValue).trim().toLowerCase();
+  if (!value) {
+    return null;
+  }
+
+  if (value.startsWith('#')) {
+    const hex = value.slice(1);
+    const normalized = hex.length === 3 ? hex.split('').map((c) => c + c).join('') : hex;
+    const parsed = Number.parseInt(normalized, 16);
+    return Number.isNaN(parsed) ? null : parsed;
+  }
+
+  const rgbMatch = value.match(/rgba?\s*\((\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);
+  if (rgbMatch) {
+    const r = Number(rgbMatch[1]);
+    const g = Number(rgbMatch[2]);
+    const b = Number(rgbMatch[3]);
+    if ([r, g, b].every((component) => Number.isFinite(component) && component >= 0 && component <= 255)) {
+      return (r << 16) + (g << 8) + b;
+    }
+  }
+
+  return null;
+};
+
+const getThemeColor = (variableName) => {
+  if (typeof variableName !== 'string' || !variableName.trim()) {
+    return null;
+  }
+
+  if (typeof window === 'undefined' || typeof window.getComputedStyle !== 'function') {
+    return null;
+  }
+
+  const pickFromElement = (element) => {
+    if (!element) {
+      return null;
+    }
+
+    try {
+      const raw = window.getComputedStyle(element).getPropertyValue(variableName);
+      return cssColorToInt(raw);
+    } catch (error) {
+      return null;
+    }
+  };
+
+  const darkCandidate = pickFromElement(document.querySelector('.dark'));
+  if (darkCandidate !== null) {
+    return darkCandidate;
+  }
+
+  const rootCandidate = pickFromElement(document.documentElement);
+  if (rootCandidate !== null) {
+    return rootCandidate;
+  }
+
+  return pickFromElement(document.body);
+};
+
+const isMobileDevice = () => {
+  if (typeof window === 'undefined') {
+    return false;
+  }
+
+  try {
+    return window.innerWidth <= 768;
+  } catch (error) {
+    return false;
+  }
+};
 
 (function () {
   if (typeof window !== 'undefined') {
@@ -272,6 +356,4 @@ const isMobileDevice = () => (typeof window !== 'undefined') ? window.innerWidth
     }
   } catch (e) { /* ignore */ }
 })();
-
-// Intentionally no `export` statements in this file.
 
