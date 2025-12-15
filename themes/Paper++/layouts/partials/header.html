@@ -179,18 +179,8 @@
                 {{- if $githubEnabled }} data-github-events-limit="{{ $githubEventsLimit | htmlEscape }}"{{ end }}
                 {{- if $githubEnabled }} data-github-cache-ttl-minutes="{{ $githubCacheTTL | htmlEscape }}"{{ end }}
                 {{- if and $githubEnabled (isset $github "label") }} data-github-label="{{ (index $github "label") | htmlEscape }}"{{ end }}
-            >
-                {{- range $index, $entry := $messages }}
-                {{- $isMap := reflect.IsMap $entry -}}
-                {{- $text := cond $isMap ($entry.text | default "") ($entry | printf "%v") -}}
-                {{- $label := cond $isMap ($entry.label | default "") "" -}}
-                <span class="nav-module-message{{ if eq $index 0 }} is-active{{ end }}" data-index="{{ $index }}"
-                    {{- with $label }} data-label="{{ . | plainify | htmlEscape }}"{{ end }}>
-                    {{- with $label }}<span class="nav-module-label">{{ . }}</span>{{ end -}}
-                    {{- if ne (strings.TrimSpace $text) "" }}<span class="nav-module-text">{{ $text }}</span>{{ end -}}
-                </span>
-                {{- end }}
-            </button>
+                {{- if gt (len $messages) 0 }} data-messages='{{ $messages | jsonify | htmlEscape }}'{{ end }}
+            ></button>
         </div>
         {{- end }}
         {{- $currentPage := . }}

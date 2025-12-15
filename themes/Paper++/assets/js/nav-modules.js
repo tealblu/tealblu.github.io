@@ -24,7 +24,6 @@ const isMobileDevice = () => (typeof window !== 'undefined') ? window.innerWidth
     if (typeof document === 'undefined') return;
     const button = document.getElementById('nav-message-rotator');
     if (!button || button.__navMessageRotatorAttached) return;
-
     const messages = Array.from(button.querySelectorAll('.nav-module-message'));
     if (!messages.length) { button.__navMessageRotatorAttached = true; return; }
 
@@ -186,10 +185,99 @@ const isMobileDevice = () => (typeof window !== 'undefined') ? window.innerWidth
     button.__navMessageRotatorAttached = true;
   };
 
+  // Build messages from server-provided JSON stored in `data-messages`.
+  const buildInitialMessages = () => {
+    if (typeof document === 'undefined') return;
+    const button = document.getElementById('nav-message-rotator');
+    if (!button) return;
+    const raw = button.getAttribute('data-messages') || button.dataset.messages;
+    console.debug('nav-modules: buildInitialMessages start', { hasButton: !!button, rawPresent: raw != null });
+    if (!raw) { console.debug('nav-modules: no data-messages attribute present'); return; }
+    console.debug('nav-modules: raw data-messages (first 400 chars)', String(raw).slice(0, 400));
+
+    const htmlEntityDecode = (s) => {
+      const str = String(s || '');
+      return str
+        .replace(/&quot;/g, '"')
+        .replace(/&apos;|&#39;/g, "'")
+        .replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&#x([0-9A-Fa-f]+);/g, (m, hex) => String.fromCharCode(parseInt(hex, 16)))
+        .replace(/&#(\d+);/g, (m, dec) => String.fromCharCode(parseInt(dec, 10)));
+    };
+
+    let parsed = null;
+    try {
+      parsed = JSON.parse(raw);
+      console.debug('nav-modules: parsed with raw JSON.parse', { parsedType: typeof parsed, parsedLen: Array.isArray(parsed) ? parsed.length : undefined });
+    } catch (e1) {
+      console.debug('nav-modules: raw JSON.parse failed', e1 && e1.message);
+      try {
+        const decoded = htmlEntityDecode(raw);
+        console.debug('nav-modules: trying htmlEntityDecode (first 400 chars)', decoded.slice(0, 400));
+        parsed = JSON.parse(decoded);
+        console.debug('nav-modules: parsed with htmlEntityDecode', { parsedType: typeof parsed, parsedLen: Array.isArray(parsed) ? parsed.length : undefined });
+      } catch (e2) {
+        console.debug('nav-modules: htmlEntityDecode parse failed', e2 && e2.message);
+        try {
+          const uri = decodeURIComponent(raw);
+          console.debug('nav-modules: trying decodeURIComponent (first 400 chars)', uri.slice(0, 400));
+          parsed = JSON.parse(uri);
+          console.debug('nav-modules: parsed with decodeURIComponent', { parsedType: typeof parsed, parsedLen: Array.isArray(parsed) ? parsed.length : undefined });
+        } catch (e3) {
+          console.debug('nav-modules: decodeURIComponent parse failed', e3 && e3.message);
+          try {
+            const both = htmlEntityDecode(decodeURIComponent(raw));
+            console.debug('nav-modules: trying decodeURIComponent + htmlEntityDecode (first 400 chars)', both.slice(0, 400));
+            parsed = JSON.parse(both);
+            console.debug('nav-modules: parsed with decodeURIComponent+htmlEntityDecode', { parsedType: typeof parsed, parsedLen: Array.isArray(parsed) ? parsed.length : undefined });
+          } catch (e4) {
+            console.warn('nav-modules: failed to parse data-messages after all strategies', e1 && e1.message, e2 && e2.message, e3 && e3.message, e4 && e4.message);
+            return;
+          }
+        }
+      }
+    }
+
+    if (!Array.isArray(parsed)) { console.debug('nav-modules: parsed data is not an array', typeof parsed); return; }
+    console.debug('nav-modules: will create DOM messages', { count: parsed.length });
+    parsed.forEach((entry, idx) => {
+      try {
+        const span = document.createElement('span');
+        span.className = 'nav-module-message';
+        span.setAttribute('data-index', String(idx));
+        if (entry && typeof entry === 'object' && entry.label) span.setAttribute('data-label', String(entry.label));
+
+        if (entry && typeof entry === 'object' && entry.label) {
+          const labelEl = document.createElement('span');
+          labelEl.className = 'nav-module-label';
+          labelEl.textContent = String(entry.label);
+          span.appendChild(labelEl);
+        }
+
+        const text = (entry && typeof entry === 'object') ? (entry.text || '') : (String(entry || '') || '');
+        if ((text || '').toString().trim() !== '') {
+          const textEl = document.createElement('span');
+          textEl.className = 'nav-module-text';
+          textEl.textContent = String(text);
+          span.appendChild(textEl);
+        }
+
+        button.appendChild(span);
+        console.debug('nav-modules: appended message', { idx, label: entry && entry.label, text: (text && String(text).slice(0, 120)) });
+      } catch (e) { console.warn('nav-modules: error building message', e); }
+    });
+    console.debug('nav-modules: buildInitialMessages complete, total children in button:', button.children.length);
+  };
+
   const safeInvoke = (mod, method) => { if (!mod || typeof mod[method] !== 'function') return; try { mod[method](); } catch (e) { console.warn('nav-modules safeInvoke failed', e); } };
 
   const initAll = () => {
     if (typeof document === 'undefined') return;
+    // Build any server-provided messages first, then let modules append theirs,
+    // then initialize the rotator so it picks up everything in DOM order.
+    buildInitialMessages();
     safeInvoke(window?.coffeeModule, 'initializeCoffeeMessage');
     safeInvoke(window?.weatherModule, 'initializeWeatherMessage');
     safeInvoke(window?.githubModule, 'initializeGithubMessage');
