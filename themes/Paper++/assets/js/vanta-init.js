@@ -1,4 +1,74 @@
-import { getLocalStorage, getThemeColor, isMobileDevice } from "./nav-modules.js";
+// `nav-modules.js` exposes runtime helpers on `window.siteUtils`.
+// Use those when available; otherwise fall back to sensible defaults.
+const getLocalStorage = () => {
+  try {
+    if (typeof window !== 'undefined' && window.siteUtils && typeof window.siteUtils.getLocalStorage === 'function') {
+      return window.siteUtils.getLocalStorage();
+    }
+    return (typeof window !== 'undefined') ? window.localStorage : null;
+  } catch (e) {
+    return null;
+  }
+};
+
+const cssColorToInt = (colorValue) => {
+  if (!colorValue) return null;
+  const value = String(colorValue).trim().toLowerCase();
+  if (value.startsWith('#')) {
+    const hex = value.slice(1);
+    const normalized = hex.length === 3 ? hex.split('').map((c) => c + c).join('') : hex;
+    const parsed = Number.parseInt(normalized, 16);
+    return Number.isNaN(parsed) ? null : parsed;
+  }
+  const rgbMatch = value.match(/rgba?\s*\((\d+)\s*,\s*(\d+)\s*,\s*(\d+)/);
+  if (rgbMatch) {
+    const r = Number(rgbMatch[1]), g = Number(rgbMatch[2]), b = Number(rgbMatch[3]);
+    return (r << 16) + (g << 8) + b;
+  }
+  return null;
+};
+
+const getThemeColor = (variableName) => {
+  try {
+    // Prefer runtime helper if available
+    if (typeof window !== 'undefined' && window.siteUtils && typeof window.siteUtils.getThemeColor === 'function') {
+      const v = window.siteUtils.getThemeColor(variableName);
+      if (typeof v === 'number') return v;
+      const parsed = cssColorToInt(v);
+      if (parsed !== null) return parsed;
+    }
+
+    if (typeof window !== 'undefined' && typeof getComputedStyle === 'function') {
+      // If dark mode is enabled via a `.dark` class, prefer that element's computed styles.
+      const darkEl = document.querySelector('.dark');
+      if (darkEl) {
+        const raw = window.getComputedStyle(darkEl).getPropertyValue(variableName);
+        const parsed = cssColorToInt(raw);
+        if (parsed !== null) return parsed;
+      }
+
+      // Fallback to documentElement then body
+      const root = document.documentElement || document.body;
+      const raw = window.getComputedStyle(root).getPropertyValue(variableName);
+      const parsed = cssColorToInt(raw);
+      if (parsed !== null) return parsed;
+    }
+  } catch (e) {
+    // ignore and fall through
+  }
+  return null;
+};
+
+const isMobileDevice = () => {
+  try {
+    if (typeof window !== 'undefined' && window.siteUtils && typeof window.siteUtils.isMobileDevice === 'function') {
+      return window.siteUtils.isMobileDevice();
+    }
+    return (typeof window !== 'undefined') ? window.innerWidth <= 768 : false;
+  } catch (e) {
+    return false;
+  }
+};
 
 const VANTA_STORAGE_KEY = "vantaAnimationIndex";
 
