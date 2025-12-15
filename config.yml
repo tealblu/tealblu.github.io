@@ -54,7 +54,7 @@ params:
     # - `label`: optional label for the module
     weather:
       enabled: true
-      location: "Chicago"
+      location: "60615"
       units: "imperial"
       label: ""
     
