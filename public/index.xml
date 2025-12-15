@@ -14,7 +14,9 @@
       
       <guid>http://192.168.0.225:1313/pages/site-documentation/</guid>
       <description>&lt;p&gt;&lt;em&gt;documentation for &lt;a href=&#34;https://indi.bio/&#34;&gt;https://indi.bio/&lt;/a&gt; (and &lt;a href=&#34;https://tealblu.github.io/&#34;&gt;https://tealblu.github.io/&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
-&lt;h1 id=&#34;tldr&#34;&gt;TLDR&lt;/h1&gt;</description>
+&lt;h1 id=&#34;tldr&#34;&gt;TLDR&lt;/h1&gt;
+&lt;p&gt;This is a Hugo Extended (≥0.83) static site for GitHub Pages using the Paper++ custom theme (PaperMod derivative) with Vanta backgrounds and animation hooks, Three.js/D3 for visuals, Hugo-piped JS/CSS assets (themes/Paper++/assets/js) including vanta-init.js, page-transitions.js and fastsearch.js, Logseq-synced content under content/pages and content/assets, search via a prebuilt index consumed by fastsearch, and production builds via hugo &amp;ndash;minify (npm install is optional for JS deps).&lt;/p&gt;
+&lt;p&gt;Refer to the &lt;a href=&#34;https://github.com/tealblu/tealblu.github.io/blob/main/README.md&#34;&gt;ReadMe&lt;/a&gt; if you don&amp;rsquo;t want to read the rest.&lt;/p&gt;</description>
     </item>
     
     <item>
