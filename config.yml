@@ -79,7 +79,7 @@ params:
     # - `text`: the message to display
     messages:
       - text: "Status: Playing with my cat"
-      - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in ipsum eget nisi convallis venenatis volutpat id nunc. Did you read this far? Congrats!"
+      - text: "Diese kleine unheimliche Insel hat mich zu einer Waffe gemacht. Wir glauben beide— Cette petite île étrange a fait de moi une arme. Nous croyons tous les deux que nous pouvons l'utiliser pour changer l'élan de cette guerre. Esta pequeña isla espeluznante me ha convertido en un arma. Ambos creemos que podemos usarlo para cambiar el impulso de esta guerra."
       - text: "Have a nice day! 🌱"
 
     # GitHub activity module: client-side fetch of your public GitHub activity

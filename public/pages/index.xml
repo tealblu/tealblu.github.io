@@ -15,6 +15,13 @@
       <guid>http://192.168.0.225:1313/pages/ideas/</guid>
       <description>&lt;p&gt;&lt;em&gt;I have lots of ideas.&lt;/em&gt;&lt;/p&gt;
 &lt;h1 id=&#34;1-codetechnical&#34;&gt;1. Code/technical&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;investigate running Python in-browser
+&lt;ul&gt;
+&lt;li&gt;pyodide or pyscript?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h1 id=&#34;2-writingcontent&#34;&gt;2. Writing/content&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;info on this website, technology used, etc&lt;/li&gt;
