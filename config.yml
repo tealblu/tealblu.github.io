@@ -36,7 +36,7 @@ params:
     # - `interval`: how often to rotate messages (default: 30000ms)
     # - `ariaLabel`: ARIA label for the marquee element
     # - `marqueePauseMs`: how long to pause the marquee when overflowing (default: 2000ms)
-    interval: 30000
+    interval: 15000
     ariaLabel: "Rotate status messages"
     marqueePauseMs: 2000
 
