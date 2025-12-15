@@ -40,6 +40,12 @@ params:
     ariaLabel: "Rotate status messages"
     marqueePauseMs: 2000
 
+    # Generic messages
+    # - `text`: the message to display
+    messages:
+      - text: "Have a nice day! 🖤"
+      - text: "Status: Playing with my cat"
+
     # Weather module: fetches weather data from open-meteo
     # - `enabled`: whether to enable this module
     # - `location`: your location name, zip, etc (required when enabled)
@@ -74,13 +80,6 @@ params:
       label: ""
       firstCupTime: "07:30"
       lastCupTime: "14:30"
-    
-    # Generic messages
-    # - `text`: the message to display
-    messages:
-      - text: "Status: Playing with my cat"
-      - text: "Diese kleine unheimliche Insel hat mich zu einer Waffe gemacht. Wir glauben beide— Cette petite île étrange a fait de moi une arme. Nous croyons tous les deux que nous pouvons l'utiliser pour changer l'élan de cette guerre. Esta pequeña isla espeluznante me ha convertido en un arma. Ambos creemos que podemos usarlo para cambiar el impulso de esta guerra."
-      - text: "Have a nice day! 🌱"
 
     # GitHub activity module: client-side fetch of your public GitHub activity
     # - `enabled`: whether to enable this module
