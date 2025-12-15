@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Meta on indi.bio</title><link>https://indi.bio/categories/meta/</link><description>Recent content in Meta on indi.bio</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://indi.bio/categories/meta/index.xml" rel="self" type="application/rss+xml"/><item><title>Deployment</title><link>https://indi.bio/pages/deployment/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/deployment/</guid><description>&lt;h3 id="how-to-deploy-to-this-site"&gt;How to deploy to this site:&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Meta on indi.bio</title>
+    <link>http://192.168.0.225:1313/categories/meta/</link>
+    <description>Recent content in Meta on indi.bio</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://192.168.0.225:1313/categories/meta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deployment</title>
+      <link>http://192.168.0.225:1313/pages/deployment/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.225:1313/pages/deployment/</guid>
+      <description>&lt;h3 id=&#34;how-to-deploy-to-this-site&#34;&gt;How to deploy to this site:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;From Logseq, use schrodinger to export all public pages.&lt;/p&gt;
@@ -16,13 +31,22 @@
 &lt;p&gt;Create a new commit and push to the remote graph.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Wait a few minutes for Github Actions to run.&lt;/p&gt;</description></item><item><title>Graph Structure</title><link>https://indi.bio/pages/graph-structure/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indi.bio/pages/graph-structure/</guid><description>&lt;h2 id="current-graph-state"&gt;Current graph state:&lt;/h2&gt;
-&lt;p&gt;&lt;img loading="lazy" src="https://indi.bio/assets/image_1708273581197_0.png" alt="image.png" /&gt;
+&lt;p&gt;Wait a few minutes for Github Actions to run.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Graph Structure</title>
+      <link>http://192.168.0.225:1313/pages/graph-structure/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://192.168.0.225:1313/pages/graph-structure/</guid>
+      <description>&lt;h2 id=&#34;current-graph-state&#34;&gt;Current graph state:&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://192.168.0.225:1313/assets/image_1708273581197_0.png&#34; alt=&#34;image.png&#34;  /&gt;
 &lt;/p&gt;
-&lt;h2 id="structure-specification"&gt;Structure Specification:&lt;/h2&gt;
+&lt;h2 id=&#34;structure-specification&#34;&gt;Structure Specification:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;h3 id="architecture"&gt;Architecture&lt;/h3&gt;
+&lt;h3 id=&#34;architecture&#34;&gt;Architecture&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;The graph should consist of multiple hub-and-spoke structures.&lt;/p&gt;
@@ -36,7 +60,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;h3 id="guidelines"&gt;Guidelines&lt;/h3&gt;
+&lt;h3 id=&#34;guidelines&#34;&gt;Guidelines&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Any block larger than one paragraph (subjective) should be its own page.&lt;/p&gt;
@@ -48,4 +72,8 @@
 &lt;p&gt;Full sentences should be used when possible.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;No orphan pages should &lt;em&gt;ever&lt;/em&gt; be pushed to production.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;No orphan pages should &lt;em&gt;ever&lt;/em&gt; be pushed to production.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
