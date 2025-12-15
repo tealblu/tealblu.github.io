@@ -73,8 +73,13 @@
         enabled: ds.githubEnabled === 'true' || ds.navGithubEnabled === 'true',
         username: ds.githubUsername || ds.navGithubUsername || window?.siteParams?.navModule?.github?.username || null,
         eventsLimit: Number.parseInt(ds.githubEventsLimit || '', 10) || 3,
+        cacheTTLMinutes: Number.parseInt(ds.githubCacheTtlMinutes || ds.navGithubCacheTtlMinutes || '', 10) || window?.siteParams?.navModule?.github?.cacheTTLMinutes || 15,
         label: (typeof ds.githubLabel === 'string' && ds.githubLabel.trim()) || (window?.siteParams?.navModule?.github?.label) || 'GitHub:'
       };
+
+      const ttlCandidate = Number(cfg.cacheTTLMinutes);
+      cfg.cacheTTLMinutes = Number.isFinite(ttlCandidate) ? ttlCandidate : 15;
+      if (cfg.cacheTTLMinutes < 0) cfg.cacheTTLMinutes = 0;
 
       if (!cfg.enabled || !cfg.username) return;
 
@@ -100,10 +105,17 @@
             if (raw) {
               const parsed = JSON.parse(raw);
               if (Array.isArray(parsed.events) && parsed.events.length) {
-                const ev = parsed.events[0];
-                const when = timeAgo(ev.created_at);
-                placeholder.querySelector('.nav-module-text').textContent = (cfg.label ? cfg.label + ' ' : '') + simpleFormat(ev) + (when ? ` ${when}` : '');
-                return;
+                const ttlMinutes = Number.isFinite(cfg.cacheTTLMinutes) ? cfg.cacheTTLMinutes : 0;
+                const ttlMs = ttlMinutes > 0 ? ttlMinutes * 60000 : 0;
+                const fetchedAt = typeof parsed.fetchedAt === 'number' ? parsed.fetchedAt : 0;
+                const ageMs = fetchedAt ? Date.now() - fetchedAt : Infinity;
+                const cacheFresh = ttlMs === 0 ? false : ageMs <= ttlMs;
+                if (cacheFresh) {
+                  const ev = parsed.events[0];
+                  const when = timeAgo(ev.created_at);
+                  placeholder.querySelector('.nav-module-text').textContent = (cfg.label ? cfg.label + ' ' : '') + simpleFormat(ev) + (when ? ` ${when}` : '');
+                  return;
+                }
               }
             }
           } catch (e) { /* ignore cache errors */ }
@@ -119,7 +131,9 @@
         placeholder.querySelector('.nav-module-text').textContent = (cfg.label ? cfg.label + ' ' : '') + simpleFormat(ev) + (when ? ` ${when}` : '');
 
         if (storage) {
-          try { storage.setItem(key, JSON.stringify({ fetchedAt: Date.now(), events })); } catch (e) { /* ignore */ }
+          try {
+            storage.setItem(key, JSON.stringify({ fetchedAt: Date.now(), events }));
+          } catch (e) { /* ignore */ }
         }
       } catch (err) {
         placeholder.querySelector('.nav-module-text').textContent = (cfg.label ? cfg.label + ' ' : '') + 'GitHub unavailable';
