@@ -45,7 +45,7 @@ params:
     messages:
       - text: "Have a nice day! 🖤"
       - text: "Status: Playing with my cat"
-      - text: "Check out my partner's site: https://shaine.io/"
+      - text: "<a href=\"https://shaine.io\">Check out my partner's site!</a>"
 
     # Weather module: fetches weather data from open-meteo
     # - `enabled`: whether to enable this module
@@ -128,5 +128,6 @@ menu:
       name: search
       url: /search/
       weight: 40
+
 
 
