@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>indixo.dev</title><link>https://indixo.dev/</link><description>Recent content on indixo.dev</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://indixo.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Site Documentation</title><link>https://indixo.dev/pages/site-documentation/</link><pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate><guid>https://indixo.dev/pages/site-documentation/</guid><description>&lt;p&gt;&lt;em&gt;documentation for &lt;a href="https://indi.bio/"&gt;https://indi.bio/&lt;/a&gt; (and &lt;a href="https://tealblu.github.io/"&gt;https://tealblu.github.io/&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>indixo.dev</title><link>https://indixo.dev/</link><description>Recent content on indixo.dev</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://indixo.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Reticulum</title><link>https://indixo.dev/pages/reticulum/</link><pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate><guid>https://indixo.dev/pages/reticulum/</guid><description>&lt;p&gt;Connect to my Reticulum node!&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code class="language-conf" data-lang="conf"&gt; [[indixo.dev Backbone]]
+type = BackboneInterface
+interface_enabled = true
+target_host = rns.indixo.dev
+target_port = 4242
+name = indiserver TCP
+selected_interface_mode = 1
+configured_bitrate = None
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Don&amp;rsquo;t know what Reticulum is? Check out these links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://reticulum.world/"&gt;https://reticulum.world/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://reticulum.network/"&gt;https://reticulum.network/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/markqvist/Reticulum"&gt;https://github.com/markqvist/Reticulum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Site Documentation</title><link>https://indixo.dev/pages/site-documentation/</link><pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate><guid>https://indixo.dev/pages/site-documentation/</guid><description>&lt;p&gt;&lt;em&gt;documentation for &lt;a href="https://indi.bio/"&gt;https://indi.bio/&lt;/a&gt; (and &lt;a href="https://tealblu.github.io/"&gt;https://tealblu.github.io/&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 &lt;h1 id="tldr"&gt;TLDR&lt;/h1&gt;
 &lt;p&gt;This is a Hugo Extended (≥0.83) static site for GitHub Pages using the Paper++ custom theme (PaperMod derivative) with Vanta backgrounds and animation hooks, Three.js/D3 for visuals, Hugo-piped JS/CSS assets (themes/Paper++/assets/js) including vanta-init.js, page-transitions.js and fastsearch.js, Logseq-synced content under content/pages and content/assets, search via a prebuilt index consumed by fastsearch, and production builds via hugo &amp;ndash;minify (npm install is optional for JS deps).&lt;/p&gt;
 &lt;p&gt;Refer to the &lt;a href="https://github.com/tealblu/tealblu.github.io/blob/main/README.md"&gt;ReadMe&lt;/a&gt; if you don&amp;rsquo;t want to read the rest.&lt;/p&gt;</description></item><item><title>Ideas</title><link>https://indixo.dev/pages/ideas/</link><pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate><guid>https://indixo.dev/pages/ideas/</guid><description>&lt;p&gt;&lt;em&gt;I have lots of ideas.&lt;/em&gt;&lt;/p&gt;

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Reticulum on indixo.dev</title><link>https://indixo.dev/tags/reticulum/</link><description>Recent content in Reticulum on indixo.dev</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://indixo.dev/tags/reticulum/index.xml" rel="self" type="application/rss+xml"/><item><title>Reticulum</title><link>https://indixo.dev/pages/reticulum/</link><pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate><guid>https://indixo.dev/pages/reticulum/</guid><description>&lt;p&gt;Connect to my Reticulum node!&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code class="language-conf" data-lang="conf"&gt; [[indixo.dev Backbone]]
+type = BackboneInterface
+interface_enabled = true
+target_host = rns.indixo.dev
+target_port = 4242
+name = indiserver TCP
+selected_interface_mode = 1
+configured_bitrate = None
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Don&amp;rsquo;t know what Reticulum is? Check out these links:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://reticulum.world/"&gt;https://reticulum.world/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://reticulum.network/"&gt;https://reticulum.network/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/markqvist/Reticulum"&gt;https://github.com/markqvist/Reticulum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
