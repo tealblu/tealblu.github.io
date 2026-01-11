@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on indixo.dev</title>
-    <link>https://indixo.dev/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on indixo.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://indixo.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Digital Garden</title>
-      <link>https://indixo.dev/tags/digital-garden/</link>
+      <link>http://localhost:1313/tags/digital-garden/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://indixo.dev/tags/digital-garden/</guid>
+      <guid>http://localhost:1313/tags/digital-garden/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Indi.bio</title>
-      <link>https://indixo.dev/tags/indi.bio/</link>
+      <link>http://localhost:1313/tags/indi.bio/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://indixo.dev/tags/indi.bio/</guid>
+      <guid>http://localhost:1313/tags/indi.bio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tealblu.github.io</title>
-      <link>https://indixo.dev/tags/tealblu.github.io/</link>
+      <link>http://localhost:1313/tags/tealblu.github.io/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://indixo.dev/tags/tealblu.github.io/</guid>
+      <guid>http://localhost:1313/tags/tealblu.github.io/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Website</title>
-      <link>https://indixo.dev/tags/website/</link>
+      <link>http://localhost:1313/tags/website/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://indixo.dev/tags/website/</guid>
+      <guid>http://localhost:1313/tags/website/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ada</title>
-      <link>https://indixo.dev/tags/ada/</link>
+      <link>http://localhost:1313/tags/ada/</link>
       <pubDate>Sun, 30 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://indixo.dev/tags/ada/</guid>
+      <guid>http://localhost:1313/tags/ada/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Home Assistant</title>
-      <link>https://indixo.dev/tags/home-assistant/</link>
+      <link>http://localhost:1313/tags/home-assistant/</link>
       <pubDate>Tue, 25 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://indixo.dev/tags/home-assistant/</guid>
+      <guid>http://localhost:1313/tags/home-assistant/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Interstitial Journaling</title>
-      <link>https://indixo.dev/tags/interstitial-journaling/</link>
+      <link>http://localhost:1313/tags/interstitial-journaling/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://indixo.dev/tags/interstitial-journaling/</guid>
+      <guid>http://localhost:1313/tags/interstitial-journaling/</guid>
       <description></description>
     </item>
     

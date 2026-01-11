@@ -2,113 +2,115 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://indixo.dev/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/tags/digital-garden/</loc>
+    <loc>http://localhost:1313/tags/digital-garden/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/tags/indi.bio/</loc>
+    <loc>http://localhost:1313/tags/indi.bio/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/</loc>
+    <loc>http://localhost:1313/pages/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/categories/projects/</loc>
+    <loc>http://localhost:1313/categories/projects/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/site-documentation/</loc>
+    <loc>http://localhost:1313/pages/site-documentation/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/tags/tealblu.github.io/</loc>
+    <loc>http://localhost:1313/tags/tealblu.github.io/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/tags/website/</loc>
+    <loc>http://localhost:1313/tags/website/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/ideas/</loc>
+    <loc>http://localhost:1313/pages/ideas/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/diy-electrolysis/</loc>
+    <loc>http://localhost:1313/pages/diy-electrolysis/</loc>
     <lastmod>2025-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/ada/</loc>
+    <loc>http://localhost:1313/pages/ada/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/tags/ada/</loc>
+    <loc>http://localhost:1313/tags/ada/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/categories/blog/</loc>
+    <loc>http://localhost:1313/categories/blog/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/interstitial-journaling/</loc>
+    <loc>http://localhost:1313/pages/interstitial-journaling/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/categories/list-blog/</loc>
+    <loc>http://localhost:1313/categories/list-blog/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/reading-list/</loc>
+    <loc>http://localhost:1313/pages/reading-list/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/home-assistant/</loc>
+    <loc>http://localhost:1313/pages/home-assistant/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/tags/home-assistant/</loc>
+    <loc>http://localhost:1313/tags/home-assistant/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2024-06-23T20:12:45-04:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/cultivating-knowledge-through-digital-gardens/</loc>
+    <loc>http://localhost:1313/pages/cultivating-knowledge-through-digital-gardens/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/tags/interstitial-journaling/</loc>
+    <loc>http://localhost:1313/tags/interstitial-journaling/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/graph-rendering/</loc>
+    <loc>http://localhost:1313/pages/graph-rendering/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/code-projects/</loc>
+    <loc>http://localhost:1313/pages/code-projects/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/diaries/</loc>
+    <loc>http://localhost:1313/pages/diaries/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/categories/diary/</loc>
+    <loc>http://localhost:1313/categories/diary/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/drivetime/</loc>
+    <loc>http://localhost:1313/pages/drivetime/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/image-classification-ai/</loc>
+    <loc>http://localhost:1313/pages/image-classification-ai/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/luca/</loc>
+    <loc>http://localhost:1313/pages/luca/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/pdp-11-instruction-set-simulator/</loc>
+    <loc>http://localhost:1313/pages/pdp-11-instruction-set-simulator/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/deployment/</loc>
+    <loc>http://localhost:1313/pages/deployment/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/graph-structure/</loc>
+    <loc>http://localhost:1313/pages/graph-structure/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/categories/meta/</loc>
+    <loc>http://localhost:1313/categories/meta/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/pages/projects-homepage/</loc>
+    <loc>http://localhost:1313/pages/projects-homepage/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://indixo.dev/archives/</loc>
+    <loc>http://localhost:1313/pages/reticulum/</loc>
   </url><url>
-    <loc>https://indixo.dev/search/</loc>
+    <loc>http://localhost:1313/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>
