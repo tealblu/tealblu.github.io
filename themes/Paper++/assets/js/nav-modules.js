@@ -339,12 +339,94 @@ const isMobileDevice = () => {
     safeInvoke(window?.weatherModule, 'initializeWeatherMessage');
     safeInvoke(window?.githubModule, 'initializeGithubMessage');
     initRotator();
+    // Detect if key nav action buttons (about/categories/tags/archive/search)
+    // have wrapped onto a new line. If they have, center them inside their
+    // container so they read nicely on narrow viewports.
+    try {
+      if (typeof detectAndCenterNavButtons === 'function') detectAndCenterNavButtons();
+    } catch (e) { /* ignore */ }
   };
 
   if (typeof document !== 'undefined') {
     document.addEventListener('DOMContentLoaded', initAll);
     document.addEventListener('turbo:load', initAll);
   }
+
+  // Lightweight detection: prefer `#menu` when available. If menu items wrap
+  // onto multiple visual lines, center them by setting `justifyContent` on
+  // the `#menu` flex container. Expose under `window.siteUtils` for manual testing.
+  const detectAndCenterNavButtons = (() => {
+    let raf = null; let attached = false;
+
+    const evaluateMenu = (menu) => {
+      if (!menu) return;
+      try {
+        const items = Array.from(menu.children).filter((n) => n.nodeType === 1);
+        if (!items.length) return;
+        const tops = items.map((it) => Math.round(it.getBoundingClientRect().top));
+        const minTop = Math.min.apply(null, tops);
+        const wrapped = tops.some((t) => t > minTop + 2);
+        if (wrapped) {
+          menu.style.justifyContent = 'center';
+          menu.dataset._navCentered = '1';
+        } else if (menu.dataset && menu.dataset._navCentered) {
+          menu.style.justifyContent = '';
+          delete menu.dataset._navCentered;
+        }
+      } catch (e) { /* ignore */ }
+    };
+
+    const evaluate = () => {
+      // prefer explicit menu id used by theme
+      const menu = document.getElementById('menu');
+      if (menu) { evaluateMenu(menu); return; }
+
+      // fallback: look for anchors matching common nav names
+      const labels = ['about', 'categories', 'tags', 'archive', 'search'];
+      const normalize = (s) => String(s || '').trim().toLowerCase();
+      const matchesLabel = (s) => {
+        const t = normalize(s);
+        if (!t) return false;
+        return labels.some((l) => t === l || t === l + 's' || t.indexOf(l) !== -1);
+      };
+      try {
+        const anchors = Array.from(document.querySelectorAll('a'));
+        const nodes = anchors.filter((a) => matchesLabel(a.textContent) || matchesLabel(a.getAttribute('aria-label')));
+        if (!nodes.length) return;
+        // prefer closest shared container
+        let container = nodes[0].closest('ul') || nodes[0].closest('nav') || nodes[0].parentElement;
+        if (!container) return;
+        const tops = nodes.map((n) => Math.round(n.getBoundingClientRect().top));
+        const minTop = Math.min.apply(null, tops);
+        const wrapped = tops.some((t) => t > minTop + 2);
+        if (wrapped) {
+          container.style.justifyContent = 'center';
+          container.dataset._navCentered = '1';
+        } else if (container.dataset && container.dataset._navCentered) {
+          container.style.justifyContent = '';
+          delete container.dataset._navCentered;
+        }
+      } catch (e) { /* ignore */ }
+    };
+
+    const onResize = () => {
+      if (raf) cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => { evaluate(); raf = null; });
+    };
+
+    const runDetector = () => {
+      try {
+        evaluate();
+        if (!attached) {
+          attached = true;
+          window.addEventListener('resize', onResize, { passive: true });
+          window.addEventListener('orientationchange', onResize, { passive: true });
+        }
+      } catch (e) { /* ignore */ }
+    };
+
+    return runDetector;
+  })();
 
   try {
     if (typeof window !== 'undefined') {
@@ -353,6 +435,8 @@ const isMobileDevice = () => {
       window.siteUtils.cssColorToInt = cssColorToInt;
       window.siteUtils.getThemeColor = getThemeColor;
       window.siteUtils.isMobileDevice = isMobileDevice;
+      // expose detector for manual testing
+      window.siteUtils.detectAndCenterNavButtons = detectAndCenterNavButtons;
     }
   } catch (e) { /* ignore */ }
 })();
