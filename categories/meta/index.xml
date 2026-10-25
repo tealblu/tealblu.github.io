@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Meta on indixo.dev</title><link>https://indixo.dev/categories/meta/</link><description>Recent content in Meta on indixo.dev</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://indixo.dev/categories/meta/index.xml" rel="self" type="application/rss+xml"/><item><title>Deployment</title><link>https://indixo.dev/pages/deployment/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indixo.dev/pages/deployment/</guid><description>&lt;h3 id="how-to-deploy-to-this-site"&gt;How to deploy to this site:&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Meta on indixo.dev</title><link>https://indixo.dev/categories/meta/</link><description>Recent content in Meta on indixo.dev</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><managingEditor>indiharts@proton.me (indigo fawn hartsell)</managingEditor><webMaster>indiharts@proton.me (indigo fawn hartsell)</webMaster><lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://indixo.dev/categories/meta/index.xml" rel="self" type="application/rss+xml"/><item><title>Deployment</title><link>https://indixo.dev/pages/deployment/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><author>indiharts@proton.me (indigo fawn hartsell)</author><guid>https://indixo.dev/pages/deployment/</guid><description>&lt;h3 id="how-to-deploy-to-this-site"&gt;How to deploy to this site:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;From Logseq, use schrodinger to export all public pages.&lt;/p&gt;
@@ -16,7 +16,12 @@
 &lt;p&gt;Create a new commit and push to the remote graph.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Wait a few minutes for Github Actions to run.&lt;/p&gt;</description></item><item><title>Graph Structure</title><link>https://indixo.dev/pages/graph-structure/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><guid>https://indixo.dev/pages/graph-structure/</guid><description>&lt;h2 id="current-graph-state"&gt;Current graph state:&lt;/h2&gt;
+&lt;p&gt;Wait a few minutes for Github Actions to run.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Done!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Graph Structure</title><link>https://indixo.dev/pages/graph-structure/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><author>indiharts@proton.me (indigo fawn hartsell)</author><guid>https://indixo.dev/pages/graph-structure/</guid><description>&lt;h2 id="current-graph-state"&gt;Current graph state:&lt;/h2&gt;
 &lt;p&gt;&lt;img loading="lazy" src="https://indixo.dev/assets/image_1708273581197_0.png" alt="image.png" /&gt;
 &lt;/p&gt;
 &lt;h2 id="structure-specification"&gt;Structure Specification:&lt;/h2&gt;
