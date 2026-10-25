@@ -17,8 +17,6 @@ Connect to my Reticulum node!
     target_host = rns.indixo.dev
     target_port = 4242
     name = indixo.dev TCP
-    selected_interface_mode = 1
-    configured_bitrate = None
 ```
 
 Don't know what Reticulum is? Check out these links:
