@@ -3,7 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
+    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pages/</loc>
+    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/projects/</loc>
+    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/pages/reticulum/</loc>
+    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/reticulum/</loc>
+    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-01-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/digital-garden/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
@@ -11,19 +29,7 @@
     <loc>http://localhost:1313/tags/indi.bio/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/projects/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/pages/site-documentation/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/tealblu.github.io/</loc>
@@ -106,8 +112,6 @@
   </url><url>
     <loc>http://localhost:1313/pages/projects-homepage/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/reticulum/</loc>
   </url><url>
     <loc>http://localhost:1313/archives/</loc>
   </url><url>

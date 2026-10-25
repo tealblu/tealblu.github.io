@@ -7,7 +7,11 @@ date: 2024-06-23T20:12:45-04:00
 showToc: true
 ---
 
-hey, i'm indi! i am a passionate computer scientist and engineer located in chicago! i love learning new things and taking on new challenges - in a past role, i rapidly took responsibility for all computer vision systems on all production lines, made continuous improvements to the vision and software systems, and achieved a savings of well over $500k anually. in my current role, i work on reverse engineering vehicle communications and full-stack software development. for work i usually code in C#, but in my free time i love learning new programming languages and software tools. in my free time, i love [listening to music](https://open.spotify.com/playlist/656lQkm7XFtA2iW0l984Ya?si=e5cac729d762427f), 3D printing and tinkering with electronics, playing with my cats, spending time with my friends, and working on my car ([2005 Saab 9-2X Aero](https://www.caranddriver.com/reviews/a15133083/2005-saab-9-2x-aero-road-test/) - iykyk). hit me up, i love meeting new people!
+hey, i'm indi! some also know me as fawn. this page will function as a combination about-me page and a resume. if you want to know anything not listed here, feel free to reach out to me! i love meeting new people.
+
+professionally, i am a computer engineer located in chicago! i love learning new things and taking on new challenges - in a past role at a precision LTCC manufacturing facility, i took responsibility for all computer vision systems on all production lines, made continuous improvements to the vision and software systems, and achieved a savings of well over $1M anually. in my current role, i work on reverse engineering vehicle communications and full-stack software development. for work i usually code in C#, but in my free time i love learning new programming languages and software tools.
+
+in my free time, i love [listening to music](https://open.spotify.com/playlist/656lQkm7XFtA2iW0l984Ya?si=e5cac729d762427f), 3D printing and tinkering with electronics, playing with my cats, spending time with my friends, and working on my car ([2005 Saab 9-2X Aero](https://www.caranddriver.com/reviews/a15133083/2005-saab-9-2x-aero-road-test/) - iykyk). hit me up, i love meeting new people!
 
 # skills
 - **languages/frameworks**: C, C++, C# (.NET/Core, MVC, EFC, LINQ), Java, PHP, JavaScript, Google Apps Script, HTML, CSS, SQL (various flavors), Python (OpenCV, Eigen, networkx), MATLAB, PowerShell, Prolog, OCaml, Go

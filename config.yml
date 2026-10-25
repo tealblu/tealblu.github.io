@@ -11,15 +11,11 @@ params:
   socialIcons: # optional
     - name: "github"
       url: "https://github.com/tealblu"
-    # - name: "youtube"
-    #   url: "https://www.youtube.com/channel/XXX"
-    - name: "bluesky"
-      url: "https://bsky.app/profile/indi.tgirl.gay"
     - name: "matrix"
-      url: "https://matrix.to/#/@indiharts:matrix.org"
+      url: "https://matrix.to/#/@fawn:matrix.indixo.dev"
     - name: "rss"
       url: "https://www.indixo.dev/index.xml"
-  author: "indigo hartsell"
+  author: "indigo fawn hartsell"
   contact:
     email: "indiharts@proton.me"
   feedlinks: true
@@ -56,7 +52,7 @@ params:
       location: "60615"
       units: "imperial"
       label: ""
-    
+
     # Coffee module: roughly tracks your coffee consumption
     # - `enabled`: whether to enable this module
     # - `minCups`: minimum number of cups to display
@@ -126,7 +122,3 @@ menu:
       name: search
       url: /search/
       weight: 40
-
-
-
-

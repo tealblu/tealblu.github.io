@@ -6,12 +6,14 @@
     <description>Recent content in Digital Garden on indixo.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>indiharts@proton.me (indigo fawn hartsell)</managingEditor>
+    <webMaster>indiharts@proton.me (indigo fawn hartsell)</webMaster>
     <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/digital-garden/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Site Documentation</title>
       <link>http://localhost:1313/pages/site-documentation/</link>
       <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
-      
+      <author>indiharts@proton.me (indigo fawn hartsell)</author>
       <guid>http://localhost:1313/pages/site-documentation/</guid>
       <description>&lt;p&gt;&lt;em&gt;documentation for &lt;a href=&#34;https://indi.bio/&#34;&gt;https://indi.bio/&lt;/a&gt; (and &lt;a href=&#34;https://tealblu.github.io/&#34;&gt;https://tealblu.github.io/&lt;/a&gt;)&lt;/em&gt;&lt;/p&gt;
 &lt;h1 id=&#34;tldr&#34;&gt;TLDR&lt;/h1&gt;
@@ -23,7 +25,7 @@
       <title>Cultivating Knowledge Through Digital Gardens</title>
       <link>http://localhost:1313/pages/cultivating-knowledge-through-digital-gardens/</link>
       <pubDate>Mon, 24 Jun 2024 00:00:00 +0000</pubDate>
-      
+      <author>indiharts@proton.me (indigo fawn hartsell)</author>
       <guid>http://localhost:1313/pages/cultivating-knowledge-through-digital-gardens/</guid>
       <description>&lt;blockquote class=&#34;hint &#34;&gt;
     If a note is not published, does it really exist?

@@ -6,12 +6,14 @@
     <description>Recent content in Meta on indixo.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>indiharts@proton.me (indigo fawn hartsell)</managingEditor>
+    <webMaster>indiharts@proton.me (indigo fawn hartsell)</webMaster>
     <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/meta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deployment</title>
       <link>http://localhost:1313/pages/deployment/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      
+      <author>indiharts@proton.me (indigo fawn hartsell)</author>
       <guid>http://localhost:1313/pages/deployment/</guid>
       <description>&lt;h3 id=&#34;how-to-deploy-to-this-site&#34;&gt;How to deploy to this site:&lt;/h3&gt;
 &lt;ul&gt;
@@ -31,14 +33,19 @@
 &lt;p&gt;Create a new commit and push to the remote graph.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Wait a few minutes for Github Actions to run.&lt;/p&gt;</description>
+&lt;p&gt;Wait a few minutes for Github Actions to run.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Done!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     
     <item>
       <title>Graph Structure</title>
       <link>http://localhost:1313/pages/graph-structure/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      
+      <author>indiharts@proton.me (indigo fawn hartsell)</author>
       <guid>http://localhost:1313/pages/graph-structure/</guid>
       <description>&lt;h2 id=&#34;current-graph-state&#34;&gt;Current graph state:&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/assets/image_1708273581197_0.png&#34; alt=&#34;image.png&#34;  /&gt;

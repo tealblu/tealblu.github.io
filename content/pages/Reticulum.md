@@ -16,7 +16,7 @@ Connect to my Reticulum node!
     interface_enabled = true
     target_host = rns.indixo.dev
     target_port = 4242
-    name = indiserver TCP
+    name = indixo.dev TCP
     selected_interface_mode = 1
     configured_bitrate = None
 ```
