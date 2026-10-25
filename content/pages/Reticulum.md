@@ -19,6 +19,8 @@ Connect to my Reticulum node!
     name = indixo.dev TCP
 ```
 
+The identity of this node is: `44daae52117db9f1d258fcd67f73763c`
+
 Don't know what Reticulum is? Check out these links:
 - https://reticulum.world/
 - https://reticulum.network/
