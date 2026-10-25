@@ -5,8 +5,6 @@ interface_enabled = true
 target_host = rns.indixo.dev
 target_port = 4242
 name = indixo.dev TCP
-selected_interface_mode = 1
-configured_bitrate = None
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Don&amp;rsquo;t know what Reticulum is? Check out these links:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://reticulum.world/"&gt;https://reticulum.world/&lt;/a&gt;&lt;/li&gt;
